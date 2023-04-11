@@ -1743,7 +1743,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Lato, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Lato, Noto Serif SC, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -1930,7 +1930,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Lato, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Lato, Noto Serif SC, Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2303,6 +2303,9 @@ ul.breadcrumb li:last-child {
     border-bottom-color: #eee;
     color: #eee;
   }
+}
+.utterances {
+  max-width: unset;
 }
 .search-active {
   overflow: hidden;
