@@ -1,476 +1,318 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>DIARY for April 2023</title>
-    <url>/2023/04/11/2023-04/</url>
-    <content><![CDATA[<p>期中周，但是博客开张！<del>为什么会有人在分子生物学考试前夜疯狂研究怎么搭博客啊</del></p>
-<span id="more"></span>
-<h1 id="april-11th">April 11th</h1>
-<ul>
-<li><p>今天出门戴了眼镜和普通口罩，但是似乎这两样对防沙尘都没什么作用。本来眼镜是为了防杨絮，但昨天沙尘暴一来杨絮似乎少了很多。风是真大，停车的时候差点被刮跑，中午路过紫操甚至有人在放风筝。上课之前把车停在两辆电动车中间，下课出来果然没倒。电动车的正确打开方式被我找到了，<del>但是旁边也倒了一片电动车，这是否说明我的眼光很不错</del>。</p></li>
-<li><p>今天的国际经济学课已经开始下半学期的内容了。新老师的口语依然很nice！上课摸鱼的时候跟对象说没有N95，她直接就买了一盒。她还试图给我买一个护目镜，不过既然可以免费领，那我明天下午就去C楼白嫖护目镜。<del>在这里撒狗粮应该问题不大，目前应该只有我一个舍友知道这个博客。</del></p></li>
-<li><p>中午吃饭的时候看到中微Quiz时间安排的投票结果出了，看起来大部分人的五一假期都没有出游安排，甚至合理怀疑有人刷票。只能改成一号上午去南京了，不过也就损失一个上午，问题不大问题不大，<del>只要房费能退回来</del>。</p></li>
-<li><p>经原的助教终于看到我的邮件，给我把作业的分数加回来了。我是怎么做到把多元统计的作业交过去，然后吃了零分才发现的。下午补了一会统辅课的笔记，然后就继续研究博客，<del>怎么感觉我在挑字体这块花的时间最多</del>。到晚课的教室之后，突然就想看<a
-href="https://squidfunk.github.io/mkdocs-material/">MkDocs</a>的文档，甚至用低音量外放里面的教程视频，<del>期中周哪还有我这么摆的人</del>。</p></li>
-<li><p>接下来要把这学期的笔记都搬到博客上来，感觉工作量还挺大的。主要原因在于里面的标题、列表和引用块都是混用的，正好借此机会搞一个统一的格式出来。其实感觉如果不主动散播的话，永远也不会有其他人发现我这个博客的存在，<del>为什么驰雨老师的博客就这么热闹呢</del>。</p></li>
-</ul>
-<h1 id="april-12th">April 12th</h1>
-<ul>
-<li><p>昨天写这么点东西竟然花了半个多小时，文字功底也太烂了吧，这么看来写写日记还是很有必要。</p></li>
-<li><p>早上路过校团委那边，看到工人在校河旁边施工和种草。<del>原来这些看起来像杂草的植物居然是人工种的，太离谱了。</del></p></li>
-<li><p>为了白嫖护目镜，吃完饭就来C楼三层摸鱼了。怎么大家都喜欢白嫖，甚至看到有戴着护目镜和N95的人也在排队，绷不住了。不过看上去队伍也不是很长，应该平均也就排个十分钟，<del>好低的边际成本</del>。领完物资之后并没有走，而是开始把笔记搬运到博客上。其实找个地方自习也蛮不错，不过我总是抑制不住回宿舍的欲望，<del>要不是为了护目镜我肯定早回去了</del>。</p></li>
-<li><p>重制了一点国际经济学的内容，发现之前的结构简直是依托答辩，这半学期是怎么忍受下来的。下午还想把锅甩给Typora，结果晚上就发现了它的大纲功能，<del>我是什么人才</del>。后来就转向去搬运多元统计的笔记，毕竟后天就期中考，<del>而我的cheatsheet还没开始写</del>。遇到了个公式字体上的问题，查了半天摸不着头脑，然后看了驰雨老师数分笔记的源代码，找到了。还好晚上搬运的效率高了不少，主要任务是删掉一些列表的缩进，vim我的神！甚至把重制好的多元笔记源代码粘贴回了Typora，感觉很不错。</p></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Diary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ALGEBRA</title>
-    <url>/2023/04/09/Algebra/</url>
-    <content><![CDATA[<p>My notes on <em>Artin, Michael. Algebra. 2nd ed., Prentice Hall,
-1991</em>.</p>
-<span id="more"></span>
-<h1 id="chapter-one-matrices">CHAPTER ONE: MATRICES</h1>
-<h3 id="the-basic-operations">The Basic Operations</h3>
-<p>Let <span class="math inline">\(m\)</span> and <span
-class="math inline">\(n\)</span> be positive integers. An <span
-class="math inline">\(m\times n\)</span> <strong>matrix</strong> is a
-collection of <span class="math inline">\(mn\)</span> numbers arranged
-in a rectangualr way <span class="math display">\[
-\begin{bmatrix}
-a_{11} &amp; \cdots &amp; a_{1n}\\
-\vdots &amp;&amp; \vdots\\
-a_{m1} &amp; \cdots &amp; a_{mn}
-\end{bmatrix}
-\]</span> We usually use a symbol such as <span
-class="math inline">\(A\)</span> to denote a matrix.</p>
-<p>The numbers in a matrix are the <strong>matrix enties</strong>
-denoted by <span class="math inline">\(a_{ij}\)</span>, where <span
-class="math inline">\(i\)</span> and <span
-class="math inline">\(j\)</span> are indices (integers) with <span
-class="math inline">\(1\le i\le m\)</span> and <span
-class="math inline">\(1\le j\le n\)</span>, the index <span
-class="math inline">\(i\)</span> is the <strong>row index</strong>, and
-<span class="math inline">\(j\)</span> is the <strong>column
-index</strong>. So <span class="math inline">\(a_{ij}\)</span> is the
-entry that appears in the <span class="math inline">\(i\)</span>th row
-and <span class="math inline">\(j\)</span>th column of the matrix.</p>
-<p>We sometimes denote the matrix whose entires are <span
-class="math inline">\(a_{ij}\)</span> by <span
-class="math inline">\(({a_{ij}})\)</span>.</p>
-<p>An <span class="math inline">\(n\times n\)</span> matrix in called a
-<strong>square</strong> matrix. A <span
-class="math inline">\(1\times1\)</span> matrix <span
-class="math inline">\([a]\)</span> contains a single number, and we do
-not distinguish such a matrix from its entry.</p>
-<p>A <span class="math inline">\(1\times n\)</span> is an <span
-class="math inline">\(n\)</span>-dimensional <strong>row
-vector</strong>. We drop the index <span
-class="math inline">\(i\)</span> when <span
-class="math inline">\(m=1\)</span> and write a row vector as <span
-class="math display">\[
-\begin{bmatrix}
-a_1 &amp; \cdots &amp; a_n\\
-\end{bmatrix}
-\quad\text{or}\quad
-(a_1,\dots,a_n)
-\]</span> Commas in such a row vector are optional. Similarly, an <span
-class="math inline">\(m\times1\)</span> matrix is an <span
-class="math inline">\(m\)</span>-dimentional <strong>column
-vector</strong> <span class="math display">\[
-\begin{bmatrix}
-b_1\\ \vdots\\ b_m
-\end{bmatrix}
-\]</span> <strong>Addition</strong> of matrices is defined in the same
-way as vector addition. Let <span
-class="math inline">\(A=(a_{ij})\)</span> and <span
-class="math inline">\(B=(b_{ij})\)</span> be two <span
-class="math inline">\(m\times n\)</span> matrices. Their sum <span
-class="math inline">\(A+B\)</span> is the <span
-class="math inline">\(m\times n\)</span> matrix <span
-class="math inline">\(S=(s_{ij})\)</span> defined by <span
-class="math display">\[
-s_{ij}=a_{ij}+b_{ij}
-\]</span> Addition is defined only when the matrices to be added have
-the same shape – when they are <span class="math inline">\(m\times
-n\)</span> matrices with the same <span class="math inline">\(m\)</span>
-and <span class="math inline">\(n\)</span>.</p>
-<p><strong>Scalar multiplication</strong> of a matrix by a number is
-also defined as with vectors. The result of multiplying an <span
-class="math inline">\(m\times n\)</span> matrix <span
-class="math inline">\(A\)</span> by a number <span
-class="math inline">\(c\)</span> is another <span
-class="math inline">\(m\times n\)</span> matrix <span
-class="math inline">\(B=(b_{ij})\)</span>, where <span
-class="math inline">\(b_{ij}=c\cdot a_{ij}\)</span> for all <span
-class="math inline">\(i,j\)</span>.</p>
-<p>Numbers will also be referred to as <strong>scalars</strong>. Let's
-assume for now that the scalars are real numbers and later other scalars
-will appear.</p>
-<p>The complicated operation is <strong>matrix multiplication</strong>.
-The first case to learn is the product <span
-class="math inline">\(AB\)</span> of a row vector <span
-class="math inline">\(A\)</span> and a column vector <span
-class="math inline">\(B\)</span>, which is defined when both are the
-same size <span class="math inline">\(m\)</span>. If the entries of
-<span class="math inline">\(A\)</span> and <span
-class="math inline">\(B\)</span> are denoted by <span
-class="math inline">\(a_i\)</span> and <span
-class="math inline">\(b_i\)</span>, respectively, the product <span
-class="math inline">\(AB\)</span> is the <span
-class="math inline">\(1\times 1\)</span> matrix, or scalar <span
-class="math display">\[
-a_1b_1+a_2b_2+\dots+a_mb_m
-\]</span> In general, the product of two matrices <span
-class="math inline">\(A=(a_{ij})\)</span> and <span
-class="math inline">\(B=(b_{ij})\)</span> is defined when the number of
-columns of <span class="math inline">\(A\)</span> is equal to the number
-of rows of <span class="math inline">\(B\)</span>. If <span
-class="math inline">\(A\)</span> is an <span
-class="math inline">\(l\times m\)</span> matrix and <span
-class="math inline">\(B\)</span> is an <span
-class="math inline">\(m\times n\)</span> matrix, then the product will
-be an <span class="math inline">\(l\times n\)</span> matrix.
-Symbolically <span class="math display">\[
-(l\times m)\cdot (m\times n)=(l\times n)
-\]</span> The entries of the product matrix are computed by multiplying
-all rows of <span class="math inline">\(A\)</span> by all columns of
-<span class="math inline">\(B\)</span>, using the rule <span
-class="math inline">\((5)\)</span>. If we denote the product matrix
-<span class="math inline">\(AB\)</span> by <span
-class="math inline">\(P=(p_{ij})\)</span>, then <span
-class="math display">\[
-p_{ij}=a_{i1}b_{1j}+a_{i2}b_{2j}+\dots+a_{im}b_{mj}
-\]</span> This is the product of the <span
-class="math inline">\(i\)</span>th row of <span
-class="math inline">\(A\)</span> and the <span
-class="math inline">\(j\)</span>th column of <span
-class="math inline">\(B\)</span>.</p>
-<p>One reason for matrix notation is to provide a shorthand way of
-writing linear equations. A system of equations can be written in matrix
-notation as <span class="math display">\[
-AX=B
-\]</span> where <span class="math inline">\(A\)</span> denotes the
-matrix of coefficients, <span class="math inline">\(X\)</span> and <span
-class="math inline">\(B\)</span> are column vectors, and <span
-class="math inline">\(AX\)</span> is the matrix product.</p>
-<p>The sum <span class="math inline">\((7)\)</span> that defines the
-product matrix can also be written in summation or <em>sigma</em>
-notation as <span class="math display">\[
-p_{ij}=\sum_{\nu=1}^ma_{i\nu}b_{\nu j}=\sum_{\nu}a_{i\nu}b_{\nu j}
-\]</span> Each of these expressions for <span
-class="math inline">\(p_{ij}\)</span> is a shorthand notation for the
-sum. The large sigma indicates that the terms with the indices <span
-class="math inline">\(\nu=1,\dots,m\)</span> are to added up. The
-right-hand notation indicates that one should add the terms with all
-possible indices <span class="math inline">\(\nu\)</span>.</p>
-<p>Various <strong>identities</strong> are satisfied by the matrix
-operations. The <strong>distributive laws</strong> <span
-class="math display">\[
-A(B+B&#39;)=AB+AB&#39;\qquad
-(A+A&#39;)B=AB+A&#39;B
-\]</span> and the <strong>associative law</strong> <span
-class="math display">\[
-(AB)C=A(BC)
-\]</span> are among them. These laws hold whenever the matrices involved
-have suitable sizes, so that the operations are defined. For the
-associative law, the sizes should be <span
-class="math inline">\(A=l\times m\)</span>, <span
-class="math inline">\(B=m\times n\)</span>, and <span
-class="math inline">\(C=n\times p\)</span>, for some <span
-class="math inline">\(l,m,n,p\)</span>. Since the two products <span
-class="math inline">\((11)\)</span> are equal, parentheses are not
-necessary, and we will denote the triple product by <span
-class="math inline">\(ABC\)</span>.</p>
-<p>Scalar multiplication is compatible with matrix multiplication in the
-obvious sense <span class="math display">\[
-c(AB)=(cA)B=A(cB)
-\]</span> However, the <strong>commutative law</strong> does not hold
-for matrix multiplication, that is <span class="math display">\[
-AB\ne BA\quad \text{usually}
-\]</span> If it happens that <span class="math inline">\(AB=BA\)</span>,
-the two matrices are said to <strong>commute</strong>.</p>
-<p>A matrix all of whose entries are <span
-class="math inline">\(0\)</span> is called a <strong>zero
-matrix</strong>, and if there is no danger of confusion, it will be
-denoted simply by <span class="math inline">\(0\)</span>.</p>
-<p>The entries <span class="math inline">\(a_{ii}\)</span> of a matrix
-<span class="math inline">\(A\)</span> are its <strong>diagonal
-entries</strong>. A matrix <span class="math inline">\(A\)</span> is a
-<strong>diagonal matrix</strong> if its only nonzero entries are
-diagonal entries.</p>
-<p>The diagonal <span class="math inline">\(n\times n\)</span> matrix
-all of whose diagonal entries are equal to <span
-class="math inline">\(1\)</span> is called the <span
-class="math inline">\(n\times n\)</span> <strong>identity
-matrix</strong>, and is denoted by <span
-class="math inline">\(I_n\)</span>. It behaves like the number 1 in
-multiplication: If <span class="math inline">\(A\)</span> is an <span
-class="math inline">\(m\times n\)</span> matrix, then <span
-class="math display">\[
-AI_n=A\qquad\text{and}\qquad I_mA=A
-\]</span> We usually omit the subscript and write <span
-class="math inline">\(I\)</span> for <span
-class="math inline">\(I_n\)</span>.</p>
-]]></content>
-      <tags>
-        <tag>Mathematics</tag>
-        <tag>Self-Learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>INTERNATIONAL ECONOMICS</title>
-    <url>/2023/04/12/International-Economics/</url>
-    <content><![CDATA[<p>My notes on the 2023 spring <em>International Economics</em> course
-taught by Professor Hong Ma and Professor Tuo Chen from <a
-href="https://www.sem.tsinghua.edu.cn">School of Economics and
-Management</a>, <a href="https://www.tsinghua.edu.cn">Tsinghua
-University</a>.</p>
-<span id="more"></span>
-<h1 id="lecture-1-introduction-the-ricardian-model">Lecture 1:
-Introduction &amp; The Ricardian Model</h1>
-<h2 id="why-study-trade-important-interesting-and-relevant">Why Study
-Trade: Important, Interesting, and Relevant</h2>
-<p><strong>Trade in general is beneficial</strong></p>
-<ul>
-<li>In almost all cases, trade makes the world better off</li>
-</ul>
-<p><strong>But not everyone gains from trade</strong></p>
-<ul>
-<li>Trade not only creates gains, but also causes a
-<strong>re-distribution</strong> of wealth</li>
-<li>winners and losers from globalization</li>
-</ul>
-<p>We want to understand who gains, who loses, and why, thus we can make
-better policy decisions.</p>
-<h2 id="how-levels-of-technology-shape-the-world-trade-pattern">How
-Levels of Technology Shape the World Trade Pattern</h2>
-<p><strong>Absolute advantage</strong> - A country should specialize in
-what it can produce most efficiently.</p>
-<p><strong>Comparative advantage</strong> - A country can engage in
-trade even when her workers are less efficient at producing
-<strong><em>every single good</em></strong> than workers in other
-countries.</p>
-<h2 id="ricardian-model">Ricardian Model</h2>
-<p><strong>Basic assumptions: 2-2-1 model</strong></p>
-<ol type="1">
-<li>Two countries: Home and Foreign</li>
-<li>Two goods: Wheat and Cloth</li>
-<li>A single factor of production: labor
-<ul>
-<li>Ignore land and capital for now</li>
-<li>Home has 25 workers</li>
-<li>Foreign has 100 workers</li>
-</ul></li>
-<li>Technology is country-specific</li>
-<li>Perfect competition</li>
-</ol>
-<h3 id="the-home-country">The Home Country</h3>
-<p>Labor productivity: The <strong>marginal product of labor</strong>
-(MPL) describes the extra output obtained by using one more unit of
-labor.</p>
-<p>In Home, one worker produces</p>
-<ul>
-<li>4 bushels of wheat, so <span
-class="math inline">\(MPL_W=4\)</span></li>
-<li>2 yards of cloth, so <span
-class="math inline">\(MPL_C=2\)</span></li>
-</ul>
-<p>Given MPLs, we could calculate the <strong>opportunity
-costs</strong>, which describes the amount of cloth that must be given
-up to obtain one more unit of wheat.</p>
-<p>The opportunity cost of wheat is <span
-class="math inline">\(\frac{MPL_C}{MLP_W}\)</span> and the opportunity
-cost of cloth is <span
-class="math inline">\(\frac{MPL_W}{MLP_C}\)</span>. We should note that
-the higher is MPL of its own, the lower is its opportunity cost.</p>
-<h4 id="home-production-possibilities-frontier-ppf">Home Production
-Possibilities Frontier (PPF)</h4>
-<p>The <strong>set of production possibilities</strong> is all the
-different combinations of wheat and cloth that Home can produce. <span
-class="math display">\[
-\frac{Q_W}{MPL_W}+\frac{Q_C}{MPL_C}\leq 25
-\]</span> The <strong>production possibility frontier (PPF)</strong>
-describes the most cloth that Home can produce for each unit of wheat
-produced. That is, PPF gives the production capacity of the home
-country. <span class="math display">\[
-\frac{Q_W}{MPL_W}+\frac{Q_C}{MPL_C}=25
-\]</span> The economic interpretation of the slope: <span
-class="math display">\[
-\text{Slope of PPF}=-\frac{MPL_C}{MPL_W}
-\]</span> It is the ratio of marginal products of the two goods and the
-slope also equals <strong>the opportunity cost</strong> of wheat.</p>
-<p>Understanding Home PPF</p>
-<ul>
-<li>What happens if the labor force doubles</li>
-<li>What happens if there is technological progress in cloth
-production</li>
-</ul>
-<h4 id="prices-of-goods-wages">Prices of goods &amp; Wages</h4>
-<p>In <strong>competitive markets</strong>, firms hire workers up to the
-point at which the hourly wage equals <strong>the value of one more hour
-of production</strong>, which equals <strong>MPL</strong> times the
-<strong>price</strong> of the good. <span class="math display">\[
-\begin{aligned}
-\text{Wage}_C&amp;=P_C\cdot MPL \\
-\text{Wage}_W&amp;=P_W\cdot MPL
-\end{aligned}
-\]</span> Since labor can move freely between industries, it will
-continue moving until the equalization of wages across industries, which
-resulted in that labor is hired up to the point where <span
-class="math display">\[
-\text{Wage}_C=\text{Wage}_W
-\]</span> Rearranging terms, we see that <span class="math display">\[
-\frac{P_W}{P_C}=\frac{MPL_C}{MPL_W}=\frac{1}{2}
-\]</span> This equation says that <strong><em>the relative price of
-wheat</em></strong> (on the left) and <strong><em>opportunity cost of
-wheat</em></strong> (on the right) must be equal in the no-trade
-equilibrium.</p>
-<p><strong>Therefore, in competitive markets, price reflects the
-opportunity cost of a good.</strong></p>
-<h4 id="deriving-the-equilibrium">Deriving the Equilibrium</h4>
-<p>Adding a relative demand curve will pin down the domestic
-equilibrium. More generally, to derive demand curve, we need consumers'
-preferences.</p>
-<ol type="1">
-<li>Representative consumer: for simplicity, let's assume all workers
-have the same preference</li>
-<li>Use <strong>indifference curves</strong> to represent
-preference.</li>
-<li>Each indifference curve shows the combinations of two goods, such as
-wheat and cloth, that a person or economy can consume and be equally
-satisfied.</li>
-<li>All points on an indifference curve have the same level of utility
-and points on higher indifference curves have higher utility.</li>
-</ol>
-<h4 id="autarkic-closed-economy-equilibrium">Autarkic (Closed-Economy)
-Equilibrium</h4>
-<p>With perfectly competitive markets, the country will produce at its
-highest level of utility within the limits of the PPF.</p>
-<p>Three equilibrium conditions:</p>
-<ol type="1">
-<li>Consumers (workers) maximize their utility</li>
-<li>Workers maximize their revenue (wage)</li>
-<li>Consumption = Production</li>
-</ol>
-<h3 id="the-foreign-country">The Foreign Country</h3>
-<p>Assume a Foreign worker can produce one bushel of wheat or one yard
-of cloth, i.e., <span class="math inline">\(MPL^*_W=1\)</span> and <span
-class="math inline">\(MPL^*_C=1\)</span>. So Foreign's technology is
-inferior to Home's in both goods, which means Home has
-<strong><em>absolute advantage</em></strong> in making both goods.</p>
-<p>Assume there are 100 workers available in Foreign.</p>
-<ul>
-<li>The Foreign PPF is a straight line between 100 yards of cloth and
-100 bushels of wheat.</li>
-<li>The slope of the PPF equals the negative of the opportunity cost of
-wheat.</li>
-<li>The opportunity cost is amount of cloth that must be given up (1
-yard) to obtain 1 more bushel of wheat.</li>
-</ul>
-<blockquote>
-<p><strong>Comparative Advantage vs. Absolute Advantage</strong></p>
-<p>Home has <strong>absolute advantage</strong> in making both goods.
-But Foreign has a <strong>comparative advantage</strong> in making cloth
-because the <strong>opportunity cost</strong> of cloth in Foreign is
-less than that in Home.</p>
-</blockquote>
-<h3 id="determining-the-pattern-of-international-trade">Determining the
-Pattern of International Trade</h3>
-<p>The no-trade relative price equals its opportunity cost of
-production:</p>
-<ul>
-<li>The relative price of wheat in <strong>Foreign</strong> is <span
-class="math inline">\(P_W^*/P_C^*=1\)</span>.</li>
-<li>The relative price of wheat in <strong>Home</strong> is <span
-class="math inline">\(P_W/P_C=1/2\)</span>.</li>
-</ul>
-<p><strong>Who Exports What</strong></p>
-<p>Both countries export the good for which they have the comparative
-advantage, i.e., Home exports wheat and Foreign exports cloth.</p>
-<p><strong>How would Prices Change</strong></p>
-<p>The <strong>relative price</strong> of wheat to cloth will become the
-same in both countries:</p>
-<ul>
-<li>First, it depends on world supply and demand.</li>
-<li>Second, it will be between the no-trade price in the two countries
-<span class="math inline">\(P_W^*/P_C^*\)</span> and <span
-class="math inline">\(P_W/P_C\)</span>.</li>
-</ul>
-<p>For now <strong>assume</strong> the free-trade price of <span
-class="math inline">\(P_W/P_C=2/3\)</span>, then we can take this price
-and see how trade changes production and consumption in each
-country.</p>
-<p><strong>Where is the Production Point</strong></p>
-<p>Home producers of wheat can earn more than the opportunity cost of
-wheat by selling it to Foreign. Labor resources will be shifted toward
-the production of wheat and increase its production. <span
-class="math display">\[
-\frac{\text{Wage}_W}{\text{Wage}_C}=\frac{P_W\cdot MPL_W}{P_C\cdot
-MPL_C}=\frac{2}{3}\cdot\frac{4}{2}&gt;1
-\]</span> Therefore, Home's workers will want to work in wheat and no
-cloth will be produced.</p>
-<p>With trade, Home will be <strong><em>fully specialized</em></strong>
-in wheat production, and will export wheat for cloth.</p>
-<p><strong>Where is the Consumption Point</strong></p>
-<p>The <strong>world price line</strong> <span
-class="math inline">\((\text{slope}=-2/3)\)</span> shows the range of
-<strong>consumption possibilities</strong> that a country can achieve by
-specializing in one good and engaging in international trade.</p>
-<p><strong>Change in Production and Consumption</strong></p>
-<p>Home consumption occurs at the point where utility is maximized,
-i.e., at the tangent intersection with indifference curve of highest
-possible utility.</p>
-<p>With trade, the optimal consumption bundle does not need to be the
-same as the optimal production bundle. And Home obtains a higher utility
-with international trade than in the absence of trade.</p>
-<p><strong>Pattern of Trade and Gains from Trade</strong></p>
-<p>Foreign consumption occurs at point C*, and total exports are 40
-yards of cloth in exchange for imports of 60 bushels of wheat. Relative
-to its pre-trade wheat and cloth consumption (point A*), Foreign
-consumes 10 more bushels of wheat and 10 more yards of cloth.</p>
-<ul>
-<li>trade triangular</li>
-</ul>
-<h3 id="lessons-from-the-ricardian-model-so-far">Lessons from the
-Ricardian Model so far</h3>
-<p><strong>The pattern of trade is determined by comparative
-advantage</strong></p>
-<ul>
-<li>Each country is <em>specializing in</em> and <em>exporting</em> the
-good for which it has the comparative advantage.</li>
-<li><strong><em>complete specialization</em></strong> in this case</li>
-</ul>
-<p><strong>There are gains from trade for both countries</strong></p>
-<ul>
-<li>Indeed, every person gains from trade in this model <span
-class="math display">\[\begin{align}
-\text{Home wage}=4\text{ bushels of wheat}\text{ or }\frac{8}{3}\text{
-yards of cloth}\\
-\text{Foreign wage}=\frac{3}{2}\text{ bushels of wheat}\text{ or
-}1\text{ yard of cloth}
-\end{align}\]</span></li>
-</ul>
-<p><strong>Wages are determined by absolute advantage</strong></p>
-<ul>
-<li>Foreign workers earn <em>less than</em> Home workers as measured by
-their ability to purchase either good.</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Economics</tag>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MULTIVARIATE STATISTICAL ANALYSIS</title>
-    <url>/2023/04/12/Multivariate-Statistical-Analysis/</url>
-    <content><![CDATA[<p>My notes on the 2023 spring <em>Multivariate Statistical
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 5.4.2">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic%7CDancing+Script:300,300italic,400,400italic,700,700italic%7CCabin+Sketch:300,300italic,400,400italic,700,700italic%7CNoto+Serif+SC:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"photon-03.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.15.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"utterances","storage":true,"lazyload":false,"nav":null,"activeClass":"utterances"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="My notes on the 2023 spring Multivariate Statistical Analysis course taught by Professor Wanlu Deng from Center for Statistical Science, Tsinghua University.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MULTIVARIATE STATISTICAL ANALYSIS">
+<meta property="og:url" content="http://photon-03.github.io/2023/04/12/Multivariate-Statistical-Analysis/index.html">
+<meta property="og:site_name" content="TWO REALMS">
+<meta property="og:description" content="My notes on the 2023 spring Multivariate Statistical Analysis course taught by Professor Wanlu Deng from Center for Statistical Science, Tsinghua University.">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-04-12T07:23:42.000Z">
+<meta property="article:modified_time" content="2023-04-12T13:33:00.051Z">
+<meta property="article:author" content="Photon">
+<meta property="article:tag" content="Courses">
+<meta property="article:tag" content="Statistics">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="http://photon-03.github.io/2023/04/12/Multivariate-Statistical-Analysis/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://photon-03.github.io/2023/04/12/Multivariate-Statistical-Analysis/","path":"2023/04/12/Multivariate-Statistical-Analysis/","title":"MULTIVARIATE STATISTICAL ANALYSIS"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>MULTIVARIATE STATISTICAL ANALYSIS | TWO REALMS</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">TWO REALMS</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="Search" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#lecture-1-introduction"><span class="nav-text">Lecture 1: Introduction</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#introduction-to-multivariate-statistical-analysis"><span class="nav-text">Introduction
+to Multivariate Statistical Analysis</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#what-is-multivariate-data"><span class="nav-text">What is Multivariate Data</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#what-can-we-achieve-by-multivariate-analysis"><span class="nav-text">What can we
+Achieve by Multivariate Analysis</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#course-goals"><span class="nav-text">Course Goals</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#foundation-of-multivariate-statistical-analysis"><span class="nav-text">Foundation of
+Multivariate Statistical Analysis</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#organization-of-multivariate-data"><span class="nav-text">Organization of Multivariate
+Data</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#modeling-of-multivariate-data"><span class="nav-text">Modeling of Multivariate
+Data</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#random-sampling"><span class="nav-text">Random Sampling</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#descriptive-statistics"><span class="nav-text">Descriptive Statistics</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#descriptive-statistics-in-matrix-form"><span class="nav-text">Descriptive Statistics in
+Matrix Form</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#geometry-of-random-sample"><span class="nav-text">Geometry of Random Sample</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mahalanobis-distance"><span class="nav-text">Mahalanobis Distance</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#quadratic-form"><span class="nav-text">Quadratic Form</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#basic-population-notations"><span class="nav-text">Basic Population Notations</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#expectation-of-distance"><span class="nav-text">Expectation of Distance</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#exploratory-data-analysis"><span class="nav-text">Exploratory Data Analysis</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#lecture-2-linear-algebra-basis"><span class="nav-text">Lecture 2: Linear Algebra
+Basis</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#review-of-matrix-operations"><span class="nav-text">Review of Matrix Operations</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#length-and-direction-of-a-vector"><span class="nav-text">Length and Direction of a
+Vector</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#matrix"><span class="nav-text">Matrix</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#special-matrices"><span class="nav-text">Special Matrices</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#orthogonal-matrix"><span class="nav-text">Orthogonal Matrix</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#eigen-system"><span class="nav-text">Eigen System</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#spectral-decomposition"><span class="nav-text">Spectral Decomposition</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#nonnegative-positive-definite-matrix"><span class="nav-text">Nonnegative &#x2F; Positive
+Definite Matrix</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#inverse-and-square-root-matrix"><span class="nav-text">Inverse and Square-root
+Matrix</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#geometric-interpretation-of-mahalanobis-distance"><span class="nav-text">Geometric
+Interpretation of Mahalanobis-Distance</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#singular-value-decomposition-svd"><span class="nav-text">Singular Value Decomposition
+(SVD)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#matrix-inequalities"><span class="nav-text">Matrix Inequalities</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#matrix-maximization"><span class="nav-text">Matrix Maximization</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#matrix-operation-for-descriptive-statistics"><span class="nav-text">Matrix operation
+for Descriptive Statistics</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#geometric-interpretation"><span class="nav-text">Geometric Interpretation</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#generalized-variance"><span class="nav-text">Generalized Variance</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#limitation-of-generalized-variance"><span class="nav-text">Limitation of Generalized
+Variance</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#lecture-3-multivariate-normal-distribution"><span class="nav-text">Lecture 3:
+Multivariate Normal Distribution</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#why-normal-distribution"><span class="nav-text">Why Normal Distribution</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#multivariate-normal-distribution"><span class="nav-text">Multivariate Normal
+Distribution</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#geometry-of-multivariate-normal-distribution"><span class="nav-text">Geometry of
+Multivariate Normal Distribution</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#properties-of-multivariate-normal-distribution"><span class="nav-text">Properties of
+Multivariate Normal Distribution</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#equivalent-definition"><span class="nav-text">Equivalent Definition</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#linear-combination"><span class="nav-text">Linear Combination</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#marginal-distribution"><span class="nav-text">Marginal Distribution</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#independent-vs.-uncorrelated"><span class="nav-text">Independent vs. Uncorrelated</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#conditional-distribution"><span class="nav-text">Conditional Distribution</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#chi-square-distribution"><span class="nav-text">Chi-Square Distribution</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#distribution-of-linear-combinations-of-mvns"><span class="nav-text">Distribution of
+Linear Combinations of MVNs</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#inferences-under-normal-assumption"><span class="nav-text">Inferences Under Normal
+Assumption</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#modeling-with-multivariate-normal-distribution"><span class="nav-text">Modeling with
+Multivariate Normal Distribution</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#maximum-likelihood-estimation"><span class="nav-text">Maximum Likelihood
+Estimation</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#unbiased-estimation"><span class="nav-text">Unbiased Estimation</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#sufficient-statistics"><span class="nav-text">Sufficient Statistics</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vector-and-matrix-calculus"><span class="nav-text">Vector and Matrix Calculus</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#chain-rule-under-numerator-layout"><span class="nav-text">Chain Rule under
+Numerator-Layout</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#an-example-under-denominator-layout"><span class="nav-text">An Example under
+Denominator-layout</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#theoretical-results-of-sample-statistics"><span class="nav-text">Theoretical Results of
+Sample Statistics</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#linear-combination-of-random-variables"><span class="nav-text">Linear Combination of
+Random Variables</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#sample-level"><span class="nav-text">Sample Level</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#population-level"><span class="nav-text">Population Level</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#lecture-4-inference-for-one-population"><span class="nav-text">Lecture 4: Inference for
+One Population</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#sampling-distribution-of-sufficient-statistics"><span class="nav-text">Sampling
+Distribution of Sufficient Statistics</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#wishart-distribution"><span class="nav-text">Wishart Distribution</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hypothesis-testing-on-one-sample-mean"><span class="nav-text">Hypothesis Testing on One
+Sample Mean</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#properties-of-hotellings-t-squared-statisic"><span class="nav-text">Properties of
+Hotelling&#39;s T-Squared Statisic</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hotellings-t-squared-vs.-lrt"><span class="nav-text">Hotelling&#39;s T-Squared vs. LRT</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#confidence-regions"><span class="nav-text">Confidence Regions</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#individual-coverage-intervals"><span class="nav-text">Individual Coverage
+Intervals</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#simultaneous-coverage-intervals"><span class="nav-text">Simultaneous Coverage
+Intervals</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#lecture-5-inference-for-two-population"><span class="nav-text">Lecture 5: Inference for
+Two Population</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#comparing-mean-vectors-from-paired-samples"><span class="nav-text">Comparing Mean
+Vectors from Paired Samples</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#comparing-mean-vectors-from-two-populations-equal-variance-and-normal-distribution"><span class="nav-text">Comparing
+Mean Vectors from Two Populations: Equal Variance and Normal
+Distribution</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#hotellings-t-squared-for-two-populations"><span class="nav-text">Hotelling&#39;s T-Squared
+for Two Populations</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#one-population-vs.-two-population"><span class="nav-text">One Population vs. Two
+Population</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#confidence-region-simultaneous-coverage-intervals"><span class="nav-text">Confidence
+Region &amp; Simultaneous Coverage Intervals</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#which-direction-quantifies-the-largest-population-difference"><span class="nav-text">Which
+Direction Quantifies the Largest Population Difference</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#large-sample-behavior-of-sample-mean-and-covariance"><span class="nav-text">Large
+Sample Behavior of Sample Mean and Covariance</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#law-of-large-numbers"><span class="nav-text">Law of Large Numbers</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#the-central-limit-theorem"><span class="nav-text">The Central Limit Theorem</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#large-sample-inference-about-mean-vector"><span class="nav-text">Large Sample Inference
+about Mean Vector</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#hypothesis-tesing-simultaneous-confidence-intervals"><span class="nav-text">Hypothesis
+Tesing &amp; Simultaneous Confidence Intervals</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#comparing-mean-vectors-from-two-populations-unequal-variance-and-large-sample"><span class="nav-text">Comparing
+Mean Vectors from Two Populations: Unequal Variance and Large
+Sample</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#hypothesis-tesing-simultaneous-confidence-intervals-1"><span class="nav-text">Hypothesis
+Tesing &amp; Simultaneous Confidence Intervals</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#assumptions-underlying-t-squared-statistics"><span class="nav-text">Assumptions
+underlying T-Squared Statistics</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#testing-equal-variance-matrix-for-two-populations"><span class="nav-text">Testing Equal
+Variance Matrix for Two Populations</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lrt-for-testing-equal-variance"><span class="nav-text">LRT for Testing Equal
+Variance</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#boxs-m-test-a-modified-lrt"><span class="nav-text">Box&#39;s M Test: A Modified LRT</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#assessing-the-assumption-of-normality"><span class="nav-text">Assessing the Assumption
+of Normality</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#statistical-testing"><span class="nav-text">Statistical Testing</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#graph-methods"><span class="nav-text">Graph Methods</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#quantile-quantile-plot"><span class="nav-text">Quantile-Quantile Plot</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#chi-square-plot"><span class="nav-text">Chi-Square Plot</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#when-your-data-is-not-normal"><span class="nav-text">When Your Data is NOT Normal</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#box-cox-transformations"><span class="nav-text">Box-Cox Transformations</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#outlier-detection"><span class="nav-text">Outlier Detection</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#lecture-6-principal-component-analysis"><span class="nav-text">Lecture 6: Principal
+Component Analysis</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#motivation"><span class="nav-text">Motivation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#introduction-to-principal-component-analysis"><span class="nav-text">Introduction to
+Principal Component Analysis</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#population-principle-component"><span class="nav-text">Population Principle
+Component</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#motivation-1"><span class="nav-text">Motivation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#how-to-find-principal-component"><span class="nav-text">How to Find Principal
+Component</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#how-to-interpret-principal-component"><span class="nav-text">How to Interpret Principal
+Component</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#principal-components-based-on-standardized-variables"><span class="nav-text">Principal
+Components Based on Standardized Variables</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#population-principal-components-under-normality-assumption"><span class="nav-text">Population
+Principal Components under Normality Assumption</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sample-principal-component"><span class="nav-text">Sample Principal Component</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#how-to-find-sample-principal-components"><span class="nav-text">How to Find Sample
+Principal Components</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sample-principal-components-and-properties"><span class="nav-text">Sample Principal
+Components and Properties</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#geometrical-interpretation-of-sample-principal-components"><span class="nav-text">Geometrical
+Interpretation of Sample Principal Components</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pca-based-on-sample-correlation-matrix"><span class="nav-text">PCA Based on Sample
+Correlation Matrix</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#practical-issues"><span class="nav-text">Practical Issues</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#practical-issue-one-how-many-principal-components-to-retain"><span class="nav-text">Practical
+Issue One: How many Principal Components to Retain</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#r-functions"><span class="nav-text">R Functions</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#practical-issue-two-graphing-the-principal-components"><span class="nav-text">Practical
+Issue Two: Graphing the Principal Components</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#lecture-7-discussion-and-extensions-on-pca"><span class="nav-text">Lecture 7:
+Discussion and Extensions on PCA</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#geometrical-interpretation-of-dimension-reduction-with-pca"><span class="nav-text">Geometrical
+Interpretation of Dimension Reduction with PCA</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#model"><span class="nav-text">Model</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#idea"><span class="nav-text">Idea</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#interpretation"><span class="nav-text">Interpretation</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pca-with-svd"><span class="nav-text">PCA with SVD</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Photon"
+      src="/images/profile.jpg">
+  <p class="site-author-name" itemprop="name">Photon</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/photon-03" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;photon-03" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:wangyiji21@mails.tsinghua.edu.cn" title="E-Mail → mailto:wangyiji21@mails.tsinghua.edu.cn" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="Back to top">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://photon-03.github.io/2023/04/12/Multivariate-Statistical-Analysis/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/profile.jpg">
+      <meta itemprop="name" content="Photon">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TWO REALMS">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="MULTIVARIATE STATISTICAL ANALYSIS | TWO REALMS">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          MULTIVARIATE STATISTICAL ANALYSIS
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2023-04-12 15:23:42 / Modified: 21:33:00" itemprop="dateCreated datePublished" datetime="2023-04-12T15:23:42+08:00">2023-04-12</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>My notes on the 2023 spring <em>Multivariate Statistical
 Analysis</em> course taught by Professor Wanlu Deng from <a
-href="http://www.stat.tsinghua.edu.cn">Center for Statistical
-Science</a>, <a href="https://www.tsinghua.edu.cn">Tsinghua
+target="_blank" rel="noopener" href="http://www.stat.tsinghua.edu.cn">Center for Statistical
+Science</a>, <a target="_blank" rel="noopener" href="https://www.tsinghua.edu.cn">Tsinghua
 University</a>.</p>
 <span id="more"></span>
 <h1 id="lecture-1-introduction">Lecture 1: Introduction</h1>
@@ -2936,10 +2778,109 @@ nS_n=X&#39;(I-\frac{1}{n}\boldsymbol 1_n\boldsymbol
 1_n\boldsymbol 1_n&#39;\)</span> is idempotent and each column of <span
 class="math inline">\(HX\)</span> has mean vector <span
 class="math inline">\(\boldsymbol \mu=\boldsymbol 0\)</span></p>
-]]></content>
-      <tags>
-        <tag>Courses</tag>
-        <tag>Statistics</tag>
-      </tags>
-  </entry>
-</search>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>Photon
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="http://photon-03.github.io/2023/04/12/Multivariate-Statistical-Analysis/" title="MULTIVARIATE STATISTICAL ANALYSIS">http://photon-03.github.io/2023/04/12/Multivariate-Statistical-Analysis/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/en" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/Courses/" rel="tag"><i class="fa fa-tag"></i> Courses</a>
+              <a href="/tags/Statistics/" rel="tag"><i class="fa fa-tag"></i> Statistics</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/04/12/International-Economics/" rel="prev" title="INTERNATIONAL ECONOMICS">
+                  <i class="fa fa-chevron-left"></i> INTERNATIONAL ECONOMICS
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments utterances-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yijie Wang</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a>
+  </div>
+
+    </div>
+  </footer>
+
+  
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"all","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js"></script>
+
+
+<script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"photon-03/photon-03.github.io","issue_term":"pathname","theme":"github-light"}</script>
+<script src="/js/third-party/comments/utterances.js"></script>
+
+</body>
+</html>
