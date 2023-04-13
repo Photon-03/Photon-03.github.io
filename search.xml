@@ -21,6 +21,19 @@ href="https://squidfunk.github.io/mkdocs-material/">MkDocs</a>的文档，甚至
 <li><p>为了白嫖护目镜，吃完饭就来C楼三层摸鱼了。怎么大家都喜欢白嫖，甚至看到有戴着护目镜和N95的人也在排队，绷不住了。不过看上去队伍也不是很长，应该平均也就排个十分钟，<del>好低的边际成本</del>。领完物资之后并没有走，而是开始把笔记搬运到博客上。其实找个地方自习也蛮不错，不过我总是抑制不住回宿舍的欲望，<del>要不是为了护目镜我肯定早回去了</del>。</p></li>
 <li><p>重制了一点国际经济学的内容，发现之前的结构简直是依托答辩，这半学期是怎么忍受下来的。下午还想把锅甩给Typora，结果晚上就发现了它的大纲功能，<del>我是什么人才</del>。后来就转向去搬运多元统计的笔记，毕竟后天就期中考，<del>而我的cheatsheet还没开始写</del>。遇到了个公式字体上的问题，查了半天摸不着头脑，然后看了驰雨老师数分笔记的源代码，找到了。还好晚上搬运的效率高了不少，主要任务是删掉一些列表的缩进，vim我的神！甚至把重制好的多元笔记源代码粘贴回了Typora，感觉很不错。</p></li>
 </ul>
+<h1 id="april-13th">April 13th</h1>
+<ul>
+<li><p>上午意料之中地咕了毛概课。本来还说要是有签到就骑车去东阶溜一圈再回来，<del>顺便刷一刷阳光骑车</del>。结果今天虽然签到了，但是换了没有定位要求的小程序，笑死，助教是懂我们的。</p></li>
+<li><p>一个人在宿舍好爽！<del>为了同学聚会的时候能在KTV玩得起来</del>，最近开始听华语流行了，<a
+href="https://open.spotify.com/artist/3p3I9lGFyHSYOe9htNDuAb">夏日入侵企画</a>很不错！一个人在宿舍就可以肆无忌惮地唱歌，<del>虽然有舍友在的时候也会哼</del>，真的很快乐！唱着唱着突然想去一次音乐节，然后就开始挑选时间并规划行程，在宿舍疯狂摸鱼的原因找到了。不过女朋友似乎不是很想翘掉星期一上午的课，加上来回的交通费也太贵了，于是也就暂时作罢了，再考虑考虑好了。</p></li>
+<li><p>今天公财小组的群里发了一篇综述，果然这种小组作业还得是靠大佬带。但是大佬们似乎都在忙实习，还没时间聚在一起讨论过。这个essay看起来还挺硬核的，希望能学到点东西，<del>好一个大饼</del>。附上老师今天在课程群里的发言：</p>
+<blockquote>
+<p>今天参加毕设中期答辩，感觉很多毕业论文比不上我去年课上policy
+evaluation
+essay的平均水平。下周答辩的学生需要尽快把PPT发给我，大概率我会让你们大改一轮。改完发还给我，我觉得合格了，才能在课上present。</p>
+</blockquote></li>
+<li><p>快十一点才开始预习遗传，看了一个多小时就开始疯狂水TPLink群，原来只要三个人就能把群水的很好。最后几页slides实在是懒得看了，据说考的不难，那就随便吧。下半学期争取好好听课，这样期末摆的时候也安心一点。</p></li>
+</ul>
 ]]></content>
       <tags>
         <tag>Diary</tag>
@@ -716,8 +729,7 @@ finite mean <span class="math inline">\(\mu_Z\)</span> and finite
 covariance matrix <span class="math inline">\(\Sigma_Z\)</span>. Then
 <span class="math display">\[
 E(Z&#39;AZ)=tr(A\Sigma_Z)+\mu_Z&#39;A\mu_Z
-\]</span> <em>Proof</em> We use properties of the trace of a matrix
-<span class="math display">\[
+\]</span> <em>Proof</em> <span class="math display">\[
 E(Z&#39;AZ)=tr(E(Z&#39;AZ))=E(tr(Z&#39;AZ))=E(tr(AZZ&#39;))=tr(AE(ZZ&#39;))
 \]</span> <span class="math display">\[
 E(Z&#39;AZ)=tr(A(\Sigma_Z+\mu_Z\mu_Z&#39;))=tr(A\Sigma_Z)+tr(A\mu_Z\mu_Z&#39;)=tr(A\Sigma_Z)+\mu_Z&#39;A\mu_Z
@@ -1312,7 +1324,7 @@ and corresponding eigenvectors <span class="math inline">\(\boldsymbol
 e_1,\boldsymbol e_2,\dots,\boldsymbol e_p\)</span>. Then these
 ellipsoids are centered at <span class="math inline">\(\boldsymbol
 \mu\)</span> and have axes <span class="math inline">\(\pm
-c\sqrt{\lambda_i}\cdot\boldsymbol e_i\)</span></p>
+c\sqrt{\lambda_i}\cdot\boldsymbol e_i\)</span>.</p>
 <h3 id="properties-of-multivariate-normal-distribution">Properties of
 Multivariate Normal Distribution</h3>
 <h4 id="equivalent-definition">Equivalent Definition</h4>
@@ -1435,8 +1447,8 @@ respectively, then <span class="math display">\[
 \boldsymbol \mu_2
 \end{bmatrix},
 \begin{bmatrix}
-\Sigma_{11} &amp; \boldsymbol 0\\
-\boldsymbol 0 &amp; \Sigma_{22}
+\Sigma_{11} &amp; \Sigma_{12}\\
+\Sigma_{21} &amp; \Sigma_{22}
 \end{bmatrix})
 \]</span> then the conditional distribution of <span
 class="math inline">\(\boldsymbol X_1\)</span> given <span
@@ -1458,12 +1470,13 @@ denotes the chi-square distribution with p degree of freedom.</li>
 <li>The distribution <span class="math inline">\(N_p(\boldsymbol
 \mu,\Sigma)\)</span> assigns probability <span
 class="math inline">\(1-\alpha\)</span> to the solid ellipsoid <span
-class="math inline">\(\{\boldsymbol x:(\boldsymbol x-\boldsymbol
+class="math display">\[
+\{\boldsymbol x:(\boldsymbol x-\boldsymbol
 \mu)&#39;\Sigma^{-1}(\boldsymbol x-\boldsymbol
-\mu)\le\chi_{p,\alpha}^2\}\)</span>, where <span
-class="math inline">\(\chi_{p,\alpha}^2\)</span> denotes the upper <span
-class="math inline">\(\alpha\)</span> percentile of the <span
-class="math inline">\(\chi^2_p\)</span> distribution.</li>
+\mu)\le\chi_{p,\alpha}^2\}
+\]</span> where <span class="math inline">\(\chi_{p,\alpha}^2\)</span>
+denotes the upper <span class="math inline">\(\alpha\)</span> percentile
+of the <span class="math inline">\(\chi^2_p\)</span> distribution</li>
 </ul>
 <p>Note that <span class="math inline">\(\boldsymbol
 Z=\Sigma^{-\frac{1}{2}}(\boldsymbol X-\boldsymbol \mu)\sim
@@ -2300,7 +2313,7 @@ a&#39;(\frac{1}{n_1}S_1+\frac{1}{n_2}S_2)\boldsymbol a}
 c^2=\chi^2_{p,\alpha}
 \]</span></p>
 <h2 id="assumptions-underlying-t-squared-statistics">Assumptions
-underlying T-Squared Statistics</h2>
+Underlying T-Squared Statistics</h2>
 <ul>
 <li>Equal variance. The data from both populations have common
 variance-covariance matrix <span
@@ -2884,7 +2897,7 @@ class="math inline">\(\boldsymbol \mu\)</span> is the closest location
 <span class="math display">\[
 \hat{\boldsymbol c}=\boldsymbol \mu
 \]</span></p>
-<p><strong>The optimize the simplified objective function directly to
+<p><strong>Then optimize the simplified objective function directly to
 find the direction <span class="math inline">\(U\)</span></strong> <span
 class="math display">\[
 \min_{U}E(\boldsymbol d&#39;\boldsymbol d)
@@ -2936,6 +2949,35 @@ nS_n=X&#39;(I-\frac{1}{n}\boldsymbol 1_n\boldsymbol
 1_n\boldsymbol 1_n&#39;\)</span> is idempotent and each column of <span
 class="math inline">\(HX\)</span> has mean vector <span
 class="math inline">\(\boldsymbol \mu=\boldsymbol 0\)</span></p>
+]]></content>
+      <tags>
+        <tag>Courses</tag>
+        <tag>Statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LINEAR REGRESSION ANALYSIS</title>
+    <url>/2023/04/12/Linear-Regression-Analysis/</url>
+    <content><![CDATA[<p>My notes on the 2023 spring <em>Linear Regression Analysis</em>
+course taught by Professor Zaiying Zhou from <a
+href="http://www.stat.tsinghua.edu.cn">Center for Statistical
+Science</a>, <a href="https://www.tsinghua.edu.cn">Tsinghua
+University</a>.</p>
+<span id="more"></span>
+<h1 id="lecture-1-prelude">Lecture 1: Prelude</h1>
+<h2 id="goals-of-the-course">Goals of the Course</h2>
+<p>We will cover <strong><em>simple and multiple
+regression</em></strong>, <strong><em>one and two-way analysis of
+variance</em></strong>. The emphasis will be on</p>
+<ol type="1">
+<li>conceptual understanding of the models</li>
+<li>analysis methods and their intuitions</li>
+<li>interpretation of results</li>
+<li>proper use of linear model software (R)</li>
+</ol>
+<p>Mathematical manipulations are important but not the focus.
+<strong>Intuitive and statistical understanding</strong> of the theory
+is nonetheless required.</p>
 ]]></content>
       <tags>
         <tag>Courses</tag>

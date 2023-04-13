@@ -28,7 +28,7 @@
 <meta property="og:description" content="My notes on the 2023 spring Multivariate Statistical Analysis course taught by Professor Wanlu Deng from Center for Statistical Science, Tsinghua University.">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-04-12T07:23:42.000Z">
-<meta property="article:modified_time" content="2023-04-12T13:33:00.051Z">
+<meta property="article:modified_time" content="2023-04-13T12:23:39.833Z">
 <meta property="article:author" content="Photon">
 <meta property="article:tag" content="Courses">
 <meta property="article:tag" content="Statistics">
@@ -188,7 +188,7 @@ Tesing &amp; Simultaneous Confidence Intervals</span></a></li></ol></li></ol></l
 Mean Vectors from Two Populations: Unequal Variance and Large
 Sample</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#hypothesis-tesing-simultaneous-confidence-intervals-1"><span class="nav-text">Hypothesis
 Tesing &amp; Simultaneous Confidence Intervals</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#assumptions-underlying-t-squared-statistics"><span class="nav-text">Assumptions
-underlying T-Squared Statistics</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#testing-equal-variance-matrix-for-two-populations"><span class="nav-text">Testing Equal
+Underlying T-Squared Statistics</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#testing-equal-variance-matrix-for-two-populations"><span class="nav-text">Testing Equal
 Variance Matrix for Two Populations</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lrt-for-testing-equal-variance"><span class="nav-text">LRT for Testing Equal
 Variance</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#boxs-m-test-a-modified-lrt"><span class="nav-text">Box&#39;s M Test: A Modified LRT</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#assessing-the-assumption-of-normality"><span class="nav-text">Assessing the Assumption
 of Normality</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#statistical-testing"><span class="nav-text">Statistical Testing</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#graph-methods"><span class="nav-text">Graph Methods</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#quantile-quantile-plot"><span class="nav-text">Quantile-Quantile Plot</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#chi-square-plot"><span class="nav-text">Chi-Square Plot</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#when-your-data-is-not-normal"><span class="nav-text">When Your Data is NOT Normal</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#box-cox-transformations"><span class="nav-text">Box-Cox Transformations</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#outlier-detection"><span class="nav-text">Outlier Detection</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#lecture-6-principal-component-analysis"><span class="nav-text">Lecture 6: Principal
@@ -221,7 +221,7 @@ Interpretation of Dimension Reduction with PCA</span></a><ol class="nav-child"><
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -294,9 +294,15 @@ Interpretation of Dimension Reduction with PCA</span></a><ol class="nav-child"><
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2023-04-12 15:23:42 / Modified: 21:33:00" itemprop="dateCreated datePublished" datetime="2023-04-12T15:23:42+08:00">2023-04-12</time>
+      <time title="Created: 2023-04-12 15:23:42" itemprop="dateCreated datePublished" datetime="2023-04-12T15:23:42+08:00">2023-04-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-04-13 20:23:39" itemprop="dateModified" datetime="2023-04-13T20:23:39+08:00">2023-04-13</time>
     </span>
 
   
@@ -558,8 +564,7 @@ finite mean <span class="math inline">\(\mu_Z\)</span> and finite
 covariance matrix <span class="math inline">\(\Sigma_Z\)</span>. Then
 <span class="math display">\[
 E(Z&#39;AZ)=tr(A\Sigma_Z)+\mu_Z&#39;A\mu_Z
-\]</span> <em>Proof</em> We use properties of the trace of a matrix
-<span class="math display">\[
+\]</span> <em>Proof</em> <span class="math display">\[
 E(Z&#39;AZ)=tr(E(Z&#39;AZ))=E(tr(Z&#39;AZ))=E(tr(AZZ&#39;))=tr(AE(ZZ&#39;))
 \]</span> <span class="math display">\[
 E(Z&#39;AZ)=tr(A(\Sigma_Z+\mu_Z\mu_Z&#39;))=tr(A\Sigma_Z)+tr(A\mu_Z\mu_Z&#39;)=tr(A\Sigma_Z)+\mu_Z&#39;A\mu_Z
@@ -1154,7 +1159,7 @@ and corresponding eigenvectors <span class="math inline">\(\boldsymbol
 e_1,\boldsymbol e_2,\dots,\boldsymbol e_p\)</span>. Then these
 ellipsoids are centered at <span class="math inline">\(\boldsymbol
 \mu\)</span> and have axes <span class="math inline">\(\pm
-c\sqrt{\lambda_i}\cdot\boldsymbol e_i\)</span></p>
+c\sqrt{\lambda_i}\cdot\boldsymbol e_i\)</span>.</p>
 <h3 id="properties-of-multivariate-normal-distribution">Properties of
 Multivariate Normal Distribution</h3>
 <h4 id="equivalent-definition">Equivalent Definition</h4>
@@ -1277,8 +1282,8 @@ respectively, then <span class="math display">\[
 \boldsymbol \mu_2
 \end{bmatrix},
 \begin{bmatrix}
-\Sigma_{11} &amp; \boldsymbol 0\\
-\boldsymbol 0 &amp; \Sigma_{22}
+\Sigma_{11} &amp; \Sigma_{12}\\
+\Sigma_{21} &amp; \Sigma_{22}
 \end{bmatrix})
 \]</span> then the conditional distribution of <span
 class="math inline">\(\boldsymbol X_1\)</span> given <span
@@ -1300,12 +1305,13 @@ denotes the chi-square distribution with p degree of freedom.</li>
 <li>The distribution <span class="math inline">\(N_p(\boldsymbol
 \mu,\Sigma)\)</span> assigns probability <span
 class="math inline">\(1-\alpha\)</span> to the solid ellipsoid <span
-class="math inline">\(\{\boldsymbol x:(\boldsymbol x-\boldsymbol
+class="math display">\[
+\{\boldsymbol x:(\boldsymbol x-\boldsymbol
 \mu)&#39;\Sigma^{-1}(\boldsymbol x-\boldsymbol
-\mu)\le\chi_{p,\alpha}^2\}\)</span>, where <span
-class="math inline">\(\chi_{p,\alpha}^2\)</span> denotes the upper <span
-class="math inline">\(\alpha\)</span> percentile of the <span
-class="math inline">\(\chi^2_p\)</span> distribution.</li>
+\mu)\le\chi_{p,\alpha}^2\}
+\]</span> where <span class="math inline">\(\chi_{p,\alpha}^2\)</span>
+denotes the upper <span class="math inline">\(\alpha\)</span> percentile
+of the <span class="math inline">\(\chi^2_p\)</span> distribution</li>
 </ul>
 <p>Note that <span class="math inline">\(\boldsymbol
 Z=\Sigma^{-\frac{1}{2}}(\boldsymbol X-\boldsymbol \mu)\sim
@@ -2142,7 +2148,7 @@ a&#39;(\frac{1}{n_1}S_1+\frac{1}{n_2}S_2)\boldsymbol a}
 c^2=\chi^2_{p,\alpha}
 \]</span></p>
 <h2 id="assumptions-underlying-t-squared-statistics">Assumptions
-underlying T-Squared Statistics</h2>
+Underlying T-Squared Statistics</h2>
 <ul>
 <li>Equal variance. The data from both populations have common
 variance-covariance matrix <span
@@ -2726,7 +2732,7 @@ class="math inline">\(\boldsymbol \mu\)</span> is the closest location
 <span class="math display">\[
 \hat{\boldsymbol c}=\boldsymbol \mu
 \]</span></p>
-<p><strong>The optimize the simplified objective function directly to
+<p><strong>Then optimize the simplified objective function directly to
 find the direction <span class="math inline">\(U\)</span></strong> <span
 class="math display">\[
 \min_{U}E(\boldsymbol d&#39;\boldsymbol d)
@@ -2817,6 +2823,9 @@ class="math inline">\(\boldsymbol \mu=\boldsymbol 0\)</span></p>
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2023/04/12/Linear-Regression-Analysis/" rel="next" title="LINEAR REGRESSION ANALYSIS">
+                  LINEAR REGRESSION ANALYSIS <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
     </footer>
