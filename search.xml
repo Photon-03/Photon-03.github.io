@@ -1627,279 +1627,6 @@ T=\{(x_1,x_2,\dots,x_n,y)|y\le f(x_1,x_2,\dots,x_n)\text{ and
       </tags>
   </entry>
   <entry>
-    <title>LINEAR REGRESSION ANALYSIS</title>
-    <url>/2023/04/12/Linear-Regression-Analysis/</url>
-    <content><![CDATA[<p>My notes on the 2023 spring <em>Linear Regression Analysis</em>
-course taught by Professor Zaiying Zhou from <a
-href="http://www.stat.tsinghua.edu.cn">Center for Statistical
-Science</a>, <a href="https://www.tsinghua.edu.cn">Tsinghua
-University</a>.</p>
-<span id="more"></span>
-<h1 id="lecture-1-prelude">Lecture 1: Prelude</h1>
-<h2 id="goals-of-the-course">Goals of the Course</h2>
-<p>We will cover <strong><em>simple and multiple
-regression</em></strong>, <strong><em>one and two-way analysis of
-variance</em></strong>. The emphasis will be on</p>
-<ol type="1">
-<li>conceptual understanding of the models</li>
-<li>analysis methods and their intuitions</li>
-<li>interpretation of results</li>
-<li>proper use of linear model software (R)</li>
-</ol>
-<p>Mathematical manipulations are important but not the focus.
-<strong>Intuitive and statistical understanding</strong> of the theory
-is nonetheless required.</p>
-]]></content>
-      <tags>
-        <tag>Courses</tag>
-        <tag>Statistics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>INTERNATIONAL ECONOMICS</title>
-    <url>/2023/04/12/International-Economics/</url>
-    <content><![CDATA[<p>My notes on the 2023 spring <em>International Economics</em> course
-taught by Professor Hong Ma and Professor Tuo Chen from <a
-href="https://www.sem.tsinghua.edu.cn">School of Economics and
-Management</a>, <a href="https://www.tsinghua.edu.cn">Tsinghua
-University</a>.</p>
-<span id="more"></span>
-<h1 id="lecture-1-introduction-the-ricardian-model">Lecture 1:
-Introduction &amp; The Ricardian Model</h1>
-<h2 id="why-study-trade-important-interesting-and-relevant">Why Study
-Trade: Important, Interesting, and Relevant</h2>
-<p><strong>Trade in general is beneficial</strong></p>
-<ul>
-<li>In almost all cases, trade makes the world better off</li>
-</ul>
-<p><strong>But not everyone gains from trade</strong></p>
-<ul>
-<li>Trade not only creates gains, but also causes a
-<strong>re-distribution</strong> of wealth</li>
-<li>winners and losers from globalization</li>
-</ul>
-<p>We want to understand who gains, who loses, and why, thus we can make
-better policy decisions.</p>
-<h2 id="how-levels-of-technology-shape-the-world-trade-pattern">How
-Levels of Technology Shape the World Trade Pattern</h2>
-<p><strong>Absolute advantage</strong></p>
-<p>A country should specialize in what it can produce most
-efficiently.</p>
-<p><strong>Comparative advantage</strong></p>
-<p>A country can engage in trade even when her workers are less
-efficient at producing <strong><em>every single good</em></strong> than
-workers in other countries.</p>
-<h2 id="ricardian-model">Ricardian Model</h2>
-<p><strong>Basic assumptions: 2-2-1 model</strong></p>
-<ol type="1">
-<li>Two countries: Home and Foreign</li>
-<li>Two goods: Wheat and Cloth</li>
-<li>A single factor of production: labor
-<ul>
-<li>Ignore land and capital for now</li>
-<li>Home has 25 workers &amp; Foreign has 100 workers</li>
-</ul></li>
-<li>Technology is country-specific</li>
-<li>Perfect competition</li>
-</ol>
-<h3 id="the-home-country">The Home Country</h3>
-<p>Labor productivity: The <strong>marginal product of labor</strong>
-(MPL) describes the extra output obtained by using one more unit of
-labor.</p>
-<p>In Home, one worker produces</p>
-<ul>
-<li>4 bushels of wheat, so <span
-class="math inline">\(MPL_W=4\)</span></li>
-<li>2 yards of cloth, so <span
-class="math inline">\(MPL_C=2\)</span></li>
-</ul>
-<p>Given MPLs, we could calculate the <strong>opportunity
-costs</strong>, which describes the amount of cloth that must be given
-up to obtain one more unit of wheat.</p>
-<p>The opportunity cost of wheat is <span
-class="math inline">\(\frac{MPL_C}{MLP_W}\)</span> and the opportunity
-cost of cloth is <span
-class="math inline">\(\frac{MPL_W}{MLP_C}\)</span>. We should note that
-the higher is MPL of its own, the lower is its opportunity cost.</p>
-<h4 id="home-production-possibilities-frontier-ppf">Home Production
-Possibilities Frontier (PPF)</h4>
-<p>The <strong>set of production possibilities</strong> is all the
-different combinations of wheat and cloth that Home can produce. <span
-class="math display">\[
-\frac{Q_W}{MPL_W}+\frac{Q_C}{MPL_C}\leq 25
-\]</span> The <strong>production possibility frontier (PPF)</strong>
-describes the most cloth that Home can produce for each unit of wheat
-produced. That is, PPF gives the production capacity of the home
-country. <span class="math display">\[
-\frac{Q_W}{MPL_W}+\frac{Q_C}{MPL_C}=25
-\]</span> The economic interpretation of the slope: <span
-class="math display">\[
-\text{Slope of PPF}=-\frac{MPL_C}{MPL_W}
-\]</span> It is the ratio of marginal products of the two goods and the
-slope also equals <strong>the opportunity cost</strong> of wheat.</p>
-<p><strong>Understanding Home PPF</strong></p>
-<ul>
-<li>What happens if the labor force doubles</li>
-<li>What happens if there is technological progress in cloth
-production</li>
-</ul>
-<h4 id="prices-of-goods-wages">Prices of goods &amp; Wages</h4>
-<p>In <strong>competitive markets</strong>, firms hire workers up to the
-point at which the hourly wage equals <strong>the value of one more hour
-of production</strong>, which equals <strong>MPL</strong> times the
-<strong>price</strong> of the good. <span class="math display">\[
-\begin{aligned}
-\text{Wage}_C&amp;=P_C\cdot MPL \\
-\text{Wage}_W&amp;=P_W\cdot MPL
-\end{aligned}
-\]</span> Since labor can move freely between industries, it will
-continue moving until the equalization of wages across industries, which
-resulted in that labor is hired up to the point where <span
-class="math display">\[
-\text{Wage}_C=\text{Wage}_W
-\]</span> Rearranging terms, we see that <span class="math display">\[
-\frac{P_W}{P_C}=\frac{MPL_C}{MPL_W}=\frac{1}{2}
-\]</span> This equation says that <strong><em>the relative price of
-wheat</em></strong> (on the left) and <strong><em>opportunity cost of
-wheat</em></strong> (on the right) must be equal in the no-trade
-equilibrium.</p>
-<p><strong>Therefore, in competitive markets, price reflects the
-opportunity cost of a good.</strong></p>
-<h4 id="deriving-the-equilibrium">Deriving the Equilibrium</h4>
-<p>Adding a relative demand curve will pin down the domestic
-equilibrium. More generally, to derive demand curve, we need consumers'
-preferences.</p>
-<ol type="1">
-<li>Representative consumer: For simplicity, we assume all workers have
-the same preference.</li>
-<li>Use <strong>indifference curves</strong> to represent
-preference.</li>
-<li>Each indifference curve shows the combinations of two goods, such as
-wheat and cloth, that a person or economy can consume and be equally
-satisfied.</li>
-<li>All points on an indifference curve have the same level of utility
-and points on higher indifference curves have higher utility.</li>
-</ol>
-<h4 id="autarkic-closed-economy-equilibrium">Autarkic (Closed-Economy)
-Equilibrium</h4>
-<p>With perfectly competitive markets, the country will produce at its
-highest level of utility within the limits of the PPF.</p>
-<p>Three equilibrium conditions:</p>
-<ol type="1">
-<li>Consumers (workers) maximize their utility</li>
-<li>Workers maximize their revenue (wage)</li>
-<li>Consumption = Production</li>
-</ol>
-<h3 id="the-foreign-country">The Foreign Country</h3>
-<p>Assume a Foreign worker can produce one bushel of wheat or one yard
-of cloth, i.e., <span class="math inline">\(MPL^*_W=1\)</span> and <span
-class="math inline">\(MPL^*_C=1\)</span>. So Foreign's technology is
-inferior to Home's in both goods, which means Home has
-<strong><em>absolute advantage</em></strong> in making both goods.</p>
-<p>Assume there are 100 workers available in Foreign.</p>
-<ul>
-<li>The Foreign PPF is a straight line between 100 yards of cloth and
-100 bushels of wheat.</li>
-<li>The slope of the PPF equals the negative of the opportunity cost of
-wheat.</li>
-<li>The opportunity cost is amount of cloth that must be given up (1
-yard) to obtain 1 more bushel of wheat.</li>
-</ul>
-<blockquote>
-<p><strong>Comparative Advantage vs. Absolute Advantage</strong></p>
-<p>Home has <strong>absolute advantage</strong> in making both goods.
-But Foreign has a <strong>comparative advantage</strong> in making cloth
-because the <strong>opportunity cost</strong> of cloth in Foreign is
-less than that in Home.</p>
-</blockquote>
-<h3 id="determining-the-pattern-of-international-trade">Determining the
-Pattern of International Trade</h3>
-<p>The no-trade relative price equals its opportunity cost of
-production:</p>
-<ul>
-<li>The relative price of wheat in <strong>Foreign</strong> is <span
-class="math inline">\(P_W^*/P_C^*=1\)</span>.</li>
-<li>The relative price of wheat in <strong>Home</strong> is <span
-class="math inline">\(P_W/P_C=1/2\)</span>.</li>
-</ul>
-<p><strong>Who Exports What</strong></p>
-<p>Both countries export the good for which they have the comparative
-advantage, i.e., Home exports wheat and Foreign exports cloth.</p>
-<p><strong>How would Prices Change</strong></p>
-<p>The <strong>relative price</strong> of wheat to cloth will become the
-same in both countries:</p>
-<ul>
-<li>First, it depends on world supply and demand.</li>
-<li>Second, it will be between the no-trade price in the two countries
-<span class="math inline">\(P_W^*/P_C^*\)</span> and <span
-class="math inline">\(P_W/P_C\)</span>.</li>
-</ul>
-<p>For now <strong>assume</strong> the free-trade price of <span
-class="math inline">\(P_W/P_C=2/3\)</span>, then we can take this price
-and see how trade changes production and consumption in each
-country.</p>
-<p><strong>Where is the Production Point</strong></p>
-<p>Home producers of wheat can earn more than the opportunity cost of
-wheat by selling it to Foreign. Labor resources will be shifted toward
-the production of wheat and increase its production. <span
-class="math display">\[
-\frac{\text{Wage}_W}{\text{Wage}_C}=\frac{P_W\cdot MPL_W}{P_C\cdot
-MPL_C}=\frac{2}{3}\cdot\frac{4}{2}&gt;1
-\]</span> Therefore, Home's workers will want to work in wheat and no
-cloth will be produced.</p>
-<p>With trade, Home will be <strong><em>fully specialized</em></strong>
-in wheat production, and will export wheat for cloth.</p>
-<p><strong>Where is the Consumption Point</strong></p>
-<p>The <strong>world price line</strong> <span
-class="math inline">\((\text{slope}=-2/3)\)</span> shows the range of
-<strong>consumption possibilities</strong> that a country can achieve by
-specializing in one good and engaging in international trade.</p>
-<p><strong>Change in Production and Consumption</strong></p>
-<p>Home consumption occurs at the point where utility is maximized,
-i.e., at the tangent intersection with indifference curve of highest
-possible utility.</p>
-<p>With trade, the optimal consumption bundle does not need to be the
-same as the optimal production bundle. And Home obtains a higher utility
-with international trade than in the absence of trade.</p>
-<p><strong>Pattern of Trade and Gains from Trade</strong></p>
-<p>Foreign consumption occurs at point C*, and total exports are 40
-yards of cloth in exchange for imports of 60 bushels of wheat. Relative
-to its pre-trade wheat and cloth consumption (point A*), Foreign
-consumes 10 more bushels of wheat and 10 more yards of cloth.</p>
-<ul>
-<li>trade triangular</li>
-</ul>
-<h3 id="lessons-from-the-ricardian-model-so-far">Lessons from the
-Ricardian Model so far</h3>
-<p><strong>The pattern of trade is determined by comparative
-advantage</strong></p>
-<ul>
-<li>Each country is <em>specializing in</em> and <em>exporting</em> the
-good for which it has the comparative advantage.</li>
-<li><strong><em>complete specialization</em></strong> in this case</li>
-</ul>
-<p><strong>There are gains from trade for both countries</strong></p>
-<ul>
-<li>Indeed, every person gains from trade in this model <span
-class="math display">\[\begin{align}
-\text{Home wage}=4\text{ bushels of wheat}\text{ or }\frac{8}{3}\text{
-yards of cloth}\\
-\text{Foreign wage}=\frac{3}{2}\text{ bushels of wheat}\text{ or
-}1\text{ yard of cloth}
-\end{align}\]</span></li>
-</ul>
-<p><strong>Wages are determined by absolute advantage</strong></p>
-<ul>
-<li>Foreign workers earn <em>less than</em> Home workers as measured by
-their ability to purchase either good.</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>Economics</tag>
-        <tag>Courses</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MULTIVARIATE STATISTICAL ANALYSIS</title>
     <url>/2023/04/12/Multivariate-Statistical-Analysis/</url>
     <content><![CDATA[<p>My notes on the 2023 spring <em>Multivariate Statistical
@@ -4371,6 +4098,279 @@ nS_n=X&#39;(I-\frac{1}{n}\boldsymbol 1_n\boldsymbol
 1_n\boldsymbol 1_n&#39;\)</span> is idempotent and each column of <span
 class="math inline">\(HX\)</span> has mean vector <span
 class="math inline">\(\boldsymbol \mu=\boldsymbol 0\)</span></p>
+]]></content>
+      <tags>
+        <tag>Courses</tag>
+        <tag>Statistics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>INTERNATIONAL ECONOMICS</title>
+    <url>/2023/04/12/International-Economics/</url>
+    <content><![CDATA[<p>My notes on the 2023 spring <em>International Economics</em> course
+taught by Professor Hong Ma and Professor Tuo Chen from <a
+href="https://www.sem.tsinghua.edu.cn">School of Economics and
+Management</a>, <a href="https://www.tsinghua.edu.cn">Tsinghua
+University</a>.</p>
+<span id="more"></span>
+<h1 id="lecture-1-introduction-the-ricardian-model">Lecture 1:
+Introduction &amp; The Ricardian Model</h1>
+<h2 id="why-study-trade-important-interesting-and-relevant">Why Study
+Trade: Important, Interesting, and Relevant</h2>
+<p><strong>Trade in general is beneficial</strong></p>
+<ul>
+<li>In almost all cases, trade makes the world better off</li>
+</ul>
+<p><strong>But not everyone gains from trade</strong></p>
+<ul>
+<li>Trade not only creates gains, but also causes a
+<strong>re-distribution</strong> of wealth</li>
+<li>winners and losers from globalization</li>
+</ul>
+<p>We want to understand who gains, who loses, and why, thus we can make
+better policy decisions.</p>
+<h2 id="how-levels-of-technology-shape-the-world-trade-pattern">How
+Levels of Technology Shape the World Trade Pattern</h2>
+<p><strong>Absolute advantage</strong></p>
+<p>A country should specialize in what it can produce most
+efficiently.</p>
+<p><strong>Comparative advantage</strong></p>
+<p>A country can engage in trade even when her workers are less
+efficient at producing <strong><em>every single good</em></strong> than
+workers in other countries.</p>
+<h2 id="ricardian-model">Ricardian Model</h2>
+<p><strong>Basic assumptions: 2-2-1 model</strong></p>
+<ol type="1">
+<li>Two countries: Home and Foreign</li>
+<li>Two goods: Wheat and Cloth</li>
+<li>A single factor of production: labor
+<ul>
+<li>Ignore land and capital for now</li>
+<li>Home has 25 workers &amp; Foreign has 100 workers</li>
+</ul></li>
+<li>Technology is country-specific</li>
+<li>Perfect competition</li>
+</ol>
+<h3 id="the-home-country">The Home Country</h3>
+<p>Labor productivity: The <strong>marginal product of labor</strong>
+(MPL) describes the extra output obtained by using one more unit of
+labor.</p>
+<p>In Home, one worker produces</p>
+<ul>
+<li>4 bushels of wheat, so <span
+class="math inline">\(MPL_W=4\)</span></li>
+<li>2 yards of cloth, so <span
+class="math inline">\(MPL_C=2\)</span></li>
+</ul>
+<p>Given MPLs, we could calculate the <strong>opportunity
+costs</strong>, which describes the amount of cloth that must be given
+up to obtain one more unit of wheat.</p>
+<p>The opportunity cost of wheat is <span
+class="math inline">\(\frac{MPL_C}{MLP_W}\)</span> and the opportunity
+cost of cloth is <span
+class="math inline">\(\frac{MPL_W}{MLP_C}\)</span>. We should note that
+the higher is MPL of its own, the lower is its opportunity cost.</p>
+<h4 id="home-production-possibilities-frontier-ppf">Home Production
+Possibilities Frontier (PPF)</h4>
+<p>The <strong>set of production possibilities</strong> is all the
+different combinations of wheat and cloth that Home can produce. <span
+class="math display">\[
+\frac{Q_W}{MPL_W}+\frac{Q_C}{MPL_C}\leq 25
+\]</span> The <strong>production possibility frontier (PPF)</strong>
+describes the most cloth that Home can produce for each unit of wheat
+produced. That is, PPF gives the production capacity of the home
+country. <span class="math display">\[
+\frac{Q_W}{MPL_W}+\frac{Q_C}{MPL_C}=25
+\]</span> The economic interpretation of the slope: <span
+class="math display">\[
+\text{Slope of PPF}=-\frac{MPL_C}{MPL_W}
+\]</span> It is the ratio of marginal products of the two goods and the
+slope also equals <strong>the opportunity cost</strong> of wheat.</p>
+<p><strong>Understanding Home PPF</strong></p>
+<ul>
+<li>What happens if the labor force doubles</li>
+<li>What happens if there is technological progress in cloth
+production</li>
+</ul>
+<h4 id="prices-of-goods-wages">Prices of goods &amp; Wages</h4>
+<p>In <strong>competitive markets</strong>, firms hire workers up to the
+point at which the hourly wage equals <strong>the value of one more hour
+of production</strong>, which equals <strong>MPL</strong> times the
+<strong>price</strong> of the good. <span class="math display">\[
+\begin{aligned}
+\text{Wage}_C&amp;=P_C\cdot MPL \\
+\text{Wage}_W&amp;=P_W\cdot MPL
+\end{aligned}
+\]</span> Since labor can move freely between industries, it will
+continue moving until the equalization of wages across industries, which
+resulted in that labor is hired up to the point where <span
+class="math display">\[
+\text{Wage}_C=\text{Wage}_W
+\]</span> Rearranging terms, we see that <span class="math display">\[
+\frac{P_W}{P_C}=\frac{MPL_C}{MPL_W}=\frac{1}{2}
+\]</span> This equation says that <strong><em>the relative price of
+wheat</em></strong> (on the left) and <strong><em>opportunity cost of
+wheat</em></strong> (on the right) must be equal in the no-trade
+equilibrium.</p>
+<p><strong>Therefore, in competitive markets, price reflects the
+opportunity cost of a good.</strong></p>
+<h4 id="deriving-the-equilibrium">Deriving the Equilibrium</h4>
+<p>Adding a relative demand curve will pin down the domestic
+equilibrium. More generally, to derive demand curve, we need consumers'
+preferences.</p>
+<ol type="1">
+<li>Representative consumer: For simplicity, we assume all workers have
+the same preference.</li>
+<li>Use <strong>indifference curves</strong> to represent
+preference.</li>
+<li>Each indifference curve shows the combinations of two goods, such as
+wheat and cloth, that a person or economy can consume and be equally
+satisfied.</li>
+<li>All points on an indifference curve have the same level of utility
+and points on higher indifference curves have higher utility.</li>
+</ol>
+<h4 id="autarkic-closed-economy-equilibrium">Autarkic (Closed-Economy)
+Equilibrium</h4>
+<p>With perfectly competitive markets, the country will produce at its
+highest level of utility within the limits of the PPF.</p>
+<p>Three equilibrium conditions:</p>
+<ol type="1">
+<li>Consumers (workers) maximize their utility</li>
+<li>Workers maximize their revenue (wage)</li>
+<li>Consumption = Production</li>
+</ol>
+<h3 id="the-foreign-country">The Foreign Country</h3>
+<p>Assume a Foreign worker can produce one bushel of wheat or one yard
+of cloth, i.e., <span class="math inline">\(MPL^*_W=1\)</span> and <span
+class="math inline">\(MPL^*_C=1\)</span>. So Foreign's technology is
+inferior to Home's in both goods, which means Home has
+<strong><em>absolute advantage</em></strong> in making both goods.</p>
+<p>Assume there are 100 workers available in Foreign.</p>
+<ul>
+<li>The Foreign PPF is a straight line between 100 yards of cloth and
+100 bushels of wheat.</li>
+<li>The slope of the PPF equals the negative of the opportunity cost of
+wheat.</li>
+<li>The opportunity cost is amount of cloth that must be given up (1
+yard) to obtain 1 more bushel of wheat.</li>
+</ul>
+<blockquote>
+<p><strong>Comparative Advantage vs. Absolute Advantage</strong></p>
+<p>Home has <strong>absolute advantage</strong> in making both goods.
+But Foreign has a <strong>comparative advantage</strong> in making cloth
+because the <strong>opportunity cost</strong> of cloth in Foreign is
+less than that in Home.</p>
+</blockquote>
+<h3 id="determining-the-pattern-of-international-trade">Determining the
+Pattern of International Trade</h3>
+<p>The no-trade relative price equals its opportunity cost of
+production:</p>
+<ul>
+<li>The relative price of wheat in <strong>Foreign</strong> is <span
+class="math inline">\(P_W^*/P_C^*=1\)</span>.</li>
+<li>The relative price of wheat in <strong>Home</strong> is <span
+class="math inline">\(P_W/P_C=1/2\)</span>.</li>
+</ul>
+<p><strong>Who Exports What</strong></p>
+<p>Both countries export the good for which they have the comparative
+advantage, i.e., Home exports wheat and Foreign exports cloth.</p>
+<p><strong>How would Prices Change</strong></p>
+<p>The <strong>relative price</strong> of wheat to cloth will become the
+same in both countries:</p>
+<ul>
+<li>First, it depends on world supply and demand.</li>
+<li>Second, it will be between the no-trade price in the two countries
+<span class="math inline">\(P_W^*/P_C^*\)</span> and <span
+class="math inline">\(P_W/P_C\)</span>.</li>
+</ul>
+<p>For now <strong>assume</strong> the free-trade price of <span
+class="math inline">\(P_W/P_C=2/3\)</span>, then we can take this price
+and see how trade changes production and consumption in each
+country.</p>
+<p><strong>Where is the Production Point</strong></p>
+<p>Home producers of wheat can earn more than the opportunity cost of
+wheat by selling it to Foreign. Labor resources will be shifted toward
+the production of wheat and increase its production. <span
+class="math display">\[
+\frac{\text{Wage}_W}{\text{Wage}_C}=\frac{P_W\cdot MPL_W}{P_C\cdot
+MPL_C}=\frac{2}{3}\cdot\frac{4}{2}&gt;1
+\]</span> Therefore, Home's workers will want to work in wheat and no
+cloth will be produced.</p>
+<p>With trade, Home will be <strong><em>fully specialized</em></strong>
+in wheat production, and will export wheat for cloth.</p>
+<p><strong>Where is the Consumption Point</strong></p>
+<p>The <strong>world price line</strong> <span
+class="math inline">\((\text{slope}=-2/3)\)</span> shows the range of
+<strong>consumption possibilities</strong> that a country can achieve by
+specializing in one good and engaging in international trade.</p>
+<p><strong>Change in Production and Consumption</strong></p>
+<p>Home consumption occurs at the point where utility is maximized,
+i.e., at the tangent intersection with indifference curve of highest
+possible utility.</p>
+<p>With trade, the optimal consumption bundle does not need to be the
+same as the optimal production bundle. And Home obtains a higher utility
+with international trade than in the absence of trade.</p>
+<p><strong>Pattern of Trade and Gains from Trade</strong></p>
+<p>Foreign consumption occurs at point C*, and total exports are 40
+yards of cloth in exchange for imports of 60 bushels of wheat. Relative
+to its pre-trade wheat and cloth consumption (point A*), Foreign
+consumes 10 more bushels of wheat and 10 more yards of cloth.</p>
+<ul>
+<li>trade triangular</li>
+</ul>
+<h3 id="lessons-from-the-ricardian-model-so-far">Lessons from the
+Ricardian Model so far</h3>
+<p><strong>The pattern of trade is determined by comparative
+advantage</strong></p>
+<ul>
+<li>Each country is <em>specializing in</em> and <em>exporting</em> the
+good for which it has the comparative advantage.</li>
+<li><strong><em>complete specialization</em></strong> in this case</li>
+</ul>
+<p><strong>There are gains from trade for both countries</strong></p>
+<ul>
+<li>Indeed, every person gains from trade in this model <span
+class="math display">\[\begin{align}
+\text{Home wage}=4\text{ bushels of wheat}\text{ or }\frac{8}{3}\text{
+yards of cloth}\\
+\text{Foreign wage}=\frac{3}{2}\text{ bushels of wheat}\text{ or
+}1\text{ yard of cloth}
+\end{align}\]</span></li>
+</ul>
+<p><strong>Wages are determined by absolute advantage</strong></p>
+<ul>
+<li>Foreign workers earn <em>less than</em> Home workers as measured by
+their ability to purchase either good.</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>Economics</tag>
+        <tag>Courses</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LINEAR REGRESSION ANALYSIS</title>
+    <url>/2023/04/12/Linear-Regression-Analysis/</url>
+    <content><![CDATA[<p>My notes on the 2023 spring <em>Linear Regression Analysis</em>
+course taught by Professor Zaiying Zhou from <a
+href="http://www.stat.tsinghua.edu.cn">Center for Statistical
+Science</a>, <a href="https://www.tsinghua.edu.cn">Tsinghua
+University</a>.</p>
+<span id="more"></span>
+<h1 id="lecture-1-prelude">Lecture 1: Prelude</h1>
+<h2 id="goals-of-the-course">Goals of the Course</h2>
+<p>We will cover <strong><em>simple and multiple
+regression</em></strong>, <strong><em>one and two-way analysis of
+variance</em></strong>. The emphasis will be on</p>
+<ol type="1">
+<li>conceptual understanding of the models</li>
+<li>analysis methods and their intuitions</li>
+<li>interpretation of results</li>
+<li>proper use of linear model software (R)</li>
+</ol>
+<p>Mathematical manipulations are important but not the focus.
+<strong>Intuitive and statistical understanding</strong> of the theory
+is nonetheless required.</p>
 ]]></content>
       <tags>
         <tag>Courses</tag>
