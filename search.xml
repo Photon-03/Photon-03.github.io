@@ -86,6 +86,13 @@ Wiki</a>的网站，<del>顺便提升一下维护MkDocs的技术</del>。其实�
 <li><p>最离谱的事还是忘了晚上有转染实验，饭吃到一半突然收到两个同学的提醒，麻了。说来前几天发的安排表我也浏览了好几遍，愣是没注意到。<del>听上去很离谱，但考虑到是发生在我身上，事情就变得合理了许多。</del>赶过去的还算及时，和大部队一起完成了无聊的实验操作。中间有一步还加错了试剂，还好旁边的同学无意中提了一嘴，不然这次实验估计又要失败了。实验的间隙研究了五一怎么回北京，本来想坐第二天早上的飞机，顺便体验一下在机场过夜的感觉。但是没找到什么买特价机票的渠道，还是高铁算了。</p></li>
 <li><p>明天早上的习概课不打算去教室了，奖励自己多睡一会，要是有签到就去逛一圈刷阳光骑行。这样下午去实验室也不用带电脑了，省去了回宿舍擦电脑的时间，我真机智。</p></li>
 </ul>
+<h1 id="april-20th">April 20th</h1>
+<ul>
+<li><p>上午的习概时间窝在宿舍搬运笔记，没想到不开雨课堂的直播，虽然几个选择题都答上了，但仍然感觉比有直播的毛概心虚不少。下周还是去教室摸鱼算了。</p></li>
+<li><p>下午观察转染结果还挺顺利的，但是拍完照片就不知所措了。正好赶上尴尬症犯了，不好意思问助教应该怎么处理图片。先实践了连校园网用云盘的想法，但是忘记怎么调出联网的页面了，也不想在实验室的电脑上连Secure账号，最后就用局域网发给老师的终端了。写到这去看了一眼网络学堂的文件，果然是这么操作的，<del>我真机智</del>。</p></li>
+<li><p>这周抽场的运气不错，拿到了熟悉的周六上午紫操。约友谊赛也非常顺利，求约的消息发出去没几分钟，医药和车辆就陆续来约。神奇的事情就是，刚在通知群里发完接龙，法学就来换场地，这下就给我整不会了。其实我是不想换的，毕竟已经约好了，而且换到别的时间我也没空去。不过很巧的是，医药正好也拿了个周六的紫操，于是我就帮医药把这个场地送给法学了，<del>行善积德多是一件美事啊</del>。</p></li>
+<li><p>晚上玩了三个小时的CSGO，好久没这么放纵过了。CSGO的游戏环境还是挺不错的，还遇到个一直唱歌的社牛队友，搞得大家听不清脚步，笑死。之后检索了一波公财的文献，开始没多久就非常困，整理完洗了个脸就很精神。其实一直觉得中文领域的顶刊也挺水的，可惜英文文献的阅读强度太大了顶不住。今天还发现一个经管的朋友刚加进多元统计的群，原来她也是统辅人吗，<del>世界真小</del>。</p></li>
+</ul>
 ]]></content>
       <tags>
         <tag>Diary</tag>
@@ -5434,6 +5441,1695 @@ increase</li>
 will decrease</li>
 <li>workers may gain or lose</li>
 </ul>
+<h1 id="lecture-4-the-heckscher-ohlin-model">Lecture 4: The
+Heckscher-Ohlin Model</h1>
+<h2 id="a-quick-review">A Quick Review</h2>
+<p>The Ricardian model is very stylized.</p>
+<ul>
+<li>Labor is the only factor of production</li>
+<li>Countries differ in their technology (MPL).</li>
+<li>Each country is exporting the good for which it has the comparative
+advantage with complete specialization.</li>
+<li>Everyone gains from trade.</li>
+</ul>
+<p>The specific-factors model is powerful.</p>
+<ul>
+<li>It allows multiple factors of production <span
+class="math inline">\(L,K,T\)</span>.</li>
+<li>Overall each country gains from trade, but within country some win
+and some lose.</li>
+<li>It is a short-run model: some factors are specific and not mobile
+b/w sectors.</li>
+</ul>
+<h2 id="introducing-the-h-o-model">Introducing the H-O Model</h2>
+<p>The H-O model allows for</p>
+<ul>
+<li>Multiple factors (resources) that are mobile across sectors.
+<ul>
+<li>Thus it is a long-run model</li>
+</ul></li>
+<li>Trade can happen between countries with the identical technologies
+but different resources / endowments.</li>
+<li>How trade affects different types of factors in this long-run model
+<ul>
+<li>Trade generates winners and losers (owner of factors)</li>
+<li>But countries still overall gain from trade</li>
+</ul></li>
+</ul>
+<h2 id="plan-for-this-lecture">Plan for This Lecture</h2>
+<ul>
+<li>Describe the Heckscher-Ohlin model of trade
+<ul>
+<li>Understand the equilibrium</li>
+</ul></li>
+<li>Examine the empirical evidence on the Heckscher-Ohlin model
+<ul>
+<li>The predictions from the Heckscher-Ohlin model match more closely
+the trade patterns in the world economy</li>
+</ul></li>
+<li>Investigate gains from trade and its distribution</li>
+<li>Changes in endowment and development strategy</li>
+</ul>
+<h2 id="model-setup-1">Model Setup</h2>
+<ul>
+<li>Two countries: Home H &amp; Foreign F
+<ul>
+<li>Assume both countries can have the same level of technologies.</li>
+<li>They have different endowments: H is relatively more abundant in
+capital. <span class="math display">\[
+\frac{K_H}{L_H}&gt;\frac{K_F}{L_F}
+\]</span></li>
+</ul></li>
+<li>Two goods/industries: a <strong>capital intensive</strong> good C
+(e.g. computers) &amp; a <strong>labor intensive</strong> good S (e.g.
+shoes)
+<ul>
+<li>Goods move freely between countries.</li>
+</ul></li>
+<li>Two factors of production: Labor L &amp; Capital K
+<ul>
+<li>Both factors can move between industries freely.</li>
+<li>In the equilibrium, no factor price difference between sectors.</li>
+<li>Finally assume factors cannot move between countries (i.e. no
+immigration / Foreign Direct Investment).</li>
+</ul></li>
+</ul>
+<p><strong>Shoes Production is Labor Intensive</strong></p>
+<p>Shoes production is labor-intensive, meaning that it requires
+<strong>more labor per unit of capital</strong> to produce shoes than
+computers. <span
+class="math inline">\(\frac{L_S}{K_S}&gt;\frac{L_C}{K_C}\)</span> in
+both countries H and F.</p>
+<h2 id="production-outputs-and-inputs-1">Production: Outputs and
+Inputs</h2>
+<ul>
+<li>Input of Labor: let <span class="math inline">\(L_C^H\)</span>
+(<span class="math inline">\(L_S^H\)</span>) denotes the number of labor
+used in production of good C (good S)
+<ul>
+<li>Labor market clears: <span
+class="math inline">\(L^H=L_C^H+L_S^H\)</span></li>
+</ul></li>
+<li>Input of Capital: let <span class="math inline">\(K_C^H\)</span>
+(<span class="math inline">\(K_S^H\)</span>) denotes the capital used in
+production of good C (good S)
+<ul>
+<li>Capital market clears: <span
+class="math inline">\(K^H=K_C^H+K_S^H\)</span></li>
+</ul></li>
+<li>Output: let <span class="math inline">\(Q_C^H\)</span> (<span
+class="math inline">\(Q_S^H\)</span>) be the number of good C (good S)
+produced</li>
+</ul>
+<p>Then the production functions are <span class="math display">\[
+\begin{aligned}
+Q_C^H=Q_C^H(L_C^H,K_C^H)\quad&amp;\text{for good C}\\
+Q_S^H=Q_S^H(L_S^H,K_S^H)\quad&amp;\text{for good S}
+\end{aligned}
+\]</span></p>
+<p><strong>Constructing the PPF</strong></p>
+<p>Because Home is capital abundant and computers are capital intensive,
+the Home PPF is <strong>skewed</strong> toward computers.</p>
+<h2 id="wages-determination">Wages Determination</h2>
+<p>Labor (L) considers which sector to work, taking as given the prices
+of both goods, in equilibrium, we have</p>
+<ul>
+<li>wages are equalized between sectors: <span
+class="math inline">\(W_C=W_S\)</span></li>
+</ul>
+<p>Similarly capital (K) moves freely between two sectors, in
+equilibrium, we have</p>
+<ul>
+<li>capital rental rates are equalized between sectors: <span
+class="math inline">\(R_C=R_S\)</span></li>
+</ul>
+<p>Firms maximize their profits (e.g. computer sector) <span
+class="math display">\[
+\pi_C=\max_{L,K}(P_C\cdot Q_C(L,K)-W_C\cdot L_C-R_C\cdot L_C)
+\]</span></p>
+<ul>
+<li>FOC on Labor: <span class="math inline">\(P_C\cdot \frac{\partial
+Q_C}{\partial L_C}-W_C=0\)</span></li>
+<li>FOC on Capital: <span class="math inline">\(P_C\cdot \frac{\partial
+Q_C}{\partial K_C}-R_C=0\)</span></li>
+</ul>
+<p>thus we have <span class="math display">\[
+P_C\cdot MPL_C=W_C\qquad P_C\cdot MPK_C=R_C
+\]</span> which means <span class="math display">\[
+\frac{MPL_C}{MPK_C}=\frac{W_C}{R_C}
+\]</span></p>
+<p>Similarly the profit maximization in the Shoes sector derives <span
+class="math display">\[
+\frac{MPL_S}{MPK_S}=\frac{W_S}{R_S}
+\]</span></p>
+<h3 id="example">Example</h3>
+<p>Suppose the production functions are <span class="math display">\[
+\begin{aligned}
+Q_C=(L_C)^\delta(K_C)^{1-\delta}\quad&amp;\text{for good C}\\
+Q_S=(L_S)^\beta(K_S)^{1-\beta}\quad&amp;\text{for good S}
+\end{aligned}
+\]</span> we assume <span
+class="math inline">\(\delta&lt;\beta\)</span>, which means good S is
+labor intensive</p>
+<ul>
+<li><p>Then the marginal product of labor in Computer <span
+class="math display">\[
+MPL_C=\delta(L_C)^{\delta-1}(K_C)^{1-\delta}
+\]</span></p></li>
+<li><p>Then the marginal product of capital in Computer <span
+class="math display">\[
+MPL_K=(1-\delta)(L_C)^\delta(K_C)^{-\delta}
+\]</span></p></li>
+</ul>
+<p>Profit maximization implies the wage determination function <span
+class="math display">\[
+\frac{MPL_C}{MPK_C}=\frac{\delta}{1-\delta}(\frac{L_C}{K_C})^{-1}=\frac{W_C}{R_C}
+\]</span> This explains why the wage/rental curve is downward
+sloping.</p>
+<p>Similarly derive the wage/rental curve for the shoes sector <span
+class="math display">\[
+\frac{\beta}{1-\beta}(\frac{L_S}{K_S})^{-1}=\frac{W_S}{R_S}
+\]</span></p>
+<p>Recall that in equilibrium, it has to be true that <span
+class="math display">\[
+W_C=W_S\qquad R_C=R_S
+\]</span> so we have <span class="math display">\[
+\frac{\delta}{1-\delta}(\frac{L_C}{K_C})^{-1}=\frac{\beta}{1-\beta}(\frac{L_S}{K_S})^{-1}
+\]</span> thus <span class="math display">\[
+(\frac{L_S}{K_S})/(\frac{L_C}{K_C})=\frac{\beta}{1-\beta}/\frac{\delta}{1-\delta}&gt;1
+\]</span> which means that Shoes production is <strong>labor
+intensive</strong> while Computer Production is <strong>capital
+intensive</strong></p>
+<h2 id="prices-of-factors">Prices of Factors</h2>
+<p>In equilibrium, labor market clears and capital market clears <span
+class="math display">\[
+L=L_C+L_S\qquad K=K_C+K_S
+\]</span></p>
+<p>Thus the relative supply of labor and capital in Home is <span
+class="math display">\[
+\frac{L}{K}=\frac{L_C+L_S}{K_C+K_S}=\frac{L_C}{K_C}\times\frac{K_C}{K}+\frac{L_S}{K_S}\times\frac{K_S}{K}
+\]</span></p>
+<p>The RHS means that the overall relative labor demand is a
+<strong>weighted average</strong> of the labor to capital ratio in both
+sectors.</p>
+<p>In equilibrium, the relative labor supply (LHS) equals the relative
+labor demand (RHS).</p>
+<h2 id="wage-determination-factor-prices-and-goods-prices">Wage
+Determination: Factor Prices and Goods Prices</h2>
+<p>Suppose both Computer and Shoes are produced</p>
+<p>Then workers have to be paid equally in both sectors in equilibrium
+<span class="math display">\[
+W_C=W_S\iff P_C\cdot MPL_C=P_S\cdot
+MPL_S\iff\frac{P_C}{P_S}=\frac{MPL_S}{MPL_C}
+\]</span></p>
+<p>Similarly for the rental rates to be equalized between sectors <span
+class="math display">\[
+R_C=R_S\iff P_C\cdot MPK_C=P_S\cdot
+MPK_S\iff\frac{P_C}{P_S}=\frac{MPK_S}{MPK_C}
+\]</span></p>
+<h2 id="effect-of-computer-price-increase">Effect of Computer Price
+Increase</h2>
+<p>Suppose the relative price of Computers <span
+class="math inline">\(\frac{P_C}{P_S}\)</span> increases</p>
+<p><strong>What happens to the allocation of labor</strong></p>
+<ul>
+<li>Since <span
+class="math inline">\(\frac{P_C}{P_S}=\frac{MPL_S}{MPL_C}\)</span> so
+<span class="math inline">\(\frac{MPL_S}{MPL_C}\)</span> must
+increase.</li>
+<li>Recall MPL is diminishing when L increases, it must be that some
+labor moves from Shoes to Computer</li>
+<li>That means <span class="math inline">\(L_C\)</span> increases while
+<span class="math inline">\(L_S\)</span> decreases.</li>
+</ul>
+<p><strong>What happens to the allocation of capital</strong></p>
+<ul>
+<li>Since <span
+class="math inline">\(\frac{P_C}{P_S}=\frac{MPK_S}{MPK_C}\)</span> so
+<span class="math inline">\(\frac{MPK_S}{MPK_C}\)</span> must
+increase.</li>
+<li>Recall MPK is diminishing when K increases, it must be that some
+capital moves from Shoes to Computer</li>
+<li>That means <span class="math inline">\(K_C\)</span> increases while
+<span class="math inline">\(K_S\)</span> decreases.</li>
+</ul>
+<p>Thus when <span class="math inline">\(\frac{P_C}{P_S}\)</span>
+increases, both labor and capital will move from Shoes to Computer
+production.</p>
+<p><strong>How will this affect the relative returns to factors (wages
+and rental rates)</strong></p>
+<p>Note that in the equation <span class="math display">\[
+\frac{L}{K}=\frac{L_C+L_S}{K_C+K_S}=\frac{L_C}{K_C}\times\frac{K_C}{K}+\frac{L_S}{K_S}\times\frac{K_S}{K}
+\]</span> <span class="math inline">\(\frac{K_C}{K}\)</span> increases
+while <span class="math inline">\(\frac{K_S}{K}\)</span> decreases</p>
+<p>And given any <span class="math inline">\(\frac{W}{R}\)</span> we
+know <span
+class="math inline">\(\frac{L_C}{K_C}&lt;\frac{L_S}{K_S}\)</span>, which
+implies that when the weight of the Computer sector increases, the total
+relative labor demand will drop.</p>
+<p>The corespongding result is that <strong>an increase in the relative
+price of a good will increase the relative factor price of the factor
+that it uses intensively</strong>.</p>
+<h3 id="winners-and-losers-from-a-price-change">Winners and Losers from
+a Price Change</h3>
+<p><strong>Who benefits from the increase in the relative price of
+Computers</strong></p>
+<ul>
+<li><span class="math inline">\(\frac{W}{R}\)</span> decreases as a
+result</li>
+<li>both <span class="math inline">\(\frac{L_C}{K_C}\)</span> and <span
+class="math inline">\(\frac{L_S}{K_S}\)</span> increase</li>
+</ul>
+<p><strong>What happens to <span class="math inline">\(MPL_i\)</span>
+and <span class="math inline">\(MPK_i\)</span></strong></p>
+<ul>
+<li>Recall in equilibrium we have <span
+class="math inline">\(\frac{MPL_i}{MPK_i}=\frac{W}{R}\)</span></li>
+<li>It must be true that MPL in both sectors has fallen, and MPK in both
+sectors has risen.</li>
+</ul>
+<p><strong>What can a worker buy with income <span
+class="math inline">\(W\)</span></strong></p>
+<ul>
+<li>If she only buys Computers, she can buy <span
+class="math inline">\(\frac{W}{P_C}\)</span> where <span
+class="math inline">\(W=P_C\cdot MPL_C\)</span></li>
+<li>If she only buys Shoes, she can buy <span
+class="math inline">\(\frac{W}{P_S}\)</span> where <span
+class="math inline">\(W=P_S\cdot MPL_S\)</span></li>
+<li>Since MPL falls in both sectors, a worker is <strong>unambiguously
+worse off</strong>.</li>
+</ul>
+<p><strong>What can a capital owner buy with income <span
+class="math inline">\(R\)</span></strong></p>
+<ul>
+<li>If she only buys Computers, she can buy <span
+class="math inline">\(\frac{R}{P_C}\)</span> where <span
+class="math inline">\(R=P_C\cdot MPK_C\)</span></li>
+<li>If she only buys Shoes, she can buy <span
+class="math inline">\(\frac{R}{P_S}\)</span> where <span
+class="math inline">\(R=P_S\cdot MPK_S\)</span></li>
+<li>Since MPK rises in both sectors, a capital owner is
+<strong>unambiguously better off</strong>.</li>
+</ul>
+<h3 id="stolper-samuelson-theorem">Stolper-Samuelson Theorem</h3>
+<p>In the long run, when all factors are mobile, an increase in the
+relative price of a good will increase the real earnings of the factor
+used intensively in the production of that good and decrease the real
+earnings of the other factor.</p>
+<p><strong>What does Stolper-Samuelson Theorem imply in
+reality</strong></p>
+<p>Think of USA and China, the Stolper-Samuelson theorem predicts that
+when USA opens to trade and faces a higher relative price of computers,
+the real rental on capital in the US rises and the real wage in the US
+falls. In China, the changes in real factor prices are just the reverse:
+workers gain from trade.</p>
+<p>What if we have two types of labor: skilled (e.g. college graduates)
+versus unskilled (e.g. blue-collar)</p>
+<h2 id="opinions-toward-free-trade">Opinions toward Free Trade</h2>
+<p><strong>What is the prediction in the short run specific-factors
+model</strong></p>
+<ul>
+<li>labor may gain or lose from free trade</li>
+<li>the specific factor in the export sector gains, and the specific
+factor in the import sector loses</li>
+<li>but if labor also earns some part of the rental on the specific
+factor in their industry, the industry of employment of workers (i.e.
+which industry you are employed) will affect their attitudes toward free
+trade.
+<ul>
+<li>Workers in export sector will favor free trade</li>
+<li>Workers in import sector will be against free trade</li>
+</ul></li>
+</ul>
+<p><strong>In the long-run Heckscher-Ohlin model, however, the industry
+of employment should not matter</strong></p>
+<p>According to the Stolper-Samuelson theorem, an increase in the
+relative price of exports will benefit the factor of production used
+intensively in exports and harm the other, regardless of the industry in
+which these factors of production actually work.</p>
+<h3 id="testing-opinions-toward-free-trade">Testing Opinions toward Free
+Trade</h3>
+<p>In the United States, export industries tend to use high-skilled
+labor intensively, for research and development and other scientific
+work.</p>
+<ul>
+<li>So in the long run, then, the skill level of workers should
+determine their attitudes toward free trade.</li>
+</ul>
+<p>Thus by surveying people's opinion towards free trade, and connect
+their opinion to their industry of employment, and education level, we
+could tell which model (H-O vs. Specific-Factors) works better in the
+US. In a survey conducted in the US by the National Elections Studies
+(NES) in 1992, we found that</p>
+<ul>
+<li>the industry of employment was somewhat important in explaining the
+respondents' attitudes toward free trade</li>
+<li>but their skill level was much more important</li>
+</ul>
+<p>Also see research by Edward Mansfield and Diana Mutz, professors in
+the political science department of the UPenn</p>
+<ul>
+<li>they conclude that trade preferences are driven less by economic
+considerations and more by an individuals psychological worldview</li>
+</ul>
+<h2 id="patterns-of-trade">Patterns of Trade</h2>
+<p>Now let's suppose there are two countries H &amp; F and <span
+class="math inline">\(\frac{L^H}{K^H}&lt;\frac{L^F}{K^F}\)</span></p>
+<ul>
+<li>Home is capital abundant while Foreign is labor abundant</li>
+</ul>
+<p>What will happen if H &amp; F open up to trade</p>
+<ul>
+<li>Home exports computers, the good that uses intensively the abundant
+factor of production (capital).</li>
+<li>Foreign exports shoes, the good that uses intensively the abundant
+factor of production (labor).</li>
+</ul>
+<h3 id="heckscher-ohlin-theorem">Heckscher-Ohlin Theorem</h3>
+<p>A country exports the good that uses its abundant factor
+intensively.</p>
+<h3 id="testing-the-heckscher-ohlin-theorem">Testing the Heckscher-Ohlin
+Theorem</h3>
+<p>The first test of the Heckscher-Ohlin theorem was performed by
+economist <strong>Wassily Leontief</strong> in 1953.</p>
+<p>Leontief supposed correctly that in 1947 the United States was
+abundant in <strong>capital</strong> relative to the rest of the
+world.Thus from the Heckscher-Ohlin theorem, Leontief expected that the
+United States would <strong>export capital-intensive goods</strong> and
+import <strong>labor-intensive goods</strong>.</p>
+<p>What Leontief actually found, however, was just the opposite.</p>
+<ul>
+<li>the capital-labor ratio for U.S. imports was <em>higher</em> than
+the capital-labor ratio found for U.S. exports</li>
+</ul>
+<p>This finding contradicted the Heckscher-Ohlin theorem and came to be
+called <strong>Leontief's paradox</strong>.</p>
+<h3 id="explanations">Explanations</h3>
+<ul>
+<li>U.S. and foreign technologies are not the same, in contrast to what
+the H-O theorem and Leontief assumed.</li>
+<li>By focusing only on labor and capital, Leontief ignored land
+abundance in the United States.</li>
+<li>Leontief should have distinguished between skilled and unskilled
+labor, because it would not be surprising to find that U.S. exports are
+intensive in skilled labor.</li>
+<li>The data for 1947 may be unusual because World War Ⅱ had ended just
+two years earlier.</li>
+<li>The United States was not engaged in completely free trade, as the
+Heckscher-Ohlin theorem assumes.</li>
+</ul>
+<h2 id="factor-endowments-in-the-new-millennium">Factor Endowments in
+the New Millennium</h2>
+<p>To determine whether a country is abundant in a certain factor, we
+compare the country's <strong>share of that factor</strong> with its
+<strong>share of world GDP</strong>.</p>
+<ul>
+<li>If its share of a factor exceeds its share of world GDP, then we
+conclude that the country is <strong>abundant</strong> in that
+factor.</li>
+<li>If its share in a certain factor is less than its share of world
+GDP, then we conclude that the country is <strong>scarce</strong> in
+that factor.</li>
+</ul>
+<p>A good explanation for the Leontief Paradox</p>
+<ul>
+<li>labor is highly productive in the United States and less productive
+in the rest of the world</li>
+<li>If that is the case, then the <strong>effective labor force</strong>
+in the United States is much larger than just count people.</li>
+</ul>
+<p>Define the <strong>effective factor endowment</strong> as the actual
+amount of a factor found in a country times its productivity <span
+class="math display">\[
+\text{Effective Factor Endowment}=\text{Actual factor
+endowment}\cdot\text{Factor productivity}
+\]</span></p>
+<ul>
+<li><span class="math inline">\(\text{Effective labor force}=\text{Labor
+force}\cdot\text{Its productivity}\)</span></li>
+<li><span class="math inline">\(\text{Effective R&amp;D
+scientists}=\text{Actual R&amp;D scientists}\cdot\text{R&amp;D spending
+per scientist}\)</span></li>
+</ul>
+<h1
+id="lecture-5-movement-of-labor-and-capital-between-countries">Lecture
+5: Movement of Labor and Capital between Countries</h1>
+<h2 id="review-on-the-h-o-model">Review on the H-O Model</h2>
+<h3 id="h-o-theorem">H-O theorem</h3>
+<p>A country exports the good that uses its abundant factor
+intensively.</p>
+<h3 id="stolper-samuelson-theorem-1">Stolper-Samuelson Theorem</h3>
+<p>When all factors are mobile across sectors, an increase in the
+relative price of a good will increase the real earnings of the factor
+used intensively in the production of that good and decrease the real
+earnings of the other factor.</p>
+<p>So trade not only generates gains, but also re-distribute gains.</p>
+<h3 id="lemma-winner-or-loser-in-globalization">Lemma (winner or loser
+in globalization)</h3>
+<p>Trade opening benefits the factors used intensively in exporting
+sectors, and hurts that factors used intensively in importing
+sectors.</p>
+<h2 id="extending-the-ho-model">Extending the HO Model</h2>
+<p>Thus far, the H-O models we discussed assume
+<strong>unchanged</strong> factor endowments (K &amp; L).</p>
+<p>What if K &amp; L stock <em>changes</em></p>
+<ul>
+<li>immigration</li>
+<li>population growth / shrinkage</li>
+<li>FDI / capital outflight</li>
+<li>brain drain</li>
+</ul>
+<h3 id="a-rare-research-sample-cuban-refugee-in-1980">A rare research
+sample: Cuban refugee in 1980</h3>
+<p>From May to September 1980, boatloads of refugees from Cuba arrived
+in Miami.</p>
+<ul>
+<li>Castro allowed Cubans to leave on April 20.</li>
+<li>These <em>Marielitos</em> left the port of Mariel and fled to
+Miami.</li>
+<li>About 125,000 Cubans stepped out of those boats and onto U.S.
+soil.</li>
+</ul>
+<h2 id="migration-in-a-specific-factors-model">Migration in a
+Specific-Factors Model</h2>
+<p>Start with a short-run model (two sectors M and A &amp; three factors
+L, K, and T)</p>
+<p>Allow labor to move across countries</p>
+<ul>
+<li>Total labor is the amount used in manufacturing plus the amount used
+in agriculture</li>
+<li><span class="math inline">\(L=L_M+L_A\)</span></li>
+</ul>
+<h3 id="short-run-effect-of-immigration-on-wage">Short-Run Effect of
+Immigration on Wage</h3>
+<p>Equilibrium wage drops.</p>
+<ul>
+<li>Think of this country as <strong>a small open economy</strong>, thus
+prices are fixed at the world market prices.</li>
+<li>The increase in Home labor due to immigration leads to the decrease
+of MPL in both sectors.</li>
+<li><span class="math inline">\(W=P_A\cdot MPL_A=P_M\cdot
+MPL_M\)</span></li>
+</ul>
+<h3 id="short-run-effect-of-immigration-on-specific-factors">Short-Run
+Effect of Immigration on Specific Factors</h3>
+<p>How about Rentals on Capital and Land</p>
+<ul>
+<li>Both MPK and MPT increase due to the increase in Home labor.</li>
+<li><span class="math inline">\(R_K=P_M\cdot MPK\qquad R_T=P_A\cdot
+MPT\)</span></li>
+</ul>
+<p>Alternative method to calculate returns to capital and land</p>
+<ul>
+<li>show the change in payments graphically</li>
+<li><span class="math inline">\(R_K\cdot K=P_M\cdot Q_M-W\cdot L_M\qquad
+R_K\cdot T=P_A\cdot Q_A-W\cdot L_A\)</span></li>
+</ul>
+<h3 id="short-run-effect-of-immigration-on-output">Short-Run Effect of
+Immigration on output</h3>
+<p>Output in both sectors increases.</p>
+<h3 id="summary">Summary</h3>
+<p>In the short-run, the specific-factors model tells us that</p>
+<ul>
+<li>Workers have a mixed view towards trade liberalization, but they
+would be against immigration.</li>
+<li>Specific factors owners might support trade (export sector specific
+factor) or aganist trade (import sector specific factor), but they would
+support immigration.</li>
+<li>That also helps us to understand the world view of
+<em>globalists</em> versus <em>localists</em>.</li>
+</ul>
+<p>But this view might be invalid in the long-run equilibrium, in which
+we allow all factors to move across sectors.</p>
+<h2 id="long-run-effect-of-immigration">Long-Run Effect of
+Immigration</h2>
+<p>In the long run, all factors are free to move between industries.
+Thus we will use the H-O model to analyze.</p>
+<p>Recall the labor market clearing condition <span
+class="math display">\[
+\frac{L}{K}=\frac{L_C+L_S}{K_C+K_S}=\frac{L_C}{K_C}\times\frac{K_C}{K}+\frac{L_S}{K_S}\times\frac{K_S}{K}
+\]</span></p>
+<p>An increase in labor force increases relative labor supply (i.e. the
+LHS <span class="math inline">\(\frac{L}{K}\)</span>). And we know that
+<span class="math inline">\(\frac{L_C}{K_C}&lt;\frac{L_S}{K_S}\)</span>.
+Hence to make the RHS of the equation increase, we need to increase
+capital share allocated to the Shoes sector.</p>
+<p>Moving capital into the Shoes sector increases the production of
+shoes, and decreases the production of computers.</p>
+<p>The economy can absorb the extra amount of a factor by
+<strong>increasing the output of the industry using that factor
+intensively</strong> and reducing the output of the other industry.</p>
+<p>So immigration has <strong>no effect</strong> on factor prices –
+<strong>the factor price insensitivity</strong></p>
+<ul>
+<li>Factor prices <span class="math inline">\((w,r)\)</span> are
+determined by the goods prices <span
+class="math inline">\((P_C,P_S)\)</span>.</li>
+<li>So if goods prices have no change, then factor prices would not
+change either, and the <strong>sectoral level</strong> relative demand
+for labor <span
+class="math inline">\((\frac{L_C}{K_C},\frac{L_S}{K_S})\)</span> would
+have no change.</li>
+<li>To see this rather counter-intuitive results, we have to use a
+model.</li>
+</ul>
+<h3 id="factor-price-determination">Factor price determination</h3>
+<p>The relative demand for labor/capital in C &amp; S <span
+class="math display">\[
+\frac{W_C}{R_C}=\frac{\delta}{1-\delta}(\frac{L_C}{K_C})^{-1}\qquad\frac{W_S}{R_S}=\frac{\beta}{1-\beta}(\frac{L_S}{K_S})^{-1}
+\]</span></p>
+<h3 id="wage-and-rent-equalization-between-two-sectors">Wage and Rent
+equalization between two sectors</h3>
+<p>Workers have to be paid equally in both sectors in equilibrium <span
+class="math display">\[
+\frac{P_C}{P_S}=\frac{MPL_S}{MPL_C}=\frac{\beta(\frac{L_S}{K_S})^{\beta-1}}{\delta(\frac{L_C}{K_C})^{\delta-1}}
+\]</span></p>
+<p>Then substitute <span class="math inline">\(\frac{L_C}{K_C}\)</span>
+and <span class="math inline">\(\frac{L_S}{K_S}\)</span> using <span
+class="math inline">\(\frac{W}{R}\)</span> <span class="math display">\[
+\frac{P_C}{P_S}=\frac{\beta(\frac{1-\beta}{\beta}\frac{W}{R})^{1-\beta}}{\delta(\frac{1-\delta}{\delta}\frac{W}{R})^{1-\delta}}=\frac{\beta^\beta(1-\beta)^{1-\beta}}{\delta^\delta(1-\delta)^{1-\delta}}(\frac{W}{R})^{\delta-\beta}
+\]</span></p>
+<p>Implications</p>
+<ul>
+<li><span class="math inline">\(\frac{W}{R}\)</span> is uniquely
+determined by <span class="math inline">\(\frac{P_C}{P_S}\)</span>.</li>
+<li>A increase in <span class="math inline">\(\frac{P_C}{P_S}\)</span>
+will lead to a decrese in <span
+class="math inline">\(\frac{W}{R}\)</span> since <span
+class="math inline">\(\delta&lt;\beta\)</span>.</li>
+<li>Rental equalization gives the same results.</li>
+</ul>
+<h3 id="more-general-cases">More General Cases</h3>
+<p>We could write the cost function of producing C &amp; S as <span
+class="math display">\[
+C_C(w,r)=wL_C+rK_C\qquad C_S(w,r)=wL_S+rK_S
+\]</span></p>
+<p>By firms' cost minimization and by perfect competition, we have <span
+class="math display">\[
+C_C(w,r)=P_C\qquad C_S(w,r)=P_S
+\]</span></p>
+<p>It tells us that under certain conditions, factors prices are not
+determined by domestic market conditions, rather, they are determined by
+international goods prices.</p>
+<h3 id="graphical-intuition">Graphical Intuition</h3>
+<p>Now we know that if goods prices remain unchanged, immigration won't
+change factor prices, and therefore won't change relative L/K ratio in
+both sectors.</p>
+<p>Then to accomodate all the new labor force, the labor-intensive
+sector (shoes) has to expand, while the capital intensive sector
+(computer) has to shrink.</p>
+<p>How would the production for C &amp; S change</p>
+<ul>
+<li>We could think of good production as combination of factors. The
+marginal products of labor and capital are determined by the
+capital-labor ratio in either industry.</li>
+<li>Each amount of labor and capital along the line corresponds to a
+particular capital-labor ratio for shoe manufacture and therefore a
+particular real wage and real rental.</li>
+<li>Immigration leads to increase in the amount of Home labor <span
+class="math inline">\(\bar L+\Delta L\)</span>.</li>
+<li>Instead of allocating the extra labor to both industries, we
+allocate it all to shoes (the labor intensive industry). And some
+capital moves from computers to shoes. To maintain the capital-labor
+ratio in computers, some labor will also leave computers to shoes.</li>
+<li>All new labor resulting from immigration is allocated to the shoe
+industry, and capital and additional labor are transferred from
+computers to shoes, keeping the capital-labor ratio in both industries
+unchanged.</li>
+</ul>
+<h3 id="impact-of-immigration-on-industry-output">Impact of Immigration
+on Industry Output</h3>
+<p>Shift in Home PPF due to immigration</p>
+<ul>
+<li>The PPF shifts outward, but skewed towards shoes, as a result of an
+increase in labor.</li>
+<li>The PPF shifts out more in the direction of shoes.</li>
+<li>Note the relative price does NOT change.</li>
+</ul>
+<p><strong>Factor Price Insensitivity</strong></p>
+<p>In the Heckscher-Ohlin model with two goods and two factors, an
+increase in the amount of a factor can be absorbed by changing the
+outputs of the industries, without any change in the factor prices.</p>
+<p><strong>Rybczynski Theorem</strong></p>
+<p>In the Heckscher-Ohlin model with two goods and two factors, an
+increase in the amount of a factor (given constant prices and
+technology) will increase the output of the industry using that factor
+intensively and decrease the output of the other industry.</p>
+<p>We could write production as function of factor and factor prices
+<span class="math display">\[
+K_S=(\frac{1-\beta}{\beta}\frac{W}{R})^\beta Q_S\qquad
+L_S=(\frac{1-\beta}{\beta}\frac{W}{R})^{\beta-1} Q_S\\
+K_C=(\frac{1-\delta}{\delta}\frac{W}{R})^\delta Q_C\qquad
+L_C=(\frac{1-\delta}{\delta}\frac{W}{R})^{\delta-1} Q_C
+\]</span> Then apply the factor market clearing conditions <span
+class="math display">\[
+a_C^LQ_C+a_S^LQ_S=L\qquad
+a_C^KQ_C+a_S^KQ_S=K
+\]</span></p>
+<p>Note that <span class="math inline">\((a_S^L,a_S^K)\)</span> and
+<span class="math inline">\((a_C^L,a_C^K)\)</span> are the unit factor
+requirement for producing shoes / computers, depending on <span
+class="math inline">\(\frac{W}{R}\)</span>.</p>
+<p>And we know that <span class="math inline">\(\frac{W}{R}\)</span>
+solely depends on <span
+class="math inline">\(\frac{P_C}{P_S}\)</span>.</p>
+<p>We solve this system of equations and get <span
+class="math display">\[
+Q_C=\frac{a_S^LK-a_S^KL}{a_C^Ka_S^L-a_C^La_S^K}\\
+Q_S=\frac{a_C^KL-a_C^LK}{a_S^La_C^K-a_S^Ka_C^L}
+\]</span> And explain the Ryb effect that expansion in <span
+class="math inline">\(L\)</span> (immigration) leads to expansion in
+<span class="math inline">\(Q_S\)</span> and contraction in <span
+class="math inline">\(Q_C\)</span></p>
+<p>To diversify means <span class="math inline">\(Q_C&gt;0\)</span> and
+<span class="math inline">\(Q_S&gt;0\)</span></p>
+<ul>
+<li>To make sure <span class="math inline">\(Q_C&gt;0\)</span>, we need
+<span class="math display">\[
+\frac{K}{L}&gt;\frac{a_S^K}{a_S^L}=\frac{K_S}{L_S}
+\]</span></li>
+<li>To make sure <span class="math inline">\(Q_S&gt;0\)</span>, we need
+<span class="math display">\[
+\frac{K}{L}&lt;\frac{a_C^K}{a_C^L}=\frac{K_C}{L_C}
+\]</span></li>
+</ul>
+<p><strong>Diversification cone</strong>: As long as a country's
+endowment <span class="math inline">\(\frac{K}{L}\)</span> lie in
+between <span class="math inline">\(\frac{K_S}{L_S}\)</span> and <span
+class="math inline">\(\frac{K_C}{L_C}\)</span>, the country would
+optimally choose to diversify (i.e. produce both products).</p>
+<h3 id="immigration-in-miami">Immigration in Miami</h3>
+<p>The Effects of the Mariel Boat Lift on Industry Output and Workers'
+Wages in Miami</p>
+<ul>
+<li>Real value-added in the apparel in Miami rose from 1983 to 1984, and
+the trend decline in Miami was slower (i.e. value-added did not fall as
+fast) after 1980 than in the comparison cities.</li>
+<li>Real value-added in Miami in high-skilled industries fell faster
+after 1980 than in the comparison cities.</li>
+<li>First studied by professor David Card, at UC Berkeley, who won the
+2021 Nobel Prize in Economics.</li>
+</ul>
+<h3 id="impact-of-migration-evidence-from-globalization-1.0">Impact of
+Migration: Evidence from Globalization 1.0</h3>
+<p>Between 1870 and 1913, 30 million Europeans left their homes in the
+<em>old world</em> to emigrate to the <em>New World</em>. The US
+population increased by 17%.</p>
+<p>Large-scale migration from Europe to the New World in America and
+Australia closed the wage gap between the two locations. In 1870 wages
+in the <em>New World</em> were almost three times as high as wages in
+Europe, whereas in 1910 they were about twice as high.</p>
+<p>Migration also slowed the growth of wages in the New World relative
+to what they would have been without migration and allowed for slightly
+faster growth of wages in Europe.</p>
+<p>So the equilibrium with full migration is reached only in the very
+<strong>long run</strong>.</p>
+<h3 id="example-a-windfall-of-treasure">Example: A windfall of
+treasure</h3>
+<p><strong>when the Netherlands discovered the large Groningen natural
+gas field in 1959</strong></p>
+<p>The Dutch Disease: the booming natural resources sector led to
+<strong>de-industralization</strong> (expansion in non-tradable sector
+and contraction in exporting manufacturing sector)</p>
+<h3 id="international-free-trade-equilibrium">International Free-Trade
+Equilibrium</h3>
+<h4 id="patterns-of-trade-1">Patterns of Trade</h4>
+<p>We have <strong>graphically</strong> illustrate the pattern of trade
+predicted by the H-O model</p>
+<ul>
+<li>Home exports computers, the good that uses intensively the abundant
+factor of production (capital)</li>
+<li>Foreign exports shoes, the good that uses intensively the abundant
+factor of production (labor)</li>
+</ul>
+<h4 id="movement-of-factors-and-patterns-of-trade">Movement of Factors
+and Patterns of Trade</h4>
+<p>Suppose first the world endowment of K &amp; L is evenly distributed
+between H &amp; F. Thus both countries have the same labor-capital ratio
+<span class="math display">\[
+\frac{L^H+L^F}{K^H+K^F}
+\]</span></p>
+<p>Another way to think of this is to allow free movement of labor and
+capital across the world.</p>
+<ul>
+<li>a thought experiment proposed by Samuelson (1949) and further
+developed by Dixit and Norman (1980)</li>
+<li>free movement ensures factor prices are equalized</li>
+<li>thus what determines factors prices are the world endowment for
+labor and capital must be the relative labor supply</li>
+</ul>
+<p>Now suppose we divide factors between H and F by a point in the Box
+Diagram and do NOT allow for free move of factors across countries.
+Departing from the case of even distribution, we have to increase the
+endowed labor-capital ratio in F, while decrease it in H. <span
+class="math display">\[
+\frac{L^H}{K^H}&lt;\frac{L^H+L^F}{K^H+K^F}&lt;\frac{L^F}{K^F}
+\]</span></p>
+<p>Then by the Rybczynski Theorem, the production of the
+capital-intensive good will increase in country H, and the production of
+the labor-intensive good will increase in country F.</p>
+<ul>
+<li>H country now has an excess supply of computers, so it will export
+computers and import shoes.</li>
+<li>F country now has an excess supply of shoes, so it will export shoes
+and import computers.</li>
+</ul>
+<h2 id="foreign-direct-investment">Foreign Direct Investment</h2>
+<p>How capital can move from one country to another through
+<strong>foreign direct investment</strong> (FDI).</p>
+<ul>
+<li>FDI occurs when a firm from one country owns a company in another
+country.</li>
+<li>In US, if a foreign company acquires 10% or more of a U.S. firm,
+that is counted as an FDI inflow to the United States, and if a U.S.
+company acquires 10% or more of a foreign firm, that is counted as an
+FDI outflow for the United States.</li>
+<li>In China, if a foreign company acquires 25% or more of a Chinese
+firm, that is counted as an FDI inflow to China.</li>
+</ul>
+<p>Same methodology from the migration part will apply here.</p>
+<h3 id="fdi-in-the-short-run-specific-factors-model">FDI in the Short
+Run: Specific-Factors Model</h3>
+<h4 id="effect-of-fdi-on-the-wage">Effect of FDI on the Wage</h4>
+<p>As a result of the shift in <span class="math inline">\(P_M\cdot
+MPL_M\)</span>, the equilibrium wage <strong>increases</strong>, from
+<span class="math inline">\(W\)</span> to <span
+class="math inline">\(W&#39;\)</span>.</p>
+<p>More workers are drawn into the manufacturing industry, and the labor
+used there increases.</p>
+<h4 id="effect-of-fdi-on-the-industry-output">Effect of FDI on the
+Industry Output</h4>
+<p>An FDI inflow and the shift in <span class="math inline">\(P_M\cdot
+MPL_M\)</span> will cause workers to be pulled out of agriculture, and
+since there is no change in the amount of land used there, output of the
+agriculture industry must fall.</p>
+<p>Since both capital and labor used in manufacturing increasing, output
+in manufacturing also increases.</p>
+<h4 id="effect-of-fdi-on-the-rentals">Effect of FDI on the Rentals</h4>
+<p><strong>Rental on land</strong></p>
+<ul>
+<li>With an inflow of FDI, fewer workers are employed in agriculture,
+and each acre of land is associated with fewer workers.</li>
+<li>The value of marginal product of land, <span
+class="math inline">\(R_T=P_A\cdot MPT_A\)</span>, falls.</li>
+<li>If <span class="math inline">\(MPT_A\)</span> falls and <span
+class="math inline">\(P_A\)</span> remains unchanged, then land rental
+must fall.</li>
+</ul>
+<p><strong>Rental on capital</strong></p>
+<ul>
+<li>With an inflow of FDI, more workers are employed in
+manufacturing.</li>
+<li>Then how does the value of the marginal product of capital, or <span
+class="math inline">\(R_K=P_M\cdot MPK_M\)</span>, change due to the
+inflow of FDI
+<ul>
+<li>Note that both labor and capital increase in manufacturing
+sector</li>
+</ul></li>
+<li>By carefully tracing through how the capital-labor ratio in
+manufacturing is affected, we conclude that the rental on capital
+declines when the capital stock increases through FDI.</li>
+</ul>
+<h3 id="fdi-in-the-long-run">FDI in the Long Run</h3>
+<p>To analyze the impact of FDI in the long run, we continue with the
+same assumptions as before.</p>
+<ul>
+<li>There are two industries, computers and shoes.</li>
+<li>There are two factors of production, labor and capital.</li>
+<li>Computers are capital intensive and shoes are labor intensive,
+meaning that <span
+class="math inline">\(\frac{K_C}{L_C}&gt;\frac{K_S}{L_S}\)</span>.</li>
+</ul>
+<p>Now we consider an increase in Capital due to FDI.</p>
+<h4 id="effect-of-fdi-on-outputs-and-factor-prices">Effect of FDI on
+Outputs and Factor Prices</h4>
+<p>As the <strong>Rybczynski Theorem</strong> states, the increase in
+capital has increased the output of the capital-intensive industry and
+reduced the output of the labor-intensive industry.</p>
+<p>This change in output is achieved without a change in the
+capital-labor ratio in either industry. Because capital-labor ratios are
+unchanged, the wage and the rental on capital are also unchanged.</p>
+<p><strong>The Factor Price Insensitivity Result</strong></p>
+<p>In the long run model, an inflow of either factor of production will
+leave factor prices unchanged.</p>
+<h1 id="lecture-6-offshoring">Lecture 6: Offshoring</h1>
+<h2 id="offshoring-of-goods-and-services">Offshoring of Goods and
+Services</h2>
+<h3 id="what-is-offshoring">What is Offshoring</h3>
+<p>The provision of a service or the production of various parts of a
+good in different countries that are then used or assembled into a final
+good in another location.</p>
+<p>Fast growth in the share of intermediate inputs in cross-border
+trade</p>
+<ul>
+<li>Intermediate inputs represent 56% of goods trade and 73% of services
+trade in OECD countries</li>
+</ul>
+<p>Closely related to the <strong>Vertical Integration
+Decisions</strong> of multinational enterprises (MNEs)</p>
+<ul>
+<li>But offshoring could also involve firms without any ownership
+relationship</li>
+</ul>
+<h3
+id="acceleration-in-services-offshoring-in-recent-years">Acceleration in
+services offshoring in recent years</h3>
+<p>The offshoring of business services to foreign countries.</p>
+<ul>
+<li>Business services are activities such as accounting, auditing, human
+resources, order processing, telemarketing, and after-sales
+service.</li>
+<li>E.g. Wipro, an Indian high-tech company, is responsible for remote
+management of computer resources of the Microsoft Corp.
+<ul>
+<li>Differences in time zones</li>
+</ul></li>
+</ul>
+<p>Other examples of services offshoring</p>
+<ul>
+<li>Online education</li>
+<li>Online medical services (e.g. Da Vinci Surgical System)</li>
+</ul>
+<h3 id="what-is-global-value-chain">What is Global Value Chain</h3>
+<p>A global value chain breaks up the production across countries. Firms
+specialize in a specific task and do not produce the whole product.</p>
+<p><strong>GVC is the new face of globalization</strong></p>
+<h2 id="a-model-of-offshoring">A Model of Offshoring</h2>
+<p>To develop the model of offshoring, we need to distinguish all the
+activities used to produce and market a good or service.</p>
+<p>The <strong>Value Chain</strong> of a Product</p>
+<ul>
+<li>Any product has many different activities involved in its
+manufacture. Here are activities ranked by ORDER in production.</li>
+<li>R&amp;D – Component production – Assembly – Marketing and sales</li>
+</ul>
+<p>However, for offshoring, it is more useful to look at the activities
+according to the ratio of skilled to unskilled labor they use.</p>
+<ul>
+<li>We start with the less skilled activities and move to more complex
+components and then onto the more skilled labor activities.</li>
+<li>Assembly – Component production – Marketing and sales – R&amp;D</li>
+</ul>
+<h3 id="relative-wage-of-skilled-workers">Relative Wage of Skilled
+Workers</h3>
+<p>Assumption One: Foreign wages are less than those at Home <span
+class="math display">\[
+W&#39;_L&lt;W_L\qquad\text{and}\qquad W&#39;_H&lt;W_H
+\]</span></p>
+<p>Assumption Two: The relative wage of low-skilled labor is lower in
+Foreign than at Home <span class="math display">\[
+\frac{W&#39;_L}{W&#39;_H}&lt;\frac{W_L}{W_H}
+\]</span></p>
+<h3 id="cost-of-capital-and-international-trade">Cost of Capital and
+International Trade</h3>
+<p>Labor costs are lower in Foreign, for both H &amp; L, so offshoring
+all activities seems cost-saving.</p>
+<p>However, the firm must also take into account extra costs of doing
+business there</p>
+<ul>
+<li>Higher prices to build a factory or costs of production</li>
+<li>The extra costs of communication or transportation</li>
+<li>Cost of transportation and tariffs when shipping the offshored
+components back</li>
+</ul>
+<p>Therefore, domestic firms face a trade-off</p>
+<ul>
+<li><strong>the savings from lower wages vs. the extra costs of capital
+and trade</strong> <span class="math display">\[
+W_L\cdot L+W_H\cdot H\quad\text{vs.}\quad W&#39;_L\cdot
+L&#39;+W_H&#39;\cdot H&#39;+\text{ Extra Cost}
+\]</span></li>
+<li>Cost saving is larger to offshore low-skill intensive activity</li>
+<li>There is a point on the value chain, below which all activities are
+offshored to Foreign and above which all activities are performed at
+Home.</li>
+</ul>
+<p>To simplify, we assume the extra cost of offshoring is the same for
+all activities.</p>
+<ul>
+<li>apply <em>uniformly</em> across all the activities in the value
+chain</li>
+</ul>
+<p><strong>What if the capital required to offshore drops</strong></p>
+<p>Capital required to offshore drops due to investment cost reduction,
+relaxation of foreign restrictions, import tariff reduction by home
+country, or reduction in transportation.</p>
+<p>Offshoring cost declines, leading to more activities being offshored.
+These activities are more skill-intensive than the activities formerly
+done in Foreign, but less skill-intensive than the activities now done
+at Home.</p>
+<p><strong>Change in Home Labor Demand and Relative Wage</strong></p>
+<p>With greater offshoring from Home to Foreign, some of the activities
+requiring less skill that were formerly done at Home are now done
+abroad.</p>
+<p>It follows that the relative demand for skilled labor at Home
+increases, and the relative wage rises. * <strong>Change in Foreign
+Labor Demand and Relative Wage</strong></p>
+<p>The relative demand for skilled labor in Foreign also increases
+because the activities shifted to Foreign are more skill intensive than
+those formerly done there.</p>
+<p>It follows that the relative wage for skilled labor in Foreign also
+rises.</p>
+<h3 id="offshoring-on-inequality">Offshoring on Inequality</h3>
+<p>In Feenstra-Hanson (1996) model, both countries experience <strong>an
+increase</strong> in the relative wage of skilled labor due to increased
+outsourcing.</p>
+<p>As activities in the middle of the value chain are shifted from Home
+to Foreign, they raise the relative demand for skilled labor in both
+countries.</p>
+<p>These newly-offshored activities are the <strong>least
+skill-intensive</strong> of those formerly done at Home but the
+<strong>most skill-intensive</strong> of those done in Foreign.</p>
+<blockquote>
+<p>E.g. Change in Relative Wages in the United States</p>
+<p><strong>Relative Wage of Nonproduction Workers</strong></p>
+<p>This diagram shows the average wage of nonproduction workers divided
+by the average wage of production workers in U.S. manufacturing. This
+ratio displayed a downward trend during the 1960s and 1970s before
+reversing itself during the 1980s, when the relative wage of
+nonproduction workers increased until 2000. In more recent years, the
+relative wage has become quite volatile, falling erratically until 2004,
+then rising to 2010.</p>
+<p><strong>Relative Employment of Nonproduction Workers</strong></p>
+<p>This diagram shows the employment of nonproduction workers in U.S.
+manufacturing divided by the employment of production workers. There was
+a steady increase in the ratio of nonproduction to production workers
+employed in U.S. manufacturing until the early 1990s. During the 1990s
+there was a fall in the ratio of nonproduction to production workers
+until 1998, and then a rise again thereafter.</p>
+</blockquote>
+<h3 id="feenstra-hanson-models-contribution">Feenstra-Hanson Model's
+contribution</h3>
+<p>Note that the rising skill premium in the U.S. can also be explained
+by Heckscher-Ohlin trade theory.</p>
+<p>However, Stolper-Samuelson Theorem cannot explain</p>
+<ul>
+<li>The shift towards more-skilled workers occurred within many
+industries in the U.S.
+<ul>
+<li>The Heckscher-Ohlin model would lead us to expect shifts
+<em>between</em> industries, but not <em>within</em> industries.</li>
+</ul></li>
+<li>The same shift in wages occurred in other countries, like Mexico
+from 1984 to 1994 and China for the past two decades
+<ul>
+<li>The Heckscher-Ohlin model would lead us to expect <em>different</em>
+movement in wages between countries.</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>E.g. Change in Relative Wages in Mexico</p>
+<p>This diagram shows the wage of nonproduction workers in the
+manufacturing sector of Mexico divided by the wage of production
+workers. After declining during the 1960s and 1970s, this relative wage
+began to move upward in the mid-1980s, at the same time that the
+relative wage of nonproduction workers was increasing in the United
+States. The relative wage in Mexico continued to rise until 1994, when
+NAFTA began.</p>
+</blockquote>
+<p>Besides offshoring model, <strong>skill-biased technology
+change</strong> (SBTC) can also explain the simultaneous rise in skill
+premium in both home and foreign, within the same industry.</p>
+<p>Further test on the two explanations</p>
+<ul>
+<li>Offshoring is measured as the intermediate inputs imported by each
+industry</li>
+<li>High-technology equipment (the role of SBTC) can be measured in two
+ways
+<ol type="1">
+<li>As a fraction of the total capital equipment installed in each
+industry – stock</li>
+<li>As a fraction of new investment in capital that is devoted to
+computers and other high-tech devices – flow</li>
+</ol></li>
+</ul>
+<p>E.g. Increase in the Relative Wage of Nonproduction Labor in U.S.
+Manufacturing, 1979-1990</p>
+<ul>
+<li>This table shows the estimated effects of offshoring and the use of
+high-technology equipment on the wages earned by nonproduction (or
+skilled) workers. Part A focuses on how these variables affect the share
+of wage payments going to nonproduction workers. Part B shows how these
+two variables affect the relative wage of nonproduction workers.</li>
+<li>Both offshoring and high-tech equipment are important explanations
+for the increase in the relative wage of nonproduction/production labor
+in U.S. manufacturing.</li>
+<li>However, it is difficult to judge which is more important because
+the results depend on how we measure the high-tech equipment.</li>
+</ul>
+<h3 id="the-gains-from-offshoring">The Gains from Offshoring</h3>
+<p>Offshoring model shows that outsourcing can shift the relative demand
+for labor, and raise the wage for skilled workers.</p>
+<p>Under certain conditions, we can show that the level of unskilled
+labor wages will <strong>decline</strong>.</p>
+<ul>
+<li>Note that the relative wages will decrease for sure</li>
+<li>So we do have winners and losers from offshoring</li>
+</ul>
+<p>However, offshoring reduces production costs which, in a competitive
+market, reduces prices.</p>
+<p>We conclude then that outsourcing can have benefits for both
+producers and their workers, and consumers.</p>
+<h2 id="a-simplified-offshoring-model">A Simplified Offshoring
+Model</h2>
+<p>Suppose there are only two activities</p>
+<ul>
+<li>components production</li>
+<li>research and development (R&amp;D)</li>
+</ul>
+<p>Each activity uses skilled and unskilled labor</p>
+<ul>
+<li>components production uses unskilled labor intensively</li>
+<li>R&amp;D uses skilled labor intensively</li>
+</ul>
+<p>The costs of capital are equal in both activities We want to compare
+the no-trade situation to an equilibrium with trade through offshoring,
+to determine if there are overall gains from trade.</p>
+<h3 id="no-trade-equilibrium-for-the-home-firm">No-Trade Equilibrium for
+the Home Firm</h3>
+<p>The PPF shows the combinations of components and R&amp;D that can be
+undertaken by a firm with a given amount of labor and capital. In the
+absence of offshoring, the firm produces at point A, using quantities
+Q<sub>C</sub> of components and Q<sub>R</sub> of R&amp;D to produce
+amount <span class="math inline">\(Y_0\)</span> of the final good.</p>
+<p>The line tangent to the <strong>isoquant</strong> through point A
+measures the value that the firm puts on components relative to R&amp;D,
+or their relative price <span
+class="math inline">\((\frac{P_C}{P_R})^A\)</span>.</p>
+<p>Amount <span class="math inline">\(Y_1\)</span> of the final good
+cannot be produced in the absence of offshoring because it lies outside
+the PPF for the firm.</p>
+<h3 id="equilibrium-with-offshoring">Equilibrium with Offshoring</h3>
+<p>Suppose the firm can import and export its production activities
+through offshoring.</p>
+<p>The quantity of the final good is no longer constrained by the Home
+PPF.</p>
+<ul>
+<li>A higher level of production (isoquant) is possible by trading
+intermediate activities.</li>
+<li>We will refer to the relative price of the two activities that the
+Home firm has available through outsourcing as their world relative
+price <span class="math inline">\((\frac{P_C}{P_R})^W\)</span>.</li>
+</ul>
+<p>With a lower relative wage of unskilled labor in Foreign, the
+components assembly will also be cheaper in Foreign. It follows that
+Home will want to outsource components, which are cheaper abroad, while
+Home firms will be exporting R&amp;D, which is cheaper at Home.</p>
+<p>Given the firms production abilities from the isoquants, we can see
+the firm can now produce Y<sub>1</sub> using corresponding levels of
+R&amp;D and Components. The increase of final goods produced <span
+class="math inline">\((Y_0-Y_1)\)</span> is a measure of the gains from
+trade to the Home firm from offshoring.</p>
+<p>Because more of the final good is produced with the same overall
+amount of skilled and unskilled labor available in Home, the Home
+company is more productive.</p>
+<ul>
+<li>Both its costs of production, and the price of the final product
+falls.</li>
+<li>So the gains for this company are also spread to consumers.</li>
+</ul>
+<p>Therefore, when comparing a no-trade situation to the equilibrium
+with offshoring, and assuming that the world relative price differs from
+that at Home, <strong>there are always gains from
+offshoring</strong>.</p>
+<ul>
+<li>See Grossman and Rossi-Hansberg (2008 AER) for a generalization of
+the <em>productivity effect</em> due to offshoring.</li>
+</ul>
+<h3 id="more-liberalization-fall-in-the-price-of-components">More
+liberalization: Fall in the Price of Components</h3>
+<p>If the relative price of components falls from <span
+class="math inline">\((\frac{P_C}{P_R})^{W_1}\)</span> to <span
+class="math inline">\((\frac{P_C}{P_R})^{W_2}\)</span>, then the Home
+firm will do even more R&amp;D and less components production. The
+increase in the terms of trade allows the Home firm to produce output
+<span class="math inline">\(Y_2\)</span>, and the gains from trade are
+higher than in the initial offshoring equilibrium.</p>
+<p>A rise in the terms of trade indicates that a country is getting a
+higher price for its exports, or paying a lower price for its imports.
+– both benefit the country</p>
+<h3 id="more-liberalization-fall-in-the-price-of-rd">More
+liberalization: Fall in the Price of R&amp;D</h3>
+<p>A fall in the relative price of R&amp;D makes the world price line
+steeper <span class="math inline">\((\frac{P_C}{P_R})^{W_3}\)</span>. As
+a result, the Home firm reduces its R&amp;D activities and increases its
+components activities.</p>
+<p>At the new world relative price, the Home firm faces a terms-of-trade
+loss and can no longer export each unit of R&amp;D for as many
+components as it could in the initial offshoring equilibrium. The final
+good output is reduced from <span class="math inline">\(Y_1\)</span> to
+<span class="math inline">\(Y_3\)</span>. Notice that the final good
+output <span class="math inline">\(Y_3\)</span> is still higher than
+output without trade, <span class="math inline">\(Y_0\)</span>.</p>
+<p>After the fall in the relative price of R&amp;D, there are still
+gains from trade relative to no-trade, but losses relative to the
+initial offshoring equilibrium.</p>
+<h1 id="lecture-7-scale-economy-and-monopolistic-competition">Lecture 7:
+Scale Economy and Monopolistic Competition</h1>
+<blockquote>
+<p>For some time now there has been considerable skepticism about the
+ability of comparative cost theory to explain the actual pattern of
+international trade. Neither the extensive trade among the industrial
+countries, nor the prevalence in this trade of two-way exchanges of
+differentiated products, make much sense in terms of standard theory. As
+a result, many people have concluded that a new framework for analyzing
+trade is needed.</p>
+</blockquote>
+<h2 id="introduction">Introduction</h2>
+<p>What we have learned so far – trade happens due to
+<strong>difference</strong></p>
+<ul>
+<li>Ricardian model – trade of different goods between countries with
+different productivity</li>
+<li>H-O model – trade of different goods between countries with
+different endowment</li>
+<li>These models explains <strong>inter-industry trade</strong></li>
+</ul>
+<p>The first wave of globalization was characterized by such
+inter-industry trade. Countries exported goods that were very different
+to what they imported.</p>
+<ul>
+<li>E.g. England exchanged machines for Australian wool and Indian
+tea.</li>
+</ul>
+<p>In the second wave of globalization we are seeing a rise in
+<strong>intra-industry trade</strong>. Larger (and richer) countries
+tend to trade more with each other.</p>
+<h2 id="empirical-index-of-intra-industry-trade">Empirical: Index of
+Intra-Industry Trade</h2>
+<p>What proportion of trade in each product involves both imports and
+exports</p>
+<ul>
+<li>a high index (up to 100%) indicates that an equal amount of the good
+is imported and exported</li>
+<li>a low index (down to 0%) indicates that the good is either imported
+or exported but not both</li>
+</ul>
+<p>The Grubel-Lloyd Index <span class="math display">\[
+0\le
+GL_i=\frac{(X_i+M_i)-|X_i-M_i|}{X_i+M_i}=1-\frac{|X_i-M_i|}{X_i+M_i}=\frac{\min\{X_i,M_i\}}{\frac{1}{2}(X_i+M_i)}\le1
+\]</span></p>
+<p>So why do developed countries export/import the same category of
+products to/from <strong>similar</strong> countries - Similar in
+endowment, technology/productivity, income level (consumer
+preference/taste)</p>
+<h2 id="introducing-the-krugman-model">Introducing the Krugman
+Model</h2>
+<p>a new explanation for trade based on the model of monopolistic
+competition and increasing return to scale</p>
+<p>Pioneered by Professor Paul Krugman: Major work in late 1970s &amp;
+Won the Nobel Prize in 2008</p>
+<h3 id="what-is-monopolistic-competition">What is Monopolistic
+Competition</h3>
+<p>Monopolistic competition allows for imperfect competition – firms can
+influence the price they charge</p>
+<blockquote>
+<p>Other imperfect competition models include Monopoly, Duopoly, and
+Oligopoly</p>
+</blockquote>
+<h3
+id="monopolistic-competition-has-four-key-featuresassumptions">Monopolistic
+competition has four key features/assumptions</h3>
+<p>Assumption One: The goods produced by different firms are
+differentiated.</p>
+<p>Assumption Two: There are many firms in the industry.</p>
+<ul>
+<li>If the number of firms is <span class="math inline">\(N\)</span>,
+then <span class="math inline">\(D/N\)</span> is the share of demand
+that each firm faces when the firms are all <strong>charging the same
+price</strong>.</li>
+<li>When only one firm changes its price, however, it will face a
+<strong>flatter</strong> demand curve.</li>
+</ul>
+<p>Assumption Three: Firms produce using a technology with increasing
+returns to scale (IRS) (also called Economies of Scale).</p>
+<ul>
+<li>Increasing returns to scale cause average costs to fall as the
+quantity produced increases.</li>
+</ul>
+<p>Assumption Four: Free Entry</p>
+<ul>
+<li>Because firms can enter and exit the industry freely, monopoly
+profits are <strong>zero</strong> in the long run.</li>
+<li>Whenever the price charged is above average costs, then a firm earns
+monopoly profits.</li>
+<li>Firms will enter as long as it is possible to make monopoly profits
+(i.e, when price is above average costs).</li>
+<li>And the more firms that enter, the lower profits per firm
+become.</li>
+<li>Profits for each firm end up as zero in the long run, just as in
+perfect competition.</li>
+</ul>
+<h2 id="trade-under-monopolistic-competition">Trade under Monopolistic
+Competition</h2>
+<h3 id="short-run-equilibrium-without-trade">Short-run Equilibrium
+without trade</h3>
+<p>The short-run equilibrium under monopolistic competition is the same
+as a monopoly equilibrium.</p>
+<p>The firm chooses to produce the quantity <span
+class="math inline">\(Q_0\)</span> at which the firm's marginal revenue
+<span class="math inline">\(MR_0\)</span> equals its marginal cost <span
+class="math inline">\(MC\)</span>. The price charged is <span
+class="math inline">\(P_0\)</span>. Because price exceeds average cost,
+the firm makes monopoly profits.</p>
+<h3 id="long-run-equilibrium-without-trade">Long-run Equilibrium without
+trade</h3>
+<p>Drawn by the possibility of making profits in the short-run
+equilibrium, new firms enter the industry and the firm's demand curve
+shifts to the left and becomes more elastic (i.e. flatter).</p>
+<p>The long-run equilibrium under monopolistic competition occurs at the
+quantity <span class="math inline">\(Q_1\)</span> where the marginal
+revenue curve <span class="math inline">\(MR_1\)</span> (associated with
+demand curve) equals marginal cost. At that quantity, the no-trade price
+equals average costs.</p>
+<p>In the long-run equilibrium, firms earn zero monopoly profits and
+there is no entry or exit. The quantity produced by each firm is less
+than in short-run equilibrium. <span class="math inline">\(Q_1\)</span>
+is less than <span class="math inline">\(Q_0\)</span> because new firms
+have entered the industry.</p>
+<p>With a greater number of firms and hence more varieties available to
+consumers, the demand for each variety <span
+class="math inline">\(d_1\)</span> is less than <span
+class="math inline">\(d_0\)</span>. The demand curve <span
+class="math inline">\(D/N^A\)</span> shows the no-trade demand when all
+firms charge the same price.</p>
+<h3 id="equilibrium-with-free-trade">Equilibrium with Free Trade</h3>
+<p>Assume Home and Foreign are exactly the same.</p>
+<ul>
+<li>Same number of consumers, same technology and cost curves, and
+therefore same number of firms in the no-trade equilibrium.</li>
+</ul>
+<p>Without Economies of Scale, there would be no reason for trade.</p>
+<ul>
+<li>Under the Ricardian model, countries with identical technologies
+would not trade.</li>
+<li>Under the Heckscher-Ohlin model, countries with identical factor
+endowments would not trade.</li>
+</ul>
+<p>Under monopolistic competition with increasing returns to scale, two
+identical countries will still engage in trade.</p>
+<h3 id="short-run-equilibrium-with-trade">Short-run Equilibrium with
+trade</h3>
+<p>We start with each country in long-run equilibrium without trade.</p>
+<ul>
+<li>The number of firms in the no-trade equilibrium in each country is
+<span class="math inline">\(N^A\)</span>.</li>
+</ul>
+<p>When trade opens, the number of customers doubles. Since there are
+twice as many consumers, but also twice as many firms, the ratio stays
+the same, the demand per product stays the same at the no-trade
+price.</p>
+<p>The product varieties each consumer can buy also double. With the
+greater number of varieties available, the demand for each individual
+variety will be <strong>more elastic</strong>.</p>
+<p>When trade is opened, the larger market makes the firm's demand curve
+<span class="math inline">\(d_2\)</span> more elastic (with marginal
+revenue curve <span class="math inline">\(MR_2\)</span>). The firm
+chooses to produce the quantity <span class="math inline">\(Q_2\)</span>
+at which marginal revenue equals marginal costs. The price charged is
+<span class="math inline">\(P_2\)</span>. With sales <span
+class="math inline">\(Q_2\)</span> at price <span
+class="math inline">\(P_2\)</span>, the firm makes profits since price
+is greater than AC.</p>
+<p>When <em>all</em> firms lower their prices to <span
+class="math inline">\(P_2\)</span>, however, the relevant demand curve
+is <span class="math inline">\(D/N^A\)</span>, which indicates that they
+can sell only <span class="math inline">\(Q_2&#39;\)</span> at price
+<span class="math inline">\(P_2\)</span>. At this short-run equilibrium,
+price is less than average cost and <em>all</em> firms <strong>incur
+losses</strong>. As a result, some firms are forced to
+<strong>exit</strong> the industry.</p>
+<p>Compared with the long-run equilibrium without trade, <span
+class="math inline">\(d_3\)</span> (along with <span
+class="math inline">\(MR_3\)</span>) has shifted out as domestic firms
+exited the industry and has become more elastic due to the greater total
+number of varieties with trade since <span
+class="math inline">\(2N^T&gt;N^A\)</span>. Compared with the long-run
+equilibrium without trade, the trade equilibrium has a lower price and
+higher sales by all surviving firms.</p>
+<h3 id="gains-from-trade-1">Gains from Trade</h3>
+<p>The long-run equilibrium has two sources of gains from trade for
+consumers</p>
+<p><strong>A drop in price</strong></p>
+<ul>
+<li>A result of lower average cost (i.e. increased productivity) of the
+surviving firms coming from IRS.</li>
+<li>Firms produce more since they face a larger market.</li>
+</ul>
+<p><strong>An increase in variety</strong></p>
+<ul>
+<li>Although there are fewer product varieties made within each country
+(by fewer firms), consumers have more product variety because they can
+choose products of the firms from both countries after trade.</li>
+<li><span
+class="math inline">\(N^T&lt;N^A\quad\text{but}\quad2N^T&gt;N^A\)</span></li>
+</ul>
+<p>Although consumers gain lower prices and more varieties available, it
+is not clear how workers benefit from it.</p>
+<ul>
+<li>Some gain as wage increases</li>
+<li>Some lose as firms exit after trade due to competition since it
+takes time to find a new job</li>
+</ul>
+<h2
+id="empirical-evidence-from-nafta-the-north-american-free-trade-agreement">Empirical
+Evidence from NAFTA (The North American Free Trade Agreement)</h2>
+<p>A rough estimation says this amounts to about 5.5 billion US dollar
+gain per year.</p>
+<p>Job losses due to NAFTA</p>
+<ul>
+<li>From 1994–2002, about 525,000 workers, or about 58,000 per year,
+lost their jobs and were certified as adversely affected by trade under
+the NAFTA-TAA program.</li>
+<li>13% of total displacement in manufacturing (4 million from 1994-2002
+or 444,000 workers per year)</li>
+</ul>
+<p>The NAFTA layoffs of 58,000 workers per year, so if we assume that
+the average length of unemployment for laid off workers is 3 years and
+the average yearly earnings for manufacturing workers was $31,000 in
+2000, then</p>
+<ul>
+<li>Each displaced worker lost $93,000 in wages.</li>
+<li>This amounts to $5.4 billion per year during the first nine years of
+NAFTA.</li>
+</ul>
+<p>The estimated private costs of $5.4 billion are nearly equal to the
+average welfare gains of $5.5 billion. However, keep in mind that the
+gains continue to grow over time and the job losses are only temporary,
+and fall over time.</p>
+<h2 id="the-krugman-model">The Krugman Model</h2>
+<h3 id="how-to-model-imperfect-competition">How to model imperfect
+competition</h3>
+<p>Key requirement for imperfect competition – firms choose prices</p>
+<p>Easiest way</p>
+<ul>
+<li>Suppose there are many firms, none of which has a substantial market
+share.</li>
+<li>This is known as monopolistic competition.</li>
+</ul>
+<p>Assume demand for a firm's product is</p>
+<ul>
+<li>Decreasing in the price that the firm charges</li>
+<li>Increasing in the price that other firm's charge</li>
+<li>Decreasing in the number of other firms</li>
+</ul>
+<h3 id="dixit-stiglitz-preferences">Dixit-Stiglitz preferences</h3>
+<p>Dixit and Stiglitz developed a very simple mathematical
+framework.</p>
+<p>Without going into details, they yield the following demand for
+firm's <span class="math inline">\(\varphi\)</span> product <span
+class="math display">\[
+q(\varphi)=p(\varphi)^{-\sigma}YP^{\sigma-1}
+\]</span> where <span class="math inline">\(P\)</span> is the
+<strong>Dixit-Stiglitz Price Index</strong> <span
+class="math display">\[
+P\equiv(\int_{\Omega}p(\varphi)^{1-\sigma}d\varphi)^{\frac{1}{1-\sigma}}
+\]</span></p>
+<ul>
+<li><span class="math inline">\(\sigma&gt;1\)</span>​ is the elasticity
+of substitution</li>
+<li><span class="math inline">\(\Omega\)</span> is the set of all the
+firms that produce</li>
+<li><span class="math inline">\(Y\)</span> is the income of the
+consumers</li>
+</ul>
+<p>Consumer welfare is simply their <strong>real income</strong> <span
+class="math display">\[
+W=\frac{Y}{P}
+\]</span></p>
+<h3 id="model-parameters-and-outcomes">Model Parameters and
+Outcomes</h3>
+<p>Exogenous model parameters</p>
+<ul>
+<li>the income <span class="math inline">\(Y\)</span></li>
+<li>the marginal cost <span class="math inline">\(c\)</span> &amp; the
+fixed cost <span class="math inline">\(f\)</span></li>
+</ul>
+<p>Endogenous model outcomes</p>
+<ul>
+<li>Prices charged by each firm <span
+class="math inline">\(p(\varphi)\)</span></li>
+<li>Quantities produced by each firm <span
+class="math inline">\(q(\varphi)\)</span></li>
+<li>Set of firms that produce <span
+class="math inline">\(\Omega\)</span></li>
+</ul>
+<h3 id="equilibrium-1">Equilibrium</h3>
+<p>Equilibrium conditions</p>
+<ol type="1">
+<li>Given every other firm's behavior and consumer demand, each firm
+chooses its price to maximize its profits.</li>
+<li>Consumers maximize their utility given their income.
+<ul>
+<li>Note that we've already solved this to get the demand function.</li>
+</ul></li>
+<li>In equilibrium, there is <strong>free entry</strong>, which implies
+the number of firms are set so that that there are no profits.</li>
+</ol>
+<h3 id="profits">Profits</h3>
+<p>A firm <span class="math inline">\(\varphi\)</span> chooses how much
+to produce and what price to charge in order to maximize its profits
+<span class="math inline">\(\pi(\varphi)\)</span> <span
+class="math display">\[
+\pi(\varphi)=\max_{q(\varphi),p(\varphi)}(p(\varphi)q(\varphi)-cq(\varphi))-f
+\]</span> subject to the consumer demand function <span
+class="math display">\[
+q(\varphi)=p(\varphi)^{-\sigma}YP^{\sigma-1}
+\]</span></p>
+<p>Substituting in the constraint yields a simple maximization problem
+where the firm just chooses the price <span class="math display">\[
+\pi(\varphi)=\max_{p(\varphi)}(p(\varphi)^{1-\sigma}YP^{\sigma-1}-cp(\varphi)^{-\sigma}YP^{\sigma-1})-f
+\]</span></p>
+<h3 id="optimal-price">Optimal Price</h3>
+<p>First order condition <span class="math display">\[
+((1-\sigma)p(\varphi)^{-\sigma}+\sigma
+cp(\varphi)^{-\sigma-1})YP^{\sigma-1}=0
+\]</span> which gives the solution <span class="math display">\[
+p(\varphi)=\frac{\sigma}{1-\sigma}c
+\]</span></p>
+<p>It shows that prices are just a constant mark-up over the marginal
+cost <span class="math inline">\(c\)</span></p>
+<h3 id="price-index">Price index</h3>
+<p>If all firms have the same marginal cost, then the price index
+becomes <span class="math display">\[
+P\equiv(\int_{\Omega}p(\varphi)^{1-\sigma}d\varphi)^{\frac{1}{1-\sigma}}=(\int_{\Omega}(\frac{\sigma}{1-\sigma}c)^{1-\sigma}d\varphi)^{\frac{1}{1-\sigma}}=(\frac{\sigma}{1-\sigma})c(\int_{\Omega}d\varphi)^{\frac{1}{1-\sigma}}=(\frac{\sigma}{\sigma-1})cN^{\frac{1}{1-\sigma}}
+\]</span> where <span class="math inline">\(N\equiv
+\int_{\Omega}d\varphi\)</span> stands for the number (measure) of
+firms</p>
+<h3 id="firms-and-welfare">Firms and welfare</h3>
+<p>Recall that welfare is the real income <span class="math display">\[
+W=\frac{Y}{P}
+\]</span></p>
+<p>Since <span
+class="math inline">\(P\equiv(\frac{\sigma}{\sigma-1})cN^{\frac{1}{1-\sigma}}\)</span>,
+this implies that welfare can be re-written as <span
+class="math display">\[
+W=(\frac{\sigma-1}{\sigma})\frac{1}{c}YN^{\frac{1}{\sigma-1}}
+\]</span></p>
+<p>And since <span class="math inline">\(\sigma&gt;1\)</span>, welfare
+is <strong>increasing</strong> in the number of firms <span
+class="math inline">\(N\)</span>.</p>
+<h3 id="firm-profits">Firm profits</h3>
+<p>Things we know about firms</p>
+<ul>
+<li>From consumer demand, firms sell a quantity <span
+class="math inline">\(q(\varphi)=p(\varphi)^{-\sigma}YP^{\sigma-1}\)</span></li>
+<li>From profit maximization, firms charge a price <span
+class="math inline">\(p(\varphi)=\frac{\sigma}{1-\sigma}c\)</span></li>
+</ul>
+<p>Together (and with a little algebra), this implies their profits are
+<span class="math display">\[
+\pi(\varphi)=p(\varphi)q(\varphi)-cq(\varphi)-f=(p(\varphi)^{1-\sigma}-cp(\varphi)^{-\sigma})YP^{\sigma-1}-f=\frac{1}{\sigma}(\frac{\sigma}{\sigma-1})^{1-\sigma}c^{1-\sigma}YP^{\sigma-1}-f
+\]</span></p>
+<p>Recall that the price index can be written as <span
+class="math display">\[
+P=(\frac{\sigma}{\sigma-1})cN^{\frac{1}{1-\sigma}}
+\]</span></p>
+<p>Combining the two beautifully yields <span class="math display">\[
+\pi(\varphi)=\frac{1}{\sigma}\frac{Y}{N}-f
+\]</span></p>
+<h3 id="free-entry">Free entry</h3>
+<p>The free entry condition requires that firms continue to enter until
+profits go to zero <span class="math display">\[
+\pi(\varphi)=\frac{1}{\sigma}\frac{Y}{N}-f=0
+\]</span> which gives the solution of <span
+class="math inline">\(N\)</span> <span class="math display">\[
+N=\frac{1}{\sigma}\frac{Y}{f}
+\]</span></p>
+<h3 id="recap">Recap</h3>
+<p>Every firm produces a differentiated variety and maximizes profits
+given consumer demand.</p>
+<ul>
+<li>Equation for profits: <span
+class="math inline">\(\pi(\varphi)=\frac{1}{\sigma}\frac{Y}{N}-f\)</span></li>
+<li>Equation for price index: <span
+class="math inline">\(P=(\frac{\sigma}{\sigma-1})cN^{\frac{1}{1-\sigma}}\)</span></li>
+</ul>
+<p>As the number of firms producing increases, the profits for each firm
+declines as they face more competition.</p>
+<ul>
+<li>Implies equilibrium number of firms: <span
+class="math inline">\(N=\frac{1}{\sigma}\frac{Y}{f}\)</span></li>
+</ul>
+<h3 id="how-to-model-trade">How to model trade</h3>
+<p>The simplest way to model trade to assume that firms can sell to a
+bigger market. <span class="math display">\[
+Y=Y_1+Y_2
+\]</span></p>
+<p>So to examine the welfare effect of trade, we just need to examine
+how an increase in income affects welfare.</p>
+<p>For simplicity, suppose that <span
+class="math inline">\(Y_1=Y_2\)</span>, so that opening up to trade
+doubles the income of the market.</p>
+<h3 id="gains-from-trade-in-new-trade-theory">Gains from Trade in
+<em>New</em> Trade Theory</h3>
+<p>Recall that welfare can be written as <span class="math display">\[
+W=\frac{Y}{P}=(\frac{\sigma-1}{\sigma})\frac{1}{c}YN^{\frac{1}{\sigma-1}}
+\]</span></p>
+<p>Substituting in the optimal number of firms yields <span
+class="math display">\[
+W=(\frac{\sigma-1}{\sigma})\frac{1}{c}Y(\frac{1}{\sigma}\frac{Y}{f})^{\frac{1}{\sigma-1}}=(\frac{\sigma-1}{\sigma})(\frac{1}{\sigma
+f})^{\frac{1}{\sigma-1}}\frac{1}{c}Y^{\frac{\sigma}{\sigma-1}}
+\]</span></p>
+<p>Note that <span
+class="math inline">\(\frac{\sigma}{\sigma-1}&gt;1\)</span>, which
+implies that doubling income more than doubles welfare. Hence, opening
+up to trade improves the <em>per capita</em> welfare of both
+countries.</p>
+<p>What's going on w.r.t. firms &amp; consumers</p>
+<ul>
+<li>As the income increases, the profits for any firm also increases
+(since the demand for their good goes up).</li>
+<li>In equilibrium, this will cause more firms to enter the market.</li>
+<li>More firms decreases the price index (because of consumers' love of
+variety).</li>
+<li>Hence it is less costly for consumers to get the same amount of
+welfare.</li>
+</ul>
+<h2 id="new-new-trade-theory"><em>New new</em> trade theory</h2>
+<ul>
+<li>Pioneered by Marc Melitz (in his PhD dissertation)
+<ul>
+<li>Enormously influential – has averaged about one citation a day for
+the past decade</li>
+</ul></li>
+<li>In the Krugman framework, all firms are assumed to be identical. Yet
+in reality, firms differ substantially.
+<ul>
+<li>In particular, larger firms are much more likely to engage in trade
+(export).</li>
+</ul></li>
+<li>Melitz' major innovation was to take extend the Krugman trade model
+to allow for firms to vary in their productivities.</li>
+<li>As we will see, this <em>new new</em> trade theory predicts that
+trade will increase competition, causing the least productive firms to
+exit and improving the overall productivity in the economy.</li>
+</ul>
+<p><strong>Exporters are the minority</strong></p>
+<p>Not all firms export, and exporters are in the minority.</p>
+<p><strong>Firms are heterogeneous</strong></p>
+<p>Firm Heterogeneity within category</p>
+<ul>
+<li>vast heterogeneity across plants/firms in productivity (and capital
+intensity and skill intensity)</li>
+<li>exporters are more produtive than non-exporters</li>
+</ul>
+<h3 id="firm-heterogeneity">Firm heterogeneity</h3>
+<p>Suppose that firms are heterogeneous (i.e. different).</p>
+<ul>
+<li>the easiest way to model this – suppose that firms differ in their
+marginal cost <span class="math inline">\(c\)</span> of production</li>
+</ul>
+<p>Furthermore, suppose a firm incurs a fixed cost <span
+class="math inline">\(f_{US}\)</span> for selling to the U.S. and <span
+class="math inline">\(f_{MEX}\)</span> for selling to Mexico</p>
+<ul>
+<li>assume <span class="math inline">\(f_{US}&lt;f_{MEX}\)</span> for
+U.S. firms</li>
+</ul>
+<p>Finally, suppose a firm incurs an entry cost <span
+class="math inline">\(f_e\)</span> for producing anything.</p>
+<h3 id="firm-heterogeneity-and-prices">Firm heterogeneity and
+prices</h3>
+<p>Better firms are more productive (i.e. have lower <span
+class="math inline">\(c\)</span>).</p>
+<p>Recall from profit maximization that optimal price is <span
+class="math display">\[
+p(\varphi)=\frac{\sigma}{1-\sigma}c(\varphi)
+\]</span> where <span class="math inline">\(c(\varphi)\)</span> is the
+marginal cost of the firm producing good <span
+class="math inline">\(\varphi\)</span></p>
+<p>Hence more productive firms will charge lower prices.</p>
+<p>Note that the old equation for price index no longer holds since
+price charged varies across firms.</p>
+<h3 id="firm-heterogeneity-and-production">Firm heterogeneity and
+production</h3>
+<p>Recall consumer demand function <span class="math display">\[
+q(\varphi)=p(\varphi)^{-\sigma}YP^{\sigma-1}
+\]</span> Hence, if they produce, more productive firms will sell
+greater quantities.</p>
+<p>Variable profits (i.e. without fixed costs) are <span
+class="math display">\[
+\pi_i(\varphi)=\frac{1}{\sigma}(\frac{\sigma}{\sigma-1})^{1-\sigma}c^{1-\sigma}Y_iP^{\sigma-1}_i
+\]</span> Hence more productive firms will also have higher profits.</p>
+<h3 id="firm-heterogeneity-and-entry-decisions">Firm heterogeneity and
+entry decisions</h3>
+<p>Profits for selling to country <span
+class="math inline">\(i\in\{US,MEX\}\)</span> are <span
+class="math display">\[
+\pi_i(\varphi)=\frac{1}{\sigma}(\frac{\sigma}{\sigma-1})^{1-\sigma}c^{1-\sigma}Y_iP^{\sigma-1}_i-f_i
+\]</span></p>
+<p>Will only sell to the country if <span
+class="math inline">\(\pi_i(\varphi)\ge0\)</span> <span
+class="math display">\[
+\pi_i(\varphi)=\frac{1}{\sigma}(\frac{\sigma}{\sigma-1})^{1-\sigma}c^{1-\sigma}Y_iP^{\sigma-1}_i-f_i\ge0
+\]</span> which gives the solution of <span class="math display">\[
+c\le(\frac{\sigma-1}{\sigma})(\frac{Y_i}{\sigma
+f_i})^{\frac{1}{\sigma-1}}P_i
+\]</span></p>
+<p>Then for U.S. firms, some (less-productive) firms will only sell
+domestically, while the most productive firms will export.</p>
+<h3 id="free-entry-1">Free entry</h3>
+<p>We can modify the free entry condition to say the expected profits of
+a firm are equal to zero <span class="math display">\[
+E(\pi_{US}(\varphi)+\pi_{MEX}(\varphi)-f_e)=0
+\]</span> Justify this by assuming that firms pay the entry cost <span
+class="math inline">\(f_e\)</span> before realizing their marginal cost
+<span class="math inline">\(c\)</span>.</p>
+<p>This means that some firms can realize that they have very high
+marginal costs and choose not to produce at all, but still have to pay
+<span class="math inline">\(f_e\)</span>.</p>
+<h3 id="effect-of-more-free-trade">Effect of (more free) trade</h3>
+<p>Suppose that the cost of exporting to Mexico <span
+class="math inline">\(f_{MEX}\)</span> declines, so that the two
+countries become more integrated.</p>
+<p>First, lowering <span class="math inline">\(f_{MEX}\)</span> causes
+less productive firms to begin exporting to Mexico.</p>
+<p>Second, exporting to Mexico raises these firms profits, which raises
+the expected profits of all firms.</p>
+<ul>
+<li>This causes more firms to begin entering the market, which drives
+down the profits for all firms.</li>
+<li>Firms that were before indifferent between selling in the U.S. now
+do not find it profitable to do so.</li>
+<li>Hence, <span class="math inline">\(c^*_{US}\)</span> decreases,
+meaning that the average US productivity of firms producing domestically
+increases.</li>
+</ul>
+<h3 id="gains-from-trade-in-new-new-trade-theory">Gains from Trade in
+<em>New New</em> Trade Theory</h3>
+<ul>
+<li>Still gains from trade resulting from increased varieties (as in the
+<em>new</em> trade theory)</li>
+<li>In addition, opening up to trade increases the potential profits of
+firms, which increases the competition amongst entrants.</li>
+<li>This increased competition amongst entrants means that the least
+profitable firms no longer produce.</li>
+<li>Hence, trade increases the average productivity of a country.</li>
+</ul>
+<h1 id="lecture-8-global-imbalances">Lecture 8: Global Imbalances</h1>
 ]]></content>
       <tags>
         <tag>Economics</tag>
@@ -5463,6 +7159,1486 @@ variance</em></strong>. The emphasis will be on</p>
 <p>Mathematical manipulations are important but not the focus.
 <strong>Intuitive and statistical understanding</strong> of the theory
 is nonetheless required.</p>
+<h2 id="history-of-regression">History of <em>Regression</em></h2>
+<p>Regression-type problems first considered in the 18th century to aid
+navigation with the use of astronomy. Legendre developed <strong>the
+method of least squares</strong> in 1805. Gauss claimed to have
+developed the method a few years earlier and in 1809 showed that
+<strong>least squares is the optimal solution when the errors are
+normally distributed</strong>.</p>
+<p>Used almost exclusively in the physical sciences until later in the
+19th century.</p>
+<h2 id="the-lurking-problem">The Lurking Problem</h2>
+<p>Intergenerational transfers passed heritable variation to
+offspring.</p>
+<p>Population dispersion is stable over the short term.</p>
+<h3 id="the-experiment">The Experiment</h3>
+<p>In 1875, Galton started growing sweet peas.</p>
+<p>Weights of the daughter seeds (Offspring) against the weights of the
+mother seeds (Parent).</p>
+<h3 id="regression-slope">Regression &amp; Slope</h3>
+<p>Galton's first documented study of this type suggested a slope of
+0.33.</p>
+<ul>
+<li>Affirmed his basic assumptions concerning the heritability.</li>
+</ul>
+<p>This finding is prototypical of <strong>regression to the
+mean</strong>.</p>
+<ul>
+<li>He designated the slope <span class="math inline">\(r\)</span> for
+regression.</li>
+</ul>
+<h3 id="generality-of-regression-slope">Generality of Regression
+Slope</h3>
+<p>Galton believed he had estimated a single, universal heredity
+constant: <span class="math display">\[
+\frac{y-\bar{y}}{S_y}=r\cdot\frac{x-\bar{x}}{S_x}
+\]</span></p>
+<ul>
+<li>Used an estimated value of <span
+class="math inline">\(r\)</span>.</li>
+<li><span class="math inline">\((S_y/S_x)\)</span> allowed him to adjust
+the observed slope.</li>
+<li><em>Quantile Deviation: semi-interquartile range.</em></li>
+</ul>
+<h3 id="introducing-the-inclined-chutes">Introducing the Inclined
+Chutes</h3>
+<p>Galton called this reversion.</p>
+<ul>
+<li>Not coincidental but necessary for population stability</li>
+</ul>
+<p>His 1877 version of the quincunx, showing:</p>
+<ul>
+<li>how the inclined chutes compensate for the increase in dispersion
+below to maintain constant population dispersion</li>
+<li>how the offspring of two of the upper-level stature groups can be
+traced through the process to the lowest level</li>
+</ul>
+<h3 id="two-regression-lines-together">Two Regression Lines
+Together</h3>
+<p><em>regression towards mediocrity</em></p>
+<p>similar results for brothers data</p>
+<p>The explanation must be <strong>statistical</strong>, not
+biological</p>
+<h3 id="geometric-relationship-of-the-data">Geometric Relationship of
+the Data</h3>
+<p>Galton smoothed the <strong>counts</strong> to make the pattern stand
+out better.</p>
+<p>Could see a rough <strong>elliptical contour</strong> emerging around
+the densest portion.</p>
+<h3 id="bivariate-normal-density-regression-lines">Bivariate Normal
+Density &amp; Regression Lines</h3>
+<p>Galton found a theoretical representation for the table – the
+bivariate normal density.</p>
+<p><em>Two regression lines</em>:</p>
+<ul>
+<li>the expected height of the mid-parent as a function of the child's
+height</li>
+<li>the expected height of the offspring as a function of the
+mid-parent's height</li>
+<li><span class="math inline">\(E(Y|X=x)\)</span></li>
+</ul>
+<h3 id="galtons-solution-to-darwins-problem">Galton's Solution to
+Darwin's Problem</h3>
+<p>Regression toward the mean was</p>
+<ul>
+<li>a necessary requirement for natural selection</li>
+<li>a simple consequence of the <strong>imperfect correlation</strong>
+between parents and offspring</li>
+</ul>
+<p>The population dispersion is in an approximate evolutionary
+equilibrium</p>
+<ul>
+<li>The movement from the population center toward the extremes was
+balanced by the movement back.</li>
+</ul>
+<h3 id="galtons-interpretation">Galton's Interpretation</h3>
+<p><span class="math inline">\(F=G+V_1,\ S=G+V_2\)</span></p>
+<ul>
+<li><span class="math inline">\(G\)</span> – an unobserved persistent
+(genetic) component that blood relatives hold in common with each
+other</li>
+<li><span class="math inline">\(V_i\)</span> – unobserved transitory
+(random) components, uncorrelated with <span
+class="math inline">\(G\)</span> and with each other</li>
+</ul>
+<p><span class="math inline">\(E(G)=P\)</span></p>
+<p><span class="math inline">\(E(V_1)=E(V_2)=0\)</span></p>
+<h3 id="one-step-further-multiple-regression">One Step Further: Multiple
+Regression</h3>
+<p>Galton noticed that</p>
+<ul>
+<li>prior generations could also influence individual
+characteristics</li>
+<li>effects are diminishing</li>
+</ul>
+<p>He had hit upon the kernel of the idea of multiple regression:</p>
+<ul>
+<li><strong>A variable may be influenced by a multitude of causes of
+greater and lesser importance</strong></li>
+<li><strong>Some of these causes may even overlap with one
+another</strong></li>
+</ul>
+<h2 id="before-started">Before Started</h2>
+<h3 id="statistics">Statistics</h3>
+<ol type="1">
+<li>starts with a problem</li>
+<li>proceeds with the collection of data</li>
+<li>continues with the data analysis</li>
+<li>finishes with conclusions</li>
+</ol>
+<p>A common mistake is to plunge into a complex analysis without paying
+attention to what the <em>objectives</em> are or even whether the
+<em>data</em> are appropriate for the proposed analysis.</p>
+<h3 id="formulate-the-problem-correctly">Formulate the Problem
+Correctly</h3>
+<ul>
+<li>Understand the physical background</li>
+<li>Understand the objective</li>
+<li>Make sure you know what the client wants</li>
+<li>Put the problem into statistical terms</li>
+</ul>
+<h3 id="how-the-data-were-collected">How the <em>Data</em> Were
+Collected?</h3>
+<ol type="1">
+<li><p><strong>Were they obtained via a designed sample
+survey?</strong></p>
+<p>How the data were collected has a crucial impact on what conclusions
+can be made.</p></li>
+<li><p><strong>Is there nonresponse?</strong></p>
+<p>The data you do not see may be just as important as the data you do
+see.</p></li>
+<li><p><strong>Are there missing values?</strong></p>
+<p>This is a common problem that is troublesome and time consuming to
+handle.</p></li>
+<li><p><strong>How are the data coded?</strong></p>
+<p>In particular, how are the qualitative variables
+represented?</p></li>
+<li><p><strong>What are the units of measurement?</strong></p></li>
+<li><p>Beware of data entry errors and other corruption of the data.
+Perform some <em>data sanity checks</em>.</p></li>
+</ol>
+<h3 id="exploratory-data-analysis-eda">Exploratory Data Analysis
+(EDA)</h3>
+<p>Promoted by John Tukey to encourage statisticians to explore the
+data, and possibly formulate hypotheses that could lead to new data
+collection and experiments.</p>
+<p><strong><em>EDA</em></strong> is an approach simple but vital.</p>
+<ol type="1">
+<li>to analyzing data sets</li>
+<li>to summarize their main characteristics</li>
+<li>often with visual methods</li>
+</ol>
+<p><strong>EDA in Practice</strong></p>
+<ul>
+<li><strong>Numerical summaries</strong> such as means, standard
+deviations, maximum and minimum, correlations and whatever else is
+appropriate to the specific dataset.</li>
+<li><strong>Graphical summaries</strong>
+<ul>
+<li>For one variable, boxplots, histograms, density plots</li>
+<li>For two and more variables, scatterplots are standard</li>
+<li>Interactive and dynamic graphics</li>
+</ul></li>
+<li>Look for outliers, data-entry errors, skewed or unusual
+distributions and structures.</li>
+</ul>
+<h3 id="analysis-terminologies">Analysis: Terminologies</h3>
+<p><span class="math inline">\(X\)</span> – predictor, input,
+independent or explanatory variable</p>
+<p><span class="math inline">\(Y\)</span> – response, output, dependent
+variable</p>
+<p><span class="math inline">\(Y\sim X\)</span> – simple regression</p>
+<p><span class="math inline">\(Y\sim X_1,\dots,X_p\)</span> –
+multiple/multivariate regression</p>
+<blockquote>
+<p>A multiple regression has more than one <span
+class="math inline">\(X\)</span> in one formula</p>
+<p>A multivariate regression has more than one <span
+class="math inline">\(Y\)</span>, but in different formulae</p>
+</blockquote>
+<p>A <strong>multivariate multiple regression</strong> has multiple
+<span class="math inline">\(X\)</span>'s to predict multiple <span
+class="math inline">\(Y\)</span>'s with each <span
+class="math inline">\(Y\)</span> in a different formula, usually based
+on the same data.</p>
+<h3 id="various-forms-of-regressions">Various Forms of Regressions</h3>
+<ol type="1">
+<li><span class="math inline">\(Y\)</span> continuous &amp; <span
+class="math inline">\(X\)</span> continuous, discrete or categorical
+<ul>
+<li>diabetes ~ diastolic + bmi – a multiple regression, only
+quantitative variables, will be tackled shortly</li>
+<li>bmi ~ diastolic + test – both quantitative and qualitative
+predictors, will be considered on analysis of covariance</li>
+<li>diastolic ~ test – only qualitative predictors, called analysis of
+variance (ANOVA)</li>
+</ul></li>
+<li><span class="math inline">\(Y\)</span> qualitative (categorical,
+here binary), needs a logistic regression
+<ul>
+<li>test ~ diastolic + bmi</li>
+</ul></li>
+<li><span class="math inline">\(Y\)</span> discrete (count), needs a
+Poisson regression
+<ul>
+<li>pregnant ~ diastolic + bmi</li>
+</ul></li>
+</ol>
+<h3 id="possible-objectives">Possible Objectives</h3>
+<ul>
+<li>Prediction of future observations</li>
+<li>Assessment of the effect of, or relationship between, explanatory
+variables and the response</li>
+<li>A general description of data structure</li>
+</ul>
+<h3 id="steps-in-a-regression-analysis">Steps in a Regression
+Analysis</h3>
+<p>A regression analysis includes the following steps:</p>
+<ol type="1">
+<li>Statement of the problem</li>
+<li>Selection of potentially relevant variables</li>
+<li>Data collection</li>
+<li>Model specification</li>
+<li>Choice of fitting method</li>
+<li>Model fitting</li>
+<li>Model validation and criticism</li>
+<li>Using the chosen model(s) for the solution of the posed problem</li>
+</ol>
+<h1 id="lecture-2-simple-linear-regression">Lecture 2: Simple Linear
+Regression</h1>
+<h2 id="simple-linear-regression-model">Simple Linear Regression
+Model</h2>
+<ul>
+<li>Model parameters</li>
+<li>Model assumptions</li>
+<li>Distribution of error terms</li>
+</ul>
+<h3 id="data-for-simple-linear-regression">Data for Simple Linear
+Regression</h3>
+<ul>
+<li>Observe pairs of the variables</li>
+<li>Each pair <span class="math inline">\((X_i,Y_i)\)</span>, often
+called a case
+<ul>
+<li><span class="math inline">\(X_i\)</span> – observed explanatory
+variable</li>
+<li><span class="math inline">\(Y_i\)</span> – observed response
+variable</li>
+</ul></li>
+<li><span
+class="math inline">\((X_1,Y_1),(X_2,Y_2),\dots,(X_n,Y_n)\)</span> –
+Sample/ Observations/ Data</li>
+<li><span class="math inline">\(n\)</span> – Sample size</li>
+</ul>
+<h3 id="simple-linear-regression-model-1">Simple Linear Regression
+Model</h3>
+<p><span class="math display">\[
+Y_i=\beta_0+\beta_1X_i+\varepsilon_i
+\]</span></p>
+<ul>
+<li><span class="math inline">\(\beta_0\)</span> is the
+<strong>intercept</strong></li>
+<li><span class="math inline">\(\beta_1\)</span> is the
+<strong>slope</strong></li>
+<li><span class="math inline">\(\varepsilon_i\)</span> is a
+<strong>random error term</strong>
+<ul>
+<li>Mean <span class="math inline">\(E(\varepsilon_i)=0\)</span> and
+Variance <span
+class="math inline">\(Var(\varepsilon_i)=\sigma^2\)</span></li>
+<li><span class="math inline">\(\varepsilon_i\)</span> and <span
+class="math inline">\(\varepsilon_j\)</span> are uncorrelated</li>
+<li><span class="math inline">\(\sigma^2\)</span> represents
+<strong>intrinsic variability</strong></li>
+</ul></li>
+</ul>
+<p><strong>Simple Linear Regression Model with Normal Error</strong></p>
+<p><strong><span class="math inline">\(\varepsilon_i\)</span> is
+normally distributed</strong></p>
+<p><span
+class="math inline">\(\varepsilon_1,\varepsilon_2,\dots,\varepsilon_n\)</span>
+are Independent and Identically Distributed (i.i.d.) as <span
+class="math inline">\(N(0,\sigma^2)\)</span>.</p>
+<h3 id="model-parameters">Model Parameters</h3>
+<p>Parameters are unknown constants in the model and targets of
+inference.</p>
+<ul>
+<li><span class="math inline">\(\beta_0\)</span> – the
+<strong>intercept</strong></li>
+<li><span class="math inline">\(\beta_1\)</span> – the
+<strong>slope</strong></li>
+<li><span class="math inline">\(\sigma^2\)</span> – the
+<strong>variance</strong> of the error term</li>
+</ul>
+<p>Statistical Inference: the process to deduce the properties of a
+parameter from data</p>
+<h3 id="common-features-of-both-models">Common Features of Both
+Models</h3>
+<p>The model with general error versus the model with normal error <span
+class="math display">\[
+Y_i=\beta_0+\beta_1X_i+\varepsilon_i
+\]</span></p>
+<ul>
+<li><p><span
+class="math inline">\(E(Y_i)=\beta_0+\beta_1X_i+E(\varepsilon_i)=\beta_0+\beta_1X_i\)</span></p></li>
+<li><p><span
+class="math inline">\(Var(Y_i)=0+Var(\varepsilon_i)=\sigma^2\)</span></p></li>
+</ul>
+<p>Mean of <span class="math inline">\(Y_i\)</span> determined by value
+of <span class="math inline">\(X_i\)</span>. All possible means fall on
+a line and the <span class="math inline">\(Y_i\)</span>'s vary about
+this line</p>
+<h3 id="unique-feature-of-the-model-with-normal-error">Unique Feature of
+the Model with Normal Error</h3>
+<p>The model is equivalent to: <span
+class="math inline">\(Y_1,\dots,Y_n\)</span> are independent and for
+each <span class="math inline">\(i\)</span> <span
+class="math display">\[
+Y_i\sim N(\beta_0+\beta_1X_i,\sigma^2),\ i=1,\dots,n
+\]</span></p>
+<h3 id="to-summarize-line">To Summarize: LINE</h3>
+<p><strong>Linear Function</strong></p>
+<p>The mean of the response, <span
+class="math inline">\(E(Y_i)\)</span>, at each value of the predictor,
+<span class="math inline">\(X_i\)</span>, is a Linear function of the
+<span class="math inline">\(X_i\)</span>.</p>
+<p><strong>Independent</strong></p>
+<p>The errors, <span class="math inline">\(\varepsilon_i\)</span>, are
+Independent.</p>
+<p><strong>Normally Distributed</strong></p>
+<p>The errors, <span class="math inline">\(\varepsilon_i\)</span>, at
+each value of the predictor, <span class="math inline">\(X_i\)</span>,
+are Normally distributed.</p>
+<p><strong>Equal variances (denoted <span
+class="math inline">\(\sigma^2\)</span>)</strong></p>
+<p>The errors, <span class="math inline">\(\varepsilon_i\)</span>, at
+each value of the predictor, <span class="math inline">\(X_i\)</span>,
+have Equal variances <span class="math inline">\(\sigma^2\)</span>.</p>
+<h2 id="estimation-of-parameters">Estimation of Parameters</h2>
+<ul>
+<li>Method of least squares</li>
+<li>Maximum likelihood</li>
+</ul>
+<h3 id="the-least-squares-principle">The Least Squares Principle</h3>
+<p>For each <span class="math inline">\(i\)</span></p>
+<ul>
+<li>Observed response – <span class="math inline">\(Y_i\)</span></li>
+<li>Response predicted by model – <span
+class="math inline">\(\beta_0+\beta_1X_i\)</span></li>
+<li>Difference – <span
+class="math inline">\(Y_i-\beta_0-\beta_1X_i\)</span></li>
+<li>Squared diff – <span
+class="math inline">\((Y_i-\beta_0-\beta_1X_i)^2\)</span></li>
+</ul>
+<p>For all cases</p>
+<ul>
+<li>Sum of squares – <span
+class="math inline">\(\sum_{i=1}^n(Y_i-\beta_0-\beta_1X_i)^2\)</span></li>
+</ul>
+<h4 id="least-squares-ls-principle-ls-estimates">Least Squares (LS)
+Principle / LS Estimates</h4>
+<p><span class="math display">\[
+\hat \beta_0,\hat \beta_1=\underset{\beta_0,\beta_1}{\mathbb
+Rm{argmin}}\sum(Y_i-\beta_0-\beta_1X_i)^2
+\]</span></p>
+<p><strong>Use Calculus to Solve Minimization</strong></p>
+<p><span class="math display">\[
+\begin{aligned}
+b_1&amp;=\hat \beta_1=\frac{\sum_i(X_i-\bar X)(Y_i-\bar
+Y)}{\sum_i(X_i-\bar X)^2}\\
+b_0&amp;=\hat \beta_0=\bar Y-b_1\bar X
+\end{aligned}
+\]</span> where <span class="math inline">\(\bar
+X=\frac{\sum_iX_i}{n}\)</span> and <span class="math inline">\(\bar
+Y=\frac{\sum_iY_i}{n}\)</span></p>
+<ul>
+<li><span class="math inline">\(b_1\)</span> – estimated slope or an
+estimator of the slope <span class="math inline">\(\beta_1\)</span></li>
+<li><span class="math inline">\(b_0\)</span> – estimated intercept or an
+estimator of the intercept <span
+class="math inline">\(\beta_0\)</span></li>
+</ul>
+<h4 id="fitted-model-and-residuals">Fitted Model and Residuals</h4>
+<p><em>Fitted Model</em> <span class="math display">\[
+\hat Y_i=b_0+b_1X_i
+\]</span></p>
+<ul>
+<li>Predicted or fitted Response – <span class="math inline">\(\hat
+Y_i\)</span></li>
+<li>Observed Response – <span class="math inline">\(Y_i\)</span></li>
+<li><strong>Residual</strong> – <span class="math inline">\(e_i\)</span>
+<span class="math display">\[
+e_i=Y_i-\hat Y_i=(\beta_0+\beta_1X_i+\varepsilon_i)-(b_0+b_1X_i)\approx
+\varepsilon_i
+\]</span></li>
+</ul>
+<p>Residuals reflect error terms when fitted model is good, are highly
+useful for studying whether a given regression model is appropriate for
+the data at hand.</p>
+<h4 id="properties-of-residuals">Properties of Residuals</h4>
+<p>Recall that <span class="math inline">\(\hat \beta_0,\hat
+\beta_1\)</span> minimize <span class="math display">\[
+Q=\sum(Y_i-\beta_0-\beta_1X_i)^2
+\]</span> Normal equations: <span class="math display">\[
+\begin{cases}
+\frac{\partialial Q}{\partialial
+\beta_0}=-2\sum_{i=1}^n(Y_i-\beta_0-\beta_1X_i)=0\\
+\frac{\partialial Q}{\partialial
+\beta_1}=-2\sum_{i=1}^nX_i(Y_i-\beta_0-\beta_1X_i)=0
+\end{cases}
+\]</span> Replace <span class="math inline">\(\beta_0,\beta_1\)</span>
+by <span class="math inline">\(b_0,b_1\)</span>, that is <span
+class="math display">\[
+\begin{cases}
+\sum_{i=1}^ne_i&amp;=0\\
+\sum_{i=1}^nX_ie_i&amp;=0
+\end{cases}
+\]</span></p>
+<h4 id="estimation-of-variance-sigma2">Estimation of Variance <span
+class="math inline">\(\sigma^2\)</span></h4>
+<p>The <strong><em>Degree of Freedom</em></strong> of <span
+class="math inline">\(e_1,\dots,e_n\)</span> is <span
+class="math inline">\(df_E=n-2\)</span></p>
+<p>Therefore <span class="math display">\[
+s^2=\hat \sigma^2=\frac{\sum_{i=1}^ne_i^2}{n-2}=\frac{SSE}{df_E}=MSE
+\]</span> where Sum of Squared Errors <span
+class="math inline">\(SSE=\sum_{i=1}^n(Y_i-\hat Y_i)^2\)</span> and
+<span class="math inline">\(MSE\)</span> stands for Mean of Squared
+Errors</p>
+<h4 id="properties-of-ls-estimates">Properties of LS estimates</h4>
+<ul>
+<li><p><strong>Unbiased</strong></p>
+<p><span class="math inline">\(E(b_0)=\beta_0,\ E(b_1)=\beta_1,\
+E(s^2)=E(MSE)=\sigma^2\)</span></p></li>
+<li><p><strong>Optimal</strong> (most accurate, minimum variance)</p>
+<p><span class="math inline">\(b_0,b_1\)</span> – best linear unbiased
+estimator for <span class="math inline">\(\beta_0,\beta_1\)</span></p>
+<p><span class="math inline">\(s^2\)</span> – best among quadratic
+estimators for <span class="math inline">\(\sigma^2\)</span></p></li>
+<li><p>Residuals are <strong>linearly dependent</strong></p>
+<p><span class="math inline">\(\sum_{i=1}^ne_i=0,\
+\sum_{i=1}^nX_ie_i=0\)</span></p>
+<p><span class="math inline">\(\sum_{i=1}^nY_i=\sum_{i=1}^n\hat Y_i,\
+\sum_{i=1}^n\hat Y_ie_i=0\)</span></p></li>
+<li><p>The regression line <span
+class="math inline">\(y=b_0+b_1x\)</span> pass <span
+class="math inline">\((\bar X,\bar Y)\)</span></p></li>
+</ul>
+<h3 id="residual-plot">Residual Plot</h3>
+<p>The residuals not only tell about the errors, but also how well the
+model fits data.</p>
+<p>Residual plot – plot residuals against predictor variable / fitted
+values</p>
+<p>Useful for checking assumptions and model diagnostics</p>
+<h3 id="qq-plot-probability-plot">QQ plot / Probability Plot</h3>
+<p>Assessing whether or not a data set follows a given distribution
+<span class="math inline">\(F\)</span></p>
+<ul>
+<li><span class="math inline">\(Y\)</span> axis – ordered response
+values</li>
+<li><span class="math inline">\(X\)</span> axis – corresponding
+quantiles of <span class="math inline">\(F\)</span></li>
+</ul>
+<p>The points should form approximately a straight line</p>
+<p>Departures from this straight line indicate departures from the
+specified distribution <span class="math inline">\(F\)</span></p>
+<h4 id="draw-a-normal-probability-plot">Draw a Normal Probability
+Plot</h4>
+<ol type="1">
+<li>Order the data to get ordered statistics <span
+class="math inline">\(X_{(1)},\dots,X_{(n)}\)</span></li>
+<li>For <span class="math inline">\(j=1,\dots,n\)</span> specify the
+data quantile <span
+class="math inline">\(p_j=\frac{j-0.5}{n}\)</span></li>
+<li>Find <span class="math inline">\(Z_j=\Phi^{-1}(p_j)\)</span> where
+<span class="math inline">\(\Phi\)</span> is the CDF of the standard
+normal distribution</li>
+<li>Plot <span class="math inline">\(X_{(j)}\)</span> against <span
+class="math inline">\(Z_j\)</span></li>
+</ol>
+<h3 id="maximum-likelihood-principle-estimation">Maximum Likelihood
+Principle / Estimation</h3>
+<p>Under normal errors, the distributional model <span
+class="math display">\[
+Y_i\sim N(\beta_0+\beta_1X_i,\sigma^2)
+\]</span></p>
+<p>Density function: <span class="math display">\[
+f_i(y|\beta_0,\beta_1,\sigma^2)=\frac{1}{\sqrt{2\pi\sigma^2}}\exp\{-\frac{(y-\beta_0-\beta_1X_i)^2}{2\sigma^2}\}
+\]</span></p>
+<p>Likelihood function: <span class="math display">\[
+L_i(\beta_0,\beta_1,\sigma^2|Y_i)=f_i(Y_i|\beta_0,\beta_1,\sigma^2)
+\]</span></p>
+<p>Joint likelihood function <span class="math display">\[
+L(\beta_0,\beta_1,\sigma^2)=L_1\times L_2\times \cdots\times L_n
+\]</span></p>
+<p>Thus <span class="math display">\[
+\begin{aligned}
+\hat \beta_0^{ml},\hat \beta_1^{ml},\hat
+\sigma^{2,ml}&amp;=\underset{\beta_0,\beta_1,\sigma^2}{\mathbb
+Rm{argmax}}\ L(\beta_0,\beta_1,\sigma^2)\\
+&amp;=\underset{\beta_0,\beta_1,\sigma^2}{\mathbb Rm{argmin}}\ (-\log
+L(\beta_0,\beta_1,\sigma^2))
+\end{aligned}
+\]</span></p>
+<p><strong>Use Calculus to Solve Minimization</strong></p>
+<p><span class="math display">\[
+\hat \beta_0^{ml}=b_0,\ \hat \beta_1^{ml}=b_1\\
+\hat
+\sigma^{2,ml}=\frac{\sum_{i=1}^ne_i^2}{n}=\frac{\sum_{i=1}^n(Y_i-\hat
+Y_i)^2}{n}\neq s^2
+\]</span></p>
+<p>ML estimates rely on distributional assumptions, LS estimates do
+not.</p>
+<p>In general, MLEs and LSEs are different.</p>
+<h1 id="lecture-3-statistical-inference-power">Lecture 3: Statistical
+Inference &amp; Power</h1>
+<h2 id="review-basics-of-statistical-inference">Review: Basics of
+Statistical Inference</h2>
+<ul>
+<li>Sampling distribution</li>
+<li>Testing hypotheses</li>
+<li>Constructing confidence intervals</li>
+</ul>
+<h3 id="using-normal-mean-as-an-example">Using Normal Mean as an
+Example</h3>
+<p>Sample, Model, and Parameters <span class="math display">\[
+X_1,\dots,X_n\overset{i.i.d}{\sim}N(\mu,\sigma^2)
+\]</span> Estimates – Sample mean &amp; Sample variance <span
+class="math display">\[
+\begin{aligned}
+\hat \mu&amp;=\bar X=\frac{\sum_{i=1}^nX_i}{n}\\
+\hat \sigma^2&amp;=\frac{\sum_{i=1}^n(X_i-\bar X)^2}{n-1}=s^2\
+\text{and}\ df_{s^2}=n-1\\
+\hat \sigma&amp;=s=\sqrt{s^2}
+\end{aligned}
+\]</span></p>
+<h3 id="sampling-distribution-of-bar-x-and-standard-error">Sampling
+Distribution of <span class="math inline">\(\bar X\)</span> and Standard
+Error</h3>
+<p>The distribution of <span class="math inline">\(\bar X\)</span> is
+called its <strong>Sampling Distribution</strong> <span
+class="math display">\[
+\bar X\sim N(\mu,\frac{\sigma^2}{n})
+\]</span></p>
+<p><strong>Normal</strong> with same mean but a much reduced
+variance</p>
+<p><span class="math display">\[
+\begin{aligned}
+\sigma^2(\bar X)&amp;=E(\bar X-\mu)^2=\frac{\sigma^2}{n}\\
+\hat \sigma^2(\bar X)&amp;=s^2(\bar X)=\frac{s^2}{n}
+\end{aligned}
+\]</span></p>
+<p>Standard Error (SE) of <span class="math inline">\(\bar X\)</span>
+<span class="math display">\[
+SE_{\bar X}=s(\bar X)=\sqrt{s^2(\bar X)}=\frac{s}{\sqrt{n}}
+\]</span></p>
+<p>Typical/Standard deviation/error of <span class="math inline">\(\bar
+X\)</span> from its target <span class="math inline">\(\mu\)</span>,
+telling the accuracy of <span class="math inline">\(\bar X\)</span></p>
+<h3 id="chi-squared-distribution">Chi-squared Distribution</h3>
+<p>Sample of Standard Normal Random Variables:</p>
+<p><span class="math display">\[
+Z_1,Z_2,\dots,Z_k\overset{i.i.d.}{\sim}N(0,1)
+\]</span></p>
+<p>Sum of Squared Standard Normals:</p>
+<p><span class="math display">\[
+U=Z_1^2+Z_2^2+\dots+Z_k^2
+\]</span></p>
+<p>The distribution of <span class="math inline">\(U\)</span> is defined
+to be a chi-squared distribution with degree of freedom <span
+class="math inline">\(k\)</span> – <span
+class="math inline">\(\chi_k^2\)</span> <span class="math display">\[
+\begin{aligned}
+E(U)&amp;=k\\
+Var(U)&amp;=2k
+\end{aligned}
+\]</span></p>
+<h3 id="sampling-distribution-of-s2">Sampling Distribution of <span
+class="math inline">\(s^2\)</span></h3>
+<p>We can show that <span class="math display">\[
+\frac{(n-1)s^2}{\sigma^2}=Z_1^2+Z_2^2+\dots+Z_{n-1}^2
+\]</span> where <span class="math display">\[
+Z_1,Z_2,\dots,Z_{n-1}\overset{i.i.d.}{\sim}N(0,1)
+\]</span> Therefore <span class="math display">\[
+\frac{(n-1)s^2}{\sigma^2}\sim\chi^2_{n-1}
+\]</span></p>
+<p>After scaling, <span class="math inline">\(s^2\)</span> follows
+Chi-squared distribution with <span
+class="math inline">\(df=n-1\)</span>.</p>
+<p><strong><em>Fisher's Theorem</em></strong></p>
+<p><span class="math inline">\(\bar X\)</span> and <span
+class="math inline">\(s^2\)</span> are independent if the population
+model is normal</p>
+<h3 id="students-t-distribution">Student's <span
+class="math inline">\(t\)</span>-distribution</h3>
+<p>Consider <span class="math display">\[
+Z_0,Z_1,Z_2,\dots,Z_k\overset{i.i.d.}{\sim}N(0,1)
+\]</span> Then <span class="math display">\[
+U=Z_1^2+Z_2^2+\dots+Z_k^2\sim\chi^2_k
+\]</span> And <span class="math inline">\(Z_0,U\)</span> are independent
+with each other. <span class="math display">\[
+T=\frac{Z_0}{\sqrt{U/k}}
+\]</span> The distribution of <span class="math inline">\(T\)</span> is
+defined to be student's <span
+class="math inline">\(t\)</span>-distribution with degree of freedom
+<span class="math inline">\(k\)</span> – <span
+class="math inline">\(t_k\)</span></p>
+<h3 id="t-statistic-and-t-distribution"><span
+class="math inline">\(t\)</span>-statistic and <span
+class="math inline">\(t\)</span>-distribution</h3>
+<p>How far away is sample mean <span class="math inline">\(\bar
+X\)</span> from its target in terms of Standard Error (SE) <span
+class="math display">\[
+T=\frac{\bar X-\mu}{SE_{\bar X}}=\frac{\bar X-\mu}{s/\sqrt
+n}=\frac{\frac{\bar X-\mu}{\sigma/\sqrt
+n}}{\frac{\sqrt{s^2/n}}{\sigma/\sqrt n}}=\frac{\frac{\bar
+X-\mu}{\sigma/\sqrt n}}{\sqrt{\frac{(n-1)s^2}{\sigma^2(n-1)}}}\sim
+t_{n-1}
+\]</span></p>
+<h3 id="hypothesis-testing">Hypothesis Testing</h3>
+<p><span class="math display">\[
+H_0\quad \text{vs.}\quad H_1
+\]</span></p>
+<p><strong><em>Errors</em></strong></p>
+<ul>
+<li>Type I Error <span class="math display">\[
+\alpha=\text{Prob}(\text{Type I Error})=\text{Prob}(\text{reject
+}H_0|H_0\text{ true})
+\]</span></li>
+<li>Type II Error <span class="math display">\[
+\beta=\text{Prob}(\text{Type II Error})=\text{Prob}(\text{fail to reject
+}H_0|H_1\text{ true})
+\]</span></li>
+</ul>
+<p>The power of a test <span class="math display">\[
+1-\beta,\quad \text{which depends on }H_1
+\]</span></p>
+<p>Choose a decision rule such that first <span
+class="math inline">\(\alpha\)</span> is controlled at level <span
+class="math inline">\(\alpha_0\)</span> (<strong>significance
+level</strong>), and second <span class="math inline">\(\beta\)</span>
+is made as small as possible.</p>
+<h3 id="two-sided-test-for-normal-mean">Two-sided Test for Normal
+Mean</h3>
+<p><span class="math display">\[
+X_1,\dots,X_n\overset{i.i.d.}{\sim}N(\mu,\sigma^2)
+\]</span></p>
+<p>Hypotheses <span class="math display">\[
+H_0:\mu=\mu_0\quad \text{vs.}\quad H_1:\mu\ne\mu_0
+\]</span></p>
+<p>Test statistic <span class="math display">\[
+T=\frac{\bar X-\mu_0}{s/\sqrt n}\overset{H_0}{\sim}t_{n-1}
+\]</span> Denote the calculated <span class="math inline">\(T\)</span>
+as <span class="math inline">\(t_0\)</span></p>
+<p>Decision Rule 1 – <strong>The critical value approach</strong> <span
+class="math display">\[
+\text{Reject }H_0\text{ if}\quad|t_0|&gt;t_{n-1,1-\alpha/2}\triangleq
+t^*
+\]</span></p>
+<p>Decision Rule 2 – <strong>The P-value Approach</strong> <span
+class="math display">\[
+\text{Reject }H_0\text{ if}\quad P(T\ge|t_0|)+P(T\le-|t_0|)&lt;\alpha
+\]</span></p>
+<h3 id="confidence-intervals">Confidence Intervals</h3>
+<p><span class="math display">\[
+X_1,\dots,X_n\overset{i.i.d.}{\sim}N(\mu,\sigma^2)
+\]</span></p>
+<p>How about the <strong>Interval Estimator</strong> <span
+class="math display">\[
+(\bar X-c,\bar X+c)
+\]</span> such that <span class="math display">\[
+P(\mu\in(\bar X-c,\bar X+c))=1-\alpha
+\]</span></p>
+<p>Confidence is placed on the procedure, and used to describe the
+<em>long-run</em> behavior.</p>
+<p>If data is non-normal, the procedure only approximates according to
+central limit theorem, then the <strong>confidence level</strong> and
+the <strong>coverage probability</strong> may not be exact</p>
+<h3 id="confidence-interval-interval-estimator-for-mu">Confidence
+Interval (Interval estimator) for <span
+class="math inline">\(\mu\)</span></h3>
+<p>We have <span class="math display">\[
+T=\frac{\bar X-\mu}{s/\sqrt n}\sim t_{n-1}
+\]</span> thus <span class="math display">\[
+P(-t_{n-1,1-\alpha/2}&lt;\frac{\bar X-\mu}{s/\sqrt
+n}&lt;t_{n-1,1-\alpha/2})=1-\alpha
+\]</span> And we get the <span
+class="math inline">\(100(1-\alpha)\%\)</span> Confidence Interval for
+<span class="math inline">\(\mu\)</span> <span class="math display">\[
+(\bar X-t_{n-1,1-\alpha/2}\frac{s}{\sqrt n},\bar
+X+t_{n-1,1-\alpha/2}\frac{s}{\sqrt n})
+\]</span></p>
+<ul>
+<li>Center – <span class="math inline">\(\bar X\)</span></li>
+<li>Margin of Error – <span class="math inline">\(t^*\cdot SE(\bar
+X)\)</span></li>
+<li>Confidence Level – <span
+class="math inline">\(1-\alpha\)</span></li>
+</ul>
+<h3 id="hypothesis-testing-via-confidence-intervals">Hypothesis Testing
+via Confidence Intervals</h3>
+<p>Confidence Interval (CI) approach to testing <span
+class="math display">\[
+H_0:\mu=\mu_0\quad \text{vs.}\quad H_1:\mu\ne\mu_0
+\]</span></p>
+<p>Construct a <span class="math inline">\(100(1-\alpha)\%\)</span> CI -
+If the CI contains <span class="math inline">\(\mu_0\)</span>, do not
+reject <span class="math inline">\(H_0\)</span>. - If the CI does not
+contain <span class="math inline">\(\mu_0\)</span>, reject <span
+class="math inline">\(H_0\)</span>.</p>
+<p>The CI approach to testing is equivalent to the critical value and
+P-value approach to testing two-sided hypothesis.</p>
+<p>When testing a <strong>one-sided</strong> hypothesis at the <span
+class="math inline">\(\alpha\)</span> level, use a <span
+class="math inline">\(100(1-2\alpha)\%\)</span> confidence interval.</p>
+<h2 id="statistical-inference">Statistical Inference</h2>
+<ul>
+<li>Statistical Inference for <span
+class="math inline">\(\beta_1\)</span></li>
+<li>Statistical Inference for <span
+class="math inline">\(\beta_0\)</span></li>
+<li>For Both <span class="math inline">\(\beta_1\)</span> and <span
+class="math inline">\(\beta_0\)</span>: Gauss-Markov Theorem</li>
+<li>Joint Estimation of <span class="math inline">\(\beta_1\)</span> and
+<span class="math inline">\(\beta_0\)</span></li>
+</ul>
+<h3 id="motivation-in-the-first-place">Motivation in the First
+Place</h3>
+<p>The reason for interest in testing whether or not <span
+class="math inline">\(\beta_1=0\)</span> is that, when <span
+class="math inline">\(\beta_1=0\)</span>, there is no linear association
+between <span class="math inline">\(Y\)</span> and <span
+class="math inline">\(X\)</span>.</p>
+<h3 id="inferences-concerning-beta_1">Inferences Concerning <span
+class="math inline">\(\beta_1\)</span></h3>
+<p>LS estimator (or estimate) of <span
+class="math inline">\(\beta_1\)</span> <span class="math display">\[
+b_1=\frac{\sum_i(X_i-\bar X)(Y_i-\bar Y)}{\sum_i(X_i-\bar X)^2}
+\]</span> Sampling distribution of <span
+class="math inline">\(b_1\)</span> representing the uncertainty for
+estimating <span class="math inline">\(\beta_1\)</span> <span
+class="math display">\[
+\begin{aligned}
+b_1&amp;=\frac{\sum_i(X_i-\bar X)(Y_i-\bar Y)}{\sum_i(X_i-\bar X)^2}\\
+&amp;=\frac{\sum_i(X_i-\bar X)Y_i}{\sum_i(X_i-\bar X)^2}\\
+&amp;=\frac{\sum_i(X_i-\bar
+X)(\beta_0+\beta_1X_i+\varepsilon_i)}{\sum_i(X_i-\bar X)^2}\\
+&amp;=\beta_1+\frac{\sum_i(X_i-\bar X)\varepsilon_i}{\sum_i(X_i-\bar
+X)^2}
+\end{aligned}
+\]</span> Let <span class="math inline">\(S_{XX}=\sum_i(X_i-\bar
+X)^2\)</span> <span class="math display">\[
+b_1\sim N(\beta_1,\sigma^2_{b_1})
+\]</span> where <span
+class="math inline">\(\sigma^2_{b_1}=\sigma^2/S_{XX}\)</span> or <span
+class="math inline">\(\sigma_{b_1}=\sigma/\sqrt{S_{XX}}\)</span></p>
+<h4 id="significance-test-for-beta_1">Significance Test for <span
+class="math inline">\(\beta_1\)</span></h4>
+<p><span class="math display">\[
+H_0:\beta_1=0\quad \text{vs.}\quad H_1:\beta_1\neq0
+\]</span></p>
+<p>The evidence/information regarding <span
+class="math inline">\(\beta_1\)</span> is summarized by the value of
+<span class="math inline">\(b_1\)</span></p>
+<p>The uncertainty of <span class="math inline">\(b_1\)</span> as
+estimate of <span class="math inline">\(\beta_1\)</span> is represented
+by the variance or standard deviation of <span
+class="math inline">\(b_1\)</span></p>
+<p>Standard Error of <span class="math inline">\(b_1\)</span> <span
+class="math display">\[
+s_{b_1}=s/\sqrt{S_{XX}}
+\]</span> where <span class="math display">\[
+s=\sqrt{\hat \sigma^2}=\sqrt{\frac{\sum_i(Y_i-\hat Y_i)^2}{n-2}}
+\]</span></p>
+<p>The evidence/information concerning <span
+class="math inline">\(H_0\)</span> is summarized by the test statistic
+<span class="math display">\[
+T=\frac{b_1-0}{s_{b_1}}\overset{H_0}{\sim}t_{n-2}
+\]</span> Under <span class="math inline">\(H_0\)</span> the sampling
+distribution of <span class="math inline">\(T\)</span> is a student's
+<span class="math inline">\(t\)</span>-distribution with <span
+class="math inline">\(df=n-2\)</span></p>
+<p>Decision rule at <span class="math inline">\(\alpha\)</span> – Reject
+<span class="math inline">\(H_0\)</span> if the calculated statistic
+<span class="math display">\[
+|t_0|&gt;t_{n-2,1-\alpha/2}
+\]</span> The P-value approach can also be used</p>
+<p>For one-sided tests or test <span
+class="math inline">\(H_0:\beta_1=c\)</span>, the test statistic and
+decision rules should be modified accordingly.</p>
+<p><strong>Six Possible Outcomes</strong></p>
+<p>If we don't reject <span class="math inline">\(H_0\)</span>, any of
+the following three realities are possible:</p>
+<ol type="1">
+<li>We committed a Type II error. That is, in reality <span
+class="math inline">\(\beta_1\ne0\)</span> and our sample data just
+didn't provide enough evidence to conclude that <span
+class="math inline">\(\beta_1\ne0\)</span>.</li>
+<li>There really is not much of a linear relationship between <span
+class="math inline">\(X\)</span> and <span
+class="math inline">\(Y\)</span>.</li>
+<li>There is a relationship between <span
+class="math inline">\(X\)</span> and <span
+class="math inline">\(Y\)</span> – it is just not linear.</li>
+</ol>
+<p>If we do reject <span class="math inline">\(H_0\)</span>, any of the
+following three realities are possible:</p>
+<ol type="1">
+<li>We committed a Type I error. That is, in reality <span
+class="math inline">\(\beta_1=0\)</span> but we have an unusual sample
+that suggests that <span
+class="math inline">\(\beta_1\ne0\)</span>.</li>
+<li>The relationship between <span class="math inline">\(X\)</span> and
+<span class="math inline">\(Y\)</span> is indeed linear.</li>
+<li>A linear function fits the data okay, but a curved
+(<em>curvilinear</em>) function would fit the data even better.</li>
+</ol>
+<h4 id="confidence-interval-for-beta_1">Confidence Interval for <span
+class="math inline">\(\beta_1\)</span></h4>
+<p>Suppose <span class="math inline">\(\beta_1\)</span> is the true
+slope. Then <span class="math display">\[
+\frac{b_1-\beta_1}{s_{b_1}}\sim t_{n-2}
+\]</span> According to <span class="math display">\[
+P(\frac{|b_1-\beta_1|}{s_{b_1}}&lt;t_{n-2,1-\alpha/2})=1-\alpha
+\]</span> We get the <span
+class="math inline">\(100(1-\alpha)\%\)</span> Confidence Interval for
+<span class="math inline">\(\beta_1\)</span> <span
+class="math display">\[
+(b_1-t_{n-2,1-\alpha/2}\cdot s_{b_1},b_1+t_{n-2,1-\alpha/2}\cdot
+s_{b_1})
+\]</span></p>
+<h4 id="testing-h_0rho0">Testing <span
+class="math inline">\(H_0:\rho=0\)</span></h4>
+<p>Let <span class="math inline">\((x_i,y_i)\)</span> be a
+<strong>bivariate normal</strong> random sample of size <span
+class="math inline">\(n\)</span> <span class="math display">\[
+E(Y|X=x)=(\mu_Y-\rho\frac{\sigma_Y}{\sigma_X}\mu_X)+\rho\frac{\sigma_Y}{\sigma_X}x=\beta_0+\beta_1x
+\]</span></p>
+<ul>
+<li><span
+class="math inline">\(b_1=r\frac{\sigma_Y}{\sigma_X}\)</span></li>
+</ul>
+<p>Testing <span class="math inline">\(H_0:\rho=0\)</span> is equivalent
+to testing <span class="math inline">\(H_0:\beta_1=0\)</span></p>
+<p>Note that <span class="math display">\[
+t=\frac{r}{\sqrt{1-r^2}}\sqrt{n-2}\sim t_{n-2}
+\]</span></p>
+<p><code>cor.test(x, y)</code></p>
+<p>More appropriate when it is not obvious which variable is the
+response</p>
+<h3 id="inferences-concerning-beta_0">Inferences Concerning <span
+class="math inline">\(\beta_0\)</span></h3>
+<p><span class="math display">\[
+b_0=\bar Y-b_1\bar X
+\]</span></p>
+<p>We can show that <span class="math inline">\(Cov(\bar
+Y,b_1)=0\)</span> and <span class="math display">\[
+b_0\sim N(\beta_0,\sigma^2_{b_0})
+\]</span> where <span class="math display">\[
+\sigma^2_{b_0}=\sigma^2(\frac{1}{n}+\frac{\bar X^2}{S_{XX}})
+\]</span></p>
+<p>Standard error of <span class="math inline">\(b_0\)</span> <span
+class="math display">\[
+s_{b_0}=s\sqrt{\frac{1}{n}+\frac{\bar X^2}{S_{XX}}}
+\]</span></p>
+<p><span class="math inline">\(t\)</span> statistic <span
+class="math display">\[
+\frac{b_0-\beta_0}{s_{b_0}}\sim t_{n-2}
+\]</span></p>
+<h4 id="hypothesis-testing-and-ci-for-beta_0">Hypothesis Testing and CI
+for <span class="math inline">\(\beta_0\)</span></h4>
+<p>Significance test <span class="math display">\[
+H_0:\beta_0=0\quad \text{vs.}\quad H_1:\beta_0\neq0
+\]</span> Reject <span class="math inline">\(H_0\)</span> if <span
+class="math display">\[
+\frac{|b_0|}{s_{b_0}}&gt;t_{n-2,1-\alpha/2}
+\]</span></p>
+<p>For one-sided tests and test <span
+class="math inline">\(H_0:\beta_0=c\)</span>, the test statistic and
+decision rules can be derived accordingly.</p>
+<p><span class="math inline">\(100(1-\alpha)\%\)</span> Confidence
+Interval for <span class="math inline">\(\beta_0\)</span> <span
+class="math display">\[
+(b_0-t_{n-2,1-\alpha/2}\cdot s_{b_0},b_0+t_{n-2,1-\alpha/2}\cdot
+s_{b_0})
+\]</span></p>
+<h3 id="remarks">Remarks</h3>
+<p>Issues related to design (i.e. where to collect data)</p>
+<ul>
+<li><strong>Scope</strong> – the range of the explanatory variable</li>
+<li>Optimal allocation of <span
+class="math inline">\(X_1,\dots,X_n\)</span> <span
+class="math display">\[
+\min\sigma^2_{b_1}=\frac{\sigma^2}{\sum_i(X_i-\bar X)^2}
+\]</span></li>
+<li>Sample size determination</li>
+</ul>
+<p>Inference concerning <span class="math inline">\(\beta_0\)</span>
+usually not of interest, because shift in <span
+class="math inline">\(X\)</span> cause shift in <span
+class="math inline">\(\beta_0\)</span> and <span
+class="math inline">\(X=0\)</span> may not be in the scope.</p>
+<p>If errors are not normal but are relatively symmetric, the tests and
+CIs are reasonable approximations, and get improved when sample size
+increases.</p>
+<h3 id="ols-estimators-are-blue">OLS Estimators Are BLUE</h3>
+<p>Finally we establish the fundamental optimality property of the OLS
+estimators.</p>
+<p>For an independent random sample <span
+class="math inline">\((Y_1,\dots,Y_n)\)</span> from a population with
+mean <span class="math inline">\(\mu=E(Y)\)</span>, the sample mean
+<span class="math inline">\(\bar Y\)</span> was shown to be a
+<strong><em>best linear unbiased</em></strong> (BLU) estimator of <span
+class="math inline">\(\mu\)</span>.</p>
+<p>This optimality property turns out to be shared by the least-squares
+estimators <span class="math inline">\((b_0,b_1)\)</span> above. This
+result, known as the <strong><em>Gauss-Markov Theorem</em></strong>,
+provides the single strongest justification for linear least-squares
+estimation.</p>
+<h3 id="joint-inference-of-beta_0-and-beta_1">Joint Inference of <span
+class="math inline">\(\beta_0\)</span> and <span
+class="math inline">\(\beta_1\)</span></h3>
+<p>Confidence intervals are used for a <strong>single</strong>
+parameter</p>
+<p>Confidence region for two or more parameters <span
+class="math display">\[
+P((\beta_0,\beta_1)\in S\subset R^2)=100(1-\alpha)\%
+\]</span></p>
+<p>Since <span class="math display">\[
+(b_0,b_1)^T\sim N((\beta_0,\beta_1)^T,\sigma^2\Sigma_{2\times2})
+\]</span> the <em>natural</em> (i.e. smallest) confidence region is an
+<strong>ellipse</strong></p>
+<p>Textbook considers <strong>rectangles</strong> – region formed from
+the product orunion of two separate confidence intervals</p>
+<p>Need to adjust confidence level of each CI so that the region has
+proper <span class="math inline">\(1-\alpha\)</span> level</p>
+<h4 id="bonferroni-inequality-and-correction">Bonferroni Inequality and
+Correction</h4>
+<p>Individual CIs <span class="math display">\[
+P(\beta_0\in CI_0)=1-\alpha\qquad P(\beta_1\in CI_1)=1-\alpha
+\]</span> Joint confidence region <span class="math display">\[
+S=CI_0\times CI_1=\{(\beta_0,\beta_1):\beta_0\in CI_0\ \text{and}\
+\beta_1\in CI_1\}
+\]</span> Confidence level <span class="math display">\[
+\begin{aligned}
+P((\beta_0,\beta_1)\in S)&amp;=P((\beta_0\in CI_0)\cap(\beta_1\in
+CI_1))\\
+&amp;=1-P((\beta_0\notin CI_0)\cup(\beta_1\notin CI_1))\\
+&amp;&lt;1-P(\beta_0\notin CI_0)\\
+&amp;=1-\alpha
+\end{aligned}
+\]</span> In order to achieve confidence level at least <span
+class="math inline">\(1-\alpha\)</span>, set <span
+class="math inline">\(\alpha_0=\alpha/2\)</span> <span
+class="math display">\[
+P(\beta_0\in CI_0)=1-\alpha_0\qquad P(\beta_1\in CI_1)=1-\alpha_0
+\]</span> Thus <span class="math display">\[
+\begin{aligned}
+P((\beta_0,\beta_1)\in S)&amp;=P((\beta_0\in CI_0)\cap(\beta_1\in
+CI_1))\\
+&amp;=1-P((\beta_0\notin CI_0)\cup(\beta_1\notin CI_1))\\
+&amp;\ge1-(P(\beta_0\notin CI_0)+P(\beta_1\notin CI_1))\\
+&amp;=1-2\alpha_0\\
+&amp;=1-\alpha
+\end{aligned}
+\]</span></p>
+<p>Recall that individually <span class="math display">\[
+CI_0&#39;:b_0\pm t_{n-2,1-\frac{\alpha}{2}}\cdot
+s_{b_0}\quad\text{for}\quad\beta_0\\
+CI_1&#39;:b_1\pm t_{n-2,1-\frac{\alpha}{2}}\cdot
+s_{b_1}\quad\text{for}\quad\beta_1
+\]</span> Thus jointly for <span class="math inline">\(\beta_0\)</span>
+and <span class="math inline">\(\beta_1\)</span> <span
+class="math display">\[
+CI_0&#39;:b_0\pm t_{n-2,1-\frac{\alpha}{2\times2}}\cdot
+s_{b_0}\quad\text{for}\quad\beta_0\\
+CI_1&#39;:b_1\pm t_{n-2,1-\frac{\alpha}{2\times2}}\cdot
+s_{b_1}\quad\text{for}\quad\beta_1
+\]</span> And we get the Confidence Region for <span
+class="math inline">\((\beta_0,\beta_1)\)</span> with level at least
+<span class="math inline">\(1-\alpha\)</span> <span
+class="math display">\[
+S=CI_0\times CI_1
+\]</span></p>
+<h2 id="power">Power</h2>
+<ul>
+<li>Definition of Power</li>
+<li>Power Calculation</li>
+<li>Sample Size Calculation</li>
+</ul>
+<h3 id="definition-of-power">Definition of Power</h3>
+<p>The power of a significance test is the probability that the null
+hypothesis is rejected when, in fact, the alternative hypothesis <span
+class="math inline">\(H_1\)</span> is true. <span
+class="math display">\[
+\text{Power}=1-P(\text{Type II error})
+\]</span></p>
+<ul>
+<li>This probability depends on the particular value of the parameter in
+<span class="math inline">\(H_1\)</span></li>
+<li>Power is often depicted by a curve as the value of the parameter in
+<span class="math inline">\(H_1\)</span> changes</li>
+</ul>
+<p>Once the significance level (type I error) is set, the test should
+also be properly powered for the value of <span
+class="math inline">\(H_1\)</span>, which is of primary interest.</p>
+<ul>
+<li>neither over-powered nor under-powered</li>
+</ul>
+<h3 id="power-for-testing-beta_1">Power for Testing <span
+class="math inline">\(\beta_1\)</span></h3>
+<p>The test <span class="math display">\[
+H_0:\beta_1=0\quad \text{vs.}\quad H_1:\beta_1\neq0
+\]</span> Reject <span class="math inline">\(H_0\)</span> if <span
+class="math inline">\(\frac{|b_1|}{s_{b_1}}&gt;t_{n-2,1-\alpha/2}\)</span></p>
+<p>Power <span class="math display">\[
+\text{Power}(\beta_1)=P(\text{Reject }H_0|H_1\text{
+holds})=P(\frac{|b_1|}{s_{b_1}}&gt;t_{n-2,1-\alpha/2}|\beta_1\ne0)
+\]</span></p>
+<p><span class="math inline">\(\text{Power}(0)=\alpha\)</span> when
+<span class="math inline">\(\beta_1=0\)</span>, which means that the
+power becomes the probability of type I error.</p>
+<p>A difficulty arises when <span
+class="math inline">\(\beta_1\neq0\)</span>, that is, the distribution
+of <span class="math display">\[
+T=\frac{b_1}{s_{b_1}}\quad \text{where} \quad b_1\sim
+N(\beta_1,\sigma_{b_1}^2)
+\]</span> is not centered at <span class="math inline">\(0\)</span>, and
+<span class="math inline">\(T\)</span> does not follow <span
+class="math inline">\(t_{n-2}\)</span>.</p>
+<h4 id="non-central-t-distribution">Non-central <span
+class="math inline">\(t\)</span>-distribution</h4>
+<p>When <span class="math inline">\(H_1:\beta_1\ne0\)</span> <span
+class="math display">\[
+T=\frac{b_1}{s_{b_1}}=\frac{(b_1-\beta_1)+\beta_1}{s_{b_1}}=\frac{(b_1-\beta_1)/\sigma_{b_1}+\beta_1/\sigma_{b_1}}{s_{b_1}/\sigma_{b_1}}
+\]</span> follows non-central distribution <span
+class="math inline">\(t_{n-2,\delta}\)</span> with the non-centrality
+parameter <span class="math display">\[
+\delta=\frac{\beta_1}{\sigma_{b_1}}
+\]</span></p>
+<h4 id="assuming-sigma_b_12">Assuming <span
+class="math inline">\(\sigma_{b_1}^2\)</span></h4>
+<p>In order to calculate <span
+class="math inline">\(\text{Power}(\beta_1)\)</span> for various values
+of <span class="math inline">\(\beta_1\)</span>, we need to know or
+assume <span class="math inline">\(\sigma_{b_1}^2\)</span> <span
+class="math display">\[
+\sigma_{b_1}^2=\frac{\sigma^2}{\sum_i(X_i-\bar X)^2}
+\]</span></p>
+<ul>
+<li>Need to know the design <span
+class="math inline">\(X_1,X_2,\dots,X_n\)</span> and <strong>error
+variance</strong> <span class="math inline">\(\sigma^2\)</span> from
+prior knowledge or pilot study</li>
+</ul>
+<p>Then we can use tables or statistical packages to numerically compute
+<span class="math inline">\(\text{Power}(\beta_1)\)</span> <span
+class="math display">\[
+\text{Power}(\beta_1)=P(T&gt;t_{n-2,1-\alpha/2})+P(T&lt;-t_{n-2,1-\alpha/2})
+\]</span> where <span class="math display">\[
+T\sim t_{n-2,\beta_1/\sigma_{b_1}}
+\]</span></p>
+<h4 id="generating-the-power-function-curve">Generating the Power
+Function Curve</h4>
+<p><span class="math display">\[
+H_0:\beta_1=0\quad \text{vs.}\quad H_1:\beta_1\neq0
+\]</span></p>
+<p>We are interested in <strong>power</strong> over a <em>range</em> of
+<span class="math inline">\(\beta_1\)</span> values.</p>
+<ul>
+<li>Determine a range and equally spaced vary <span
+class="math inline">\(\beta_1\)</span> in the range</li>
+<li>Calculate <span class="math inline">\(\text{Power}(\beta_1)\)</span>
+using the previous procedure for each value of <span
+class="math inline">\(\beta_1\)</span></li>
+<li>Plot <span class="math inline">\(\text{Power}(\beta_1)\)</span>
+against <span class="math inline">\(\beta_1\)</span> to generate
+<strong><em>the power curve of the test</em></strong></li>
+</ul>
+<h3 id="how-to-increase-the-power">How to Increase the Power</h3>
+<p>A primary way to increase power is to increase the sample size <span
+class="math inline">\(n\)</span> and the design <span
+class="math inline">\(X_1,X_2,\dots,X_n\)</span> to increase <span
+class="math display">\[
+SSX=\sum_i(X_i-\bar X)^2
+\]</span> thus achieving a small <span
+class="math inline">\(\frac{\sigma^2}{\sum_i(X_i-\bar
+X)^2}=\sigma_{b_1}^2\)</span>.</p>
+<h4 id="sample-size-calculation">Sample Size Calculation</h4>
+<p>Suppose the desired power at <span
+class="math inline">\(\beta_1=1\)</span> is <span
+class="math inline">\(\text{Power}(1)=0.95\)</span>.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Sample size <span
+class="math inline">\(n\)</span></th>
+<th style="text-align: center;"><span
+class="math inline">\(SSX\)</span></th>
+<th style="text-align: center;"><span
+class="math inline">\(\sigma^2\)</span></th>
+<th style="text-align: center;"><span
+class="math inline">\(\text{Power}(1)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">23800</td>
+<td style="text-align: center;">2500</td>
+<td style="text-align: center;">0.846</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">27800</td>
+<td style="text-align: center;">2500</td>
+<td style="text-align: center;">0.899</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">31800</td>
+<td style="text-align: center;">2500</td>
+<td style="text-align: center;">0.935</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">45</td>
+<td style="text-align: center;">35800</td>
+<td style="text-align: center;">2500</td>
+<td style="text-align: center;">0.959</td>
+</tr>
+</tbody>
+</table>
+<p>Therefore, the proper sample size is <span
+class="math inline">\(n=45\)</span> with a design such that <span
+class="math inline">\(SSX=35800\)</span>.</p>
+<h4 id="simple-normal-example">Simple Normal Example</h4>
+<p>Based on a single random sample from a population which is assumed to
+be <strong>normally distributed</strong> with <strong>known
+variance</strong> equal to 1.</p>
+<p><span class="math display">\[
+H_0:\mu=0\quad \text{vs.}\quad H_1:\mu=1
+\]</span></p>
+<p>Suppose we are interested in the sample size for a power of 0.90 and
+a significance level of 0.05.</p>
+<p>The <span class="math inline">\(Z\)</span>-test based on <span
+class="math inline">\(n\)</span> observations and the null hypothesis is
+rejected when <span class="math display">\[
+\sqrt{n}\bar X\ge Z_{.95}=1.64
+\]</span></p>
+<ul>
+<li><span class="math inline">\(0.90=\gamma(1)=P(\sqrt{n}\bar
+X\ge1.64|\mu=1)=P(\sqrt{n}(\bar X-1)\ge1.64-\sqrt n)\)</span></li>
+<li><span
+class="math inline">\(\Phi(1.64-\sqrt{n})=0.10\qquad1.64-\sqrt{n}=-1.28\qquad
+n=8.52\text{ and take }n=9\)</span></li>
+</ul>
+<h3 id="remarks-1">Remarks</h3>
+<p>Formulas, procedures, and R code for two-sided <span
+class="math inline">\(t\)</span>-tests can be modified for one sided
+<span class="math inline">\(t\)</span>-tests, and for testing <span
+class="math inline">\(\beta_0\)</span>.</p>
+<p>Power calculation and sample size determination are part of
+study/experimental design, and need to be carefully done before carrying
+out the study/experiment.</p>
+<p>Consult a good/experienced <strong>Applied Statistician</strong> for
+power calculation, sample size determination, and study/experimental
+design, when the study/experiment is <em>important</em>.</p>
+<h2 id="confidence-intervals-vs.-hypothesis-testing">Confidence
+Intervals vs. Hypothesis Testing</h2>
+<p><strong>Statistical significance is not equivalent to practical
+significance.</strong></p>
+<p>A model is usually only an approximation of underlying reality. In
+many cases, we know the point null hypothesis is false without even
+looking at the data. If we fail to reject the null hypothesis, we might
+simply conclude that we did not have enough data to get a significant
+result. According to this view, the hypothesis test just becomes a test
+of sample size.</p>
+<p>The larger the sample, the smaller the p-values, the greater the
+power, and the more easily to get statistically significant results, but
+the actual effects may be unimportant.</p>
+<p>CIs are useful even when the null hypothesis is not rejected, because
+they tell us how confident we are that the true effect or value is close
+to the null.</p>
+<p><strong>To conclude, Confidence Intervals construction is
+preferred.</strong></p>
+<h1 id="lecture-4-prediction-anova">Lecture 4: Prediction &amp;
+ANOVA</h1>
+<h2 id="estimation-and-prediction-about-y">Estimation and Prediction
+about <span class="math inline">\(Y\)</span></h2>
+<ul>
+<li>Estimation and Inference of <span
+class="math inline">\(E(Y)\)</span></li>
+<li>Prediction of a New Observation of <span
+class="math inline">\(Y\)</span></li>
+<li>Confidence Band for the Entire Regression Line</li>
+</ul>
+<h3 id="estimation-of-ey_h">Estimation of <span
+class="math inline">\(E(Y_h)\)</span></h3>
+<p>At <span class="math inline">\(X=X_h\)</span>, the mean response
+<span class="math inline">\(E(Y_h)\)</span> is <span
+class="math display">\[
+\mu_h=E(Y_h)=\beta_0+\beta_1X_h
+\]</span></p>
+<p>We estimate <span class="math inline">\(E(Y_h)\)</span> by <span
+class="math display">\[
+\hat \mu_h=b_0+b_1X_h
+\]</span></p>
+<p>We use <span class="math inline">\(\hat \mu_h\)</span> to emphasize
+that it is an estimator/estimate of an induced parameter, that is the
+mean response at <span class="math inline">\(X_h\)</span>.</p>
+<h4 id="theoretical-properties-of-hat-mu_h">Theoretical Properties of
+<span class="math inline">\(\hat \mu_h\)</span></h4>
+<p>Unbiased <span class="math display">\[
+E(\hat \mu_h)=E(b_0+b_1X_h)=\beta_0+\beta_1X_h=\mu_h
+\]</span></p>
+<p>Minimum Variance <span class="math display">\[
+\sigma^2_{\hat \mu_h}=\sigma^2(\frac{1}{n}+\frac{(X_h-\bar
+X)^2}{\sum_i(X_i-\bar X)^2})
+\]</span></p>
+<p>Under i.i.d. normal error terms <span class="math display">\[
+\hat \mu_h\sim N(\mu_h,\sigma^2_{\hat \mu_h})
+\]</span> The normality of <span class="math inline">\(\hat
+\mu_h\)</span> comes from the normality of <span
+class="math inline">\(b_0\)</span> and <span
+class="math inline">\(b_1\)</span></p>
+<h4 id="inferences-concerning-mu_hey_h">Inferences Concerning <span
+class="math inline">\(\mu_h=E(Y_h)\)</span></h4>
+<p>Estimate <span class="math inline">\(\sigma^2_{\hat \mu_h}\)</span>
+by <span class="math display">\[
+s^2_{\hat \mu_h}=s^2(\frac{1}{n}+\frac{(X_h-\bar X)^2}{\sum_i(X_i-\bar
+X)^2})
+\]</span></p>
+<p>Then we have that <span class="math display">\[
+\frac{\hat \mu_h-\mu_h}{s_{\hat \mu_h}}\sim t_{n-2}
+\]</span></p>
+<p>Based on the results, significance tests and confidence intervals for
+<span class="math inline">\(\mu_h=E(Y_h)\)</span> can be obtained. For
+example, <span class="math inline">\(100(1-\alpha)\%\)</span> Confidence
+Interval is <span class="math display">\[
+\hat \mu_h\pm t_{n-2,1-\alpha/2}\cdot s_{\hat \mu_h}
+\]</span></p>
+<h4 id="remarks-2">Remarks</h4>
+<p>Standard error is affected by how far <span
+class="math inline">\(X_h\)</span> is from <span
+class="math inline">\(\bar X\)</span> <span class="math display">\[
+\sigma^2_{\hat \mu_h}=\sigma^2(\frac{1}{n}+\frac{(X_h-\bar
+X)^2}{\sum_i(X_i-\bar X)^2})
+\]</span></p>
+<p>Recall standard error for intercept <span class="math display">\[
+s_{b_0}=s\sqrt{\frac{1}{n}+\frac{\bar X^2}{\sum_i(X_i-\bar X)^2}}
+\]</span></p>
+<p>A change in the slope has bigger impact on <span
+class="math inline">\(Y\)</span> as you move away from <span
+class="math inline">\(\bar X\)</span>, the middle of the
+teeter-totter.</p>
+<h3 id="prediction-of-y_htextnew">Prediction of <span
+class="math inline">\(Y_{h(\text{new})}\)</span></h3>
+<p>Handling missing values – Want to predict value for a new observation
+at <span class="math inline">\(X=X_h\)</span></p>
+<p>Model <span class="math display">\[
+Y_{h(\text{new})}=\beta_0+\beta_1X_h+\varepsilon
+\]</span></p>
+<p>Since <span class="math inline">\(E(\varepsilon)=0\)</span>, the
+predicted value is the same as for <span
+class="math inline">\(E(Y_h)\)</span> <span class="math display">\[
+\hat Y_{h(\text{new})}=\hat \mu_h=b_0+b_1X_h
+\]</span></p>
+<h4 id="prediction-interval">Prediction Interval</h4>
+<p>A type of Confidence Interval</p>
+<p>The basic idea is to choose a range in the distribution of <span
+class="math inline">\(Y\)</span> wherein most of the observations will
+fall, and then to declare that the next observation will fall in this
+range.</p>
+<p>The usefulness depends, as always, on the width of the interval and
+the needs for precision by the user.</p>
+<p>Should be <strong>wider</strong> given additional variation about
+regression line</p>
+<h5 id="easy-case-when-parameters-known">Easy Case: When Parameters
+Known</h5>
+<p>The relevant parameters of the regression model are known as <span
+class="math inline">\(\beta_0,\beta_1,\sigma\)</span></p>
+<p>Then the <span class="math inline">\(1-\alpha\)</span> prediction
+limits for <span class="math inline">\(Y_{h(\text{new})}\)</span> are
+<span class="math display">\[
+E(Y_h)\pm z_{1-\alpha/2}\sigma
+\]</span></p>
+<h5 id="general-case-when-parameters-unknown">General Case: When
+Parameters Unknown</h5>
+<p>When the regression parameters are unknown, prediction limits must
+take account of two elements</p>
+<ul>
+<li>Variation in possible location of the distribution of <span
+class="math inline">\(Y\)</span></li>
+<li>Variation within the probability distribution of <span
+class="math inline">\(Y\)</span></li>
+</ul>
+<p>Prediction Error <span class="math inline">\(d_h\)</span> <span
+class="math display">\[
+d_h=Y_{h(\text{new})}-\hat Y_{h(\text{new})}=Y_{h(\text{new})}-\hat
+\mu_h
+\]</span></p>
+<p>Mean <span class="math display">\[
+E(d_h)=0
+\]</span></p>
+<p>Variance <span class="math display">\[
+\begin{aligned}
+\sigma^2_{d_h}&amp;=Var(Y_{h(\text{new})}-\hat \mu_h)\\
+&amp;=Var(Y_{h(\text{new})})+Var(\hat \mu_h)\\
+&amp;=\sigma^2+\sigma^2(\frac{1}{n}+\frac{(X_h-\bar
+X)^2}{\sum_i(X_i-\bar X)^2})\\
+&amp;=\sigma^2(1+\frac{1}{n}+\frac{(X_h-\bar X)^2}{\sum_i(X_i-\bar
+X)^2})
+\end{aligned}
+\]</span></p>
+<h5 id="general-case-use-the-t-statistic">General Case: Use the <span
+class="math inline">\(t\)</span>-statistic</h5>
+<p>Under normal error terms <span class="math display">\[
+d_h\sim N(0,\sigma^2_{d_h})
+\]</span></p>
+<p>Estimate <span class="math inline">\(\sigma^2_{d_h}\)</span> and
+standard error <span class="math display">\[
+s^2_{d_h}=s^2(1+\frac{1}{n}+\frac{(X_h-\bar X)^2}{\sum_i(X_i-\bar X)^2})
+\]</span> and we denote <span class="math display">\[
+s_{\text{pred}}\triangleq s_{d_h}
+\]</span></p>
+<p><span class="math inline">\(t\)</span>-distribution <span
+class="math display">\[
+\frac{d_h}{s_{d_h}}=\frac{Y_{h(\text{new})}-\hat
+\mu_h}{s_{\text{pred}}}\sim t_{n-2}
+\]</span></p>
+<p>And we get the <span class="math inline">\(100(1-\alpha)\%\)</span>
+prediction interval for <span
+class="math inline">\(Y_{h(\text{new})}\)</span> <span
+class="math display">\[
+\hat \mu_h\pm t_{n-2,1-\alpha/2}\cdot s_{\text{pred}}
+\]</span></p>
+<h4 id="mean-of-m-new-observations">Mean of <span
+class="math inline">\(m\)</span> New Observations</h4>
+<p>The estimator is also <span class="math inline">\(\hat
+\mu_h\)</span></p>
+<p>The <span class="math inline">\(100(1-\alpha)\%\)</span> prediction
+interval can be modified for predicting the mean of <span
+class="math inline">\(m\)</span> new observations at <span
+class="math inline">\(X=X_h\)</span> <span class="math display">\[
+\hat \mu_h\pm t_{n-2,1-\alpha/2}\cdot s_{\text{pred mean}}
+\]</span> where <span class="math display">\[
+s^2_{\text{pred mean}}=s^2(\frac{1}{m}+\frac{1}{n}+\frac{(X_h-\bar
+X)^2}{\sum_i(X_i-\bar X)^2})
+\]</span></p>
+<h3 id="confidence-band-for-the-entire-regression-line">Confidence Band
+for the Entire Regression Line</h3>
+<p>Find the lower and upper (sample-dependent) functions <span
+class="math inline">\(L(x)\)</span> and <span
+class="math inline">\(U(x)\)</span>, such that <span
+class="math display">\[
+P(L(x)&lt;\beta_0+\beta_1x&lt;U(x)\text{ for all }x)=1-\alpha
+\]</span></p>
+<p>Then the confidence band is <span class="math display">\[
+\{(x,y):L(x)&lt;y&lt;U(x),x\in\mathbb R\}
+\]</span></p>
+<p>Compared to the Confidence Interval <span
+class="math inline">\((l(x),u(x))\)</span> for one
+<strong>fixed</strong> <span class="math inline">\(x\)</span> <span
+class="math display">\[
+P(l(x)&lt;\beta_0+\beta_1x&lt;u(x))=1-\alpha
+\]</span></p>
+<p>Instead of using the sampling distribution of <span
+class="math inline">\(\frac{\hat \mu_x-\mu_x}{s_{\hat \mu_x}}\)</span>,
+consider that of <span class="math inline">\((\max\frac{\hat
+\mu_x-\mu_x}{s_{\hat \mu_x}})\)</span> over all <span
+class="math inline">\(x\)</span> and we can derive that <span
+class="math display">\[
+(L(x),U(x))=\hat \mu_x\pm W\cdot s_{\hat \mu_x}
+\]</span> where <span class="math display">\[
+W=\sqrt{2F_{1-\alpha,2,n-2}}
+\]</span></p>
+<p>The confidence band is <strong>wider</strong> than individual
+confidence intervals. <span class="math display">\[
+W&gt;t_{n-2,1-\alpha/2}
+\]</span></p>
+<h2 id="anova-analysis-of-variance">ANOVA: Analysis of Variance</h2>
+<ul>
+<li>ANOVA
+<ul>
+<li>Partitioning Sums of Squares</li>
+<li>Breakdown the Degrees of Freedom</li>
+<li>Expected Mean Squares (EMS)</li>
+<li><span class="math inline">\(F\)</span>-test</li>
+<li>ANOVA Table</li>
+</ul></li>
+<li>General Linear Test</li>
+<li>Pearson Correlation <span class="math inline">\(r\)</span> &amp;
+Coefficient of Determination <span
+class="math inline">\(R^2\)</span></li>
+</ul>
+<h3 id="analysis-of-variance">Analysis of Variance</h3>
+<p>Total variation: Total Sum of Squares <span
+class="math inline">\(SST\)</span> <span class="math display">\[
+SST=\sum_i(Y_i-\bar Y)^2
+\]</span></p>
+<p>Partition: Quantify and classify various types of variations and
+their sources</p>
+<h4 id="partition-of-sum-of-squares-accordingly">Partition of Sum of
+Squares Accordingly</h4>
+<p>Partition <span class="math inline">\(SST\)</span> into two sources
+<span class="math display">\[
+Y_i-\bar Y=(Y_i-\hat Y_i)+(\hat Y_i-\bar Y)
+\]</span></p>
+<ul>
+<li><em>Variation due to Error</em> <span
+class="math inline">\(SSE\)</span> – attributed to error terms</li>
+<li><em>Variation due to Model</em> <span
+class="math inline">\(SSR\)</span> – explained by regression line</li>
+</ul>
+<h4 id="total-sum-of-squares-partition">Total Sum of Squares
+Partition</h4>
+<p><span class="math inline">\(SST\)</span> quantifies the total amount
+of variation in data</p>
+<ul>
+<li>If all observations are equal, then <span
+class="math inline">\(SST=0\)</span>. Otherwise, <span
+class="math inline">\(SST&gt;0\)</span>.</li>
+</ul>
+<p><span class="math inline">\(SST=SSR+SSE\)</span> <span
+class="math display">\[
+\sum(Y_i-\bar Y)^2=\sum[(Y_i-\hat Y_i)+(\hat Y_i-\bar
+Y)]^2=\sum(Y_i-\hat Y_i)^2+\sum(\hat Y_i-\bar Y)^2+2\sum(Y_i-\hat
+Y_i)(\hat Y_i-\bar Y)
+\]</span> where <span class="math display">\[
+\sum(Y_i-\hat Y_i)(\hat Y_i-\bar Y)=\sum(b_0+b_1X_i)e_i-\sum(b_0+b_1\bar
+X)e_i=0
+\]</span></p>
+<h4 id="for-the-model-sum-of-squares">For the Model Sum of Squares</h4>
+<p><span class="math display">\[
+SSR=\sum(\hat Y_i-\bar Y)^2
+\]</span></p>
+<p>Note that <span class="math inline">\(\bar{\hat Y}=\bar
+Y\)</span></p>
+<p>The degree of freedom of <span class="math inline">\(SSR\)</span> is
+<span class="math inline">\(df_R=1\)</span>, because <span
+class="math display">\[
+SSR=b_1^2\sum(X_i-\bar X)^2
+\]</span></p>
+<p>Mean Squares of Regression (Model) <span
+class="math inline">\(MSR\)</span> <span class="math display">\[
+MSR=\frac{SSR}{df_R}=SSR
+\]</span></p>
+<h4 id="for-the-error-sum-of-squares">For the Error Sum of Squares</h4>
+<p><span class="math display">\[
+SSE=\sum(Y_i-\hat Y_i)^2=\sum e_i^2
+\]</span></p>
+<p>The degree of freedom of <span class="math inline">\(SSE\)</span> is
+<span class="math inline">\(df_E=n-2\)</span>, adjusting for the
+intercept and slope</p>
+<p>Mean Square of Error <span class="math inline">\(MSE\)</span> <span
+class="math display">\[
+MSE=\frac{SSE}{df_E}
+\]</span></p>
+<p><span class="math inline">\(MSE=s^2\)</span> is an estimator/estimate
+of <span class="math display">\[
+\sigma^2=Var(Y|X)=Var(\varepsilon)
+\]</span></p>
 ]]></content>
       <tags>
         <tag>Courses</tag>
